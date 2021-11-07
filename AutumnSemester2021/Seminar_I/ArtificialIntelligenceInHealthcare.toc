@@ -1,0 +1,64 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {paragraph}{}{2}{}%
+\contentsline {paragraph}{}{2}{}%
+\contentsline {paragraph}{}{2}{}%
+\contentsline {paragraph}{}{2}{}%
+\contentsline {paragraph}{}{2}{}%
+\contentsline {section}{\numberline {2}History and Rise of Artificial Intelligence}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {section}{\numberline {3}AI in Healthcare}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {section}{\numberline {4}AI in Rehabilitation}{6}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {paragraph}{}{7}{}%
+\contentsline {paragraph}{}{7}{}%
+\contentsline {paragraph}{}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Classification of locomotion modes using sEMG In Rehabilitation Robotics}{9}{}%
+\contentsline {paragraph}{}{9}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Experimental Setup}{9}{}%
+\contentsline {paragraph}{}{9}{}%
+\contentsline {paragraph}{}{9}{}%
+\contentsline {paragraph}{}{10}{}%
+\contentsline {paragraph}{}{10}{}%
+\contentsline {paragraph}{}{11}{}%
+\contentsline {paragraph}{}{11}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Signal Analysis}{11}{}%
+\contentsline {paragraph}{}{11}{}%
+\contentsline {paragraph}{}{12}{}%
+\contentsline {paragraph}{}{12}{}%
+\contentsline {paragraph}{Mean Absolute Value (MAV)}{12}{}%
+\contentsline {paragraph}{Zero-crossings (ZC)}{12}{}%
+\contentsline {paragraph}{Waveform Length (WFL)}{12}{}%
+\contentsline {paragraph}{Slope Sign Changes (SSC)}{12}{}%
+\contentsline {paragraph}{Auto-Regression Coefficients(AR)}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}SVM}{13}{}%
+\contentsline {paragraph}{}{13}{}%
+\contentsline {paragraph}{}{13}{}%
+\contentsline {paragraph}{}{14}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Validation}{14}{}%
+\contentsline {paragraph}{}{14}{}%
+\contentsline {paragraph}{}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.5}Results}{15}{}%
+\contentsline {paragraph}{}{15}{}%
+\contentsline {paragraph}{}{15}{}%
+\contentsline {paragraph}{}{15}{}%
+\contentsline {paragraph}{}{16}{}%
+\contentsline {paragraph}{}{16}{}%
+\contentsline {subsubsection}{\numberline {4.1.6}Limitation of the approach}{17}{}%
+\contentsline {paragraph}{}{17}{}%
+\contentsline {subsubsection}{\numberline {4.1.7}Advanced Approaches}{17}{}%
+\contentsline {paragraph}{}{17}{}%
+\contentsline {paragraph}{}{18}{}%
