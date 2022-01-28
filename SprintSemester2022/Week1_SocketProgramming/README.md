@@ -25,12 +25,12 @@
   
 ***k*** : Index supports both forward and backwark indexing.
   
-Forward Indexing: 0,1,...,(N-1), N
+Forward Indexing: ```0,1,...,(N-1), N```
   
-Backward Indexing: -N,-(N-1),...-2,-1
+Backward Indexing: ```-N,-(N-1),...-2,-1```
   
 
-NOTE
+***NOTE***
   
-**server_file.txt** is available on the server side with some data in ```<INDEX>  <MOVIE_NAME>```
+**server_file.txt** is available on the server-side with some data in ```<INDEX>  <MOVIE_NAME>```
 
