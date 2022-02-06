@@ -16,10 +16,15 @@
 #include<netdb.h>
 #include<regex.h>
 #include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/mman.h>
 
 const int BUFFER_SIZE = 256;
 char *EXIT = "exit";
 char *NONE = "none";
+char *APPROVED = "approved";
+char *DENIED = "denied";
 char *USERS = "users";
 char *ALL_USERS = "allusers";
 char *FILES = "files";
@@ -35,7 +40,7 @@ char* REG_ALLUSERS = "^/allusers\n$";
 char* REG_FILES = "^/files\n$";
 char* REG_UPLOAD = "^/upload [a-zA-Z0-9_].*.txt\n$";
 char* REG_DOWNLOAD = "^/download [a-zA-Z0-9_].*.txt\n$";
-char* REG_INVITE = "^/invite [a-zA-Z0-9_].*.txt [0-9]{5} [VE]{1,2}\n$";
+char* REG_INVITE = "^/invite [a-zA-Z0-9_].*.txt [0-9]{5} [VE]{1}\n$";
 char* REG_READ = "^/read [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
 char* REG_INSERT = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[A-Za-z0-9 _\\-].*\n$";
 char* REG_DELETE = "^/delete [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
@@ -80,7 +85,9 @@ int main(int argc, const char * argv[])
     struct hostent *server;
     
     char buffer[BUFFER_SIZE];
-    char message_to_server[BUFFER_SIZE], message_from_server[BUFFER_SIZE];
+    char message_to_server[BUFFER_SIZE];
+    char message_from_server[BUFFER_SIZE];
+    int *start = mmap(NULL, sizeof(int), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
     
     if (argc < 3)
     {
@@ -123,18 +130,18 @@ int main(int argc, const char * argv[])
     read_write_error_check(n, sock_fd);
     printf("Successfully connected to the Server.\nAssigned ClientId: %s\n", message_from_server);
     
-    while(1)
+    pid_t child_pid, wpid;
+    int status = 0;
+    
+    start:
+    if((child_pid = fork()) == 0)
     {
-        bzero(message_to_server, BUFFER_SIZE);
-        printf("\nEnter your COMMAND:");
-        fgets(message_to_server, BUFFER_SIZE, stdin);
-        
         char* command = validate_command(message_to_server);
+        
         if(strcmp(command, NONE) != 0)
         {
             char bkp_command[BUFFER_SIZE];
             strcpy(bkp_command, message_to_server);
-            
             if(strcmp(command, EXIT) == 0)
             {
                 //Send /exit command to server
@@ -156,6 +163,23 @@ int main(int argc, const char * argv[])
                 
                 
                 printf("Active Clients: \n%s", message_from_server);
+                
+                //invi
+                bzero(message_from_server, BUFFER_SIZE);
+                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                read_write_error_check(n, sock_fd);
+                
+                if(strncmp(message_from_server, "invited", 7) == 0)
+                {
+                    printf("You have pending invitations.\n");
+                }
+                else
+                {
+                    printf("You do not have pending invitations.\n");
+                }
+                //invi
+                
+                
             }
             else if(strcmp(command, ALL_USERS) == 0)
             {
@@ -184,26 +208,36 @@ int main(int argc, const char * argv[])
                 read_write_error_check(n, sock_fd);
                 
                 //upload only if permitted, server notifies based upon the filename
+                bzero(message_from_server, BUFFER_SIZE);
+                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                read_write_error_check(n, sock_fd);
                 
-                //Extract the filename from the command
-                char file[100];
-                char *filename;
-                strtok(bkp_command, " ");
-                filename = strtok(NULL, " ");
-                filename[strlen(filename) - 1] = '\0';
-                
-                strcpy(file, BASE_LOCATION);
-                strcat(file, filename);
-                
-                //STEP : Calculate filesize
-                long long filesize = stat_filesize(file);
-                if(filesize == -1)
+                if(strncmp(APPROVED, message_from_server, 8) == 0)
                 {
-                    printf("Failed to upload the file.\n");
+                    //Extract the filename from the command
+                    char file[100];
+                    char *filename;
+                    strtok(bkp_command, " ");
+                    filename = strtok(NULL, " ");
+                    filename[strlen(filename) - 1] = '\0';
+                    
+                    strcpy(file, BASE_LOCATION);
+                    strcat(file, filename);
+                    
+                    //STEP : Calculate filesize
+                    long long filesize = stat_filesize(file);
+                    if(filesize == -1)
+                    {
+                        printf("Failed to upload the file.\n");
+                    }
+                    
+                    //Upload file
+                    upload_file(sock_fd, file, filesize);
                 }
-                
-                //Upload file
-                upload_file(sock_fd, file, filesize);
+                else
+                {
+                    printf("You do not have the permission to upload the file.\n");
+                }
             }
             else if(strcmp(command, DOWNLOAD) == 0)
             {
@@ -211,16 +245,34 @@ int main(int argc, const char * argv[])
                 n = write(sock_fd, message_to_server, strlen(message_to_server));
                 read_write_error_check(n, sock_fd);
                 printf("\n"); /*DO NOT Remove this line: SEG*/
-                char *filename;
-                strtok(bkp_command, " ");
-                filename = strtok(NULL, " ");
-                filename[strlen(filename) - 1] = '\0';
-                download_file(filename, sock_fd);
-                 
+                
+                //upload only if permitted, server notifies based upon the filename
+                bzero(message_from_server, BUFFER_SIZE);
+                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                read_write_error_check(n, sock_fd);
+                
+                if(strncmp(APPROVED, message_from_server, 8) == 0)
+                {
+                    char *filename;
+                    strtok(bkp_command, " ");
+                    filename = strtok(NULL, " ");
+                    filename[strlen(filename) - 1] = '\0';
+                    download_file(filename, sock_fd);
+                }
+                else
+                {
+                    printf("You do not have the permission to download the file.\n");
+                }
             }
             else if(strcmp(command, INVITE) == 0)
             {
-                printf("Invite selected.\n");
+                //Send /files command to server
+                n = write(sock_fd, message_to_server, strlen(message_to_server));
+                read_write_error_check(n, sock_fd);
+                printf("Invitation is sent to the client.\nClient will be able to view this invitation after his command is executed.\n");
+
+                
+                //Check for validity of request, if current client is not the owner of the file he cannot send invitation.
             }
             else if(strcmp(command, READ) == 0)
             {
@@ -237,10 +289,31 @@ int main(int argc, const char * argv[])
         }
         else
         {
-            printf("Invalid Command.\n");
+            if(*start != 0)
+            {
+                printf("Invalid Command.\n");
+            }
+            
+        }
+        exit(0);
+    }
+    else
+    {
+        int returnStatus = -1000;
+        bzero(message_to_server, BUFFER_SIZE);
+        sleep(1);
+        
+        printf("\nEnter your COMMAND:");
+        fgets(message_to_server, BUFFER_SIZE, stdin);
+        *start = *start + 1;
+        
+        //If child is exits, start again
+        waitpid(child_pid, &returnStatus, 0);
+        if(returnStatus == 0)
+        {
+            goto start;
         }
     }
-    close(sock_fd);
     return 0;
 }
 
