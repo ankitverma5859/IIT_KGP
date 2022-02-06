@@ -1,4 +1,3 @@
-
 //
 //  server.c
 //  W3_OnlineFileEditor
@@ -41,25 +40,39 @@ char* REG_ALLUSERS = "^/allusers\n$";
 char* REG_FILES = "^/files\n$";
 char* REG_UPLOAD = "^/upload [a-zA-Z0-9_].*.txt\n$";
 char* REG_DOWNLOAD = "^/download [a-zA-Z0-9_].*.txt\n$";
-char* REG_INVITE = "^/invite [a-zA-Z0-9_].*.txt [0-9]{5} [VE]{1,2}\n$";
+char* REG_INVITE = "^/invite [a-zA-Z0-9_].*.txt [0-9]{5} [V,E]{1}\n$";
 char* REG_READ = "^/read [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
 char* REG_INSERT = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[A-Za-z0-9 _\\-].*\n$";
 char* REG_DELETE = "^/delete [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
 char* CLIENTS_FILE = "server_files/clients.txt";
 char* CLIENTS_DATA = "server_files/client_uploads/";
+char* INVITATION_FILE = "server_files/invitations.txt";
 char* FILES_METADATA = "server_files/files_metadata.txt";
 
 struct CLIENT
 {
     int client_id;
     int active_status;
+    char hostname[100];
+    int port;
+    int sock_fd;
 };
 
 struct FILE_METADATA
 {
-    char* filename;
+    char filename[50];
     int filesize;
     int owner;
+};
+
+struct INVITATION
+{
+    int sockfd;
+    int from_port;
+    int to_port;
+    char filename[100];
+    char permission[5];
+    int is_active;
 };
 
 void error(char *msg);
@@ -74,15 +87,19 @@ long long stat_filesize(char *filename);
 char* create_file(char *data, char *filename);
 int is_clientid_exists(int client_id);
 struct CLIENT *parse_client_file();
-void register_client(char* client_id);
+void register_client(char* client_id, char* hostname, int port, int sock_fd);
 void update_active_users(int client_id);
 char* active_users();
 char* all_users();
 void download_file(char* filename, int sock_fd, int *client_count);
 void upload_file(int sock_fd, char* filename, long long filesize, int *client_count);
 void update_file_metadata(char* filename, int client_id);
-int is_download_permitted(char* filename, int client_number);
-
+int is_owner(char* filename, int client_number);
+struct CLIENT get_client_detail(char* client_id);
+int convert_string_to_int(char *string);
+void add_invitation(int sock_fd, int from_port, int to_port, char* filename, char* permission);
+int has_invitation(int sockfd);
+void check_invitations(int sock_fd, int *client_count);
 /*
     Main Function
 */
@@ -91,13 +108,17 @@ int main(int argc, char * argv[])
     // Initialize Clients file to empty when server starts
     FILE *fp = fopen(CLIENTS_FILE, "w");
     fclose(fp);
+    FILE *fp1 = fopen(FILES_METADATA, "w");
+    fclose(fp1);
+    FILE *fp2 = fopen(INVITATION_FILE, "w");
+    fclose(fp2);
     
     printf("Give Start message to user:\n");
     signal(SIGINT, signal_handler);
     
     int *client_count = mmap(NULL, sizeof(int), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
     int sock_fd, newsock_fd, port_no;
-    pid_t child_pid;
+    pid_t child_pid, child_pid1;
     
     socklen_t client_len;
     struct sockaddr_in server_addr, client_addr;
@@ -164,7 +185,7 @@ int main(int argc, char * argv[])
                 sprintf(client_id, "%d", client_number);
                 printf("ClientId Generated: %s\n", client_id);
                 
-                register_client(client_id);
+                register_client(client_id, inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port), newsock_fd);
                 
                 //Sent the code to the client
                 bzero(message_to_client, BUFFER_SIZE);
@@ -209,6 +230,28 @@ int main(int argc, char * argv[])
                             strcpy(message_to_client, active_users());
                             n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
                             read_write_error_check(n, newsock_fd, client_count);
+                            
+                            check_invitations(newsock_fd, client_count);
+                            /*
+                            if(has_invitation(newsock_fd))
+                            {
+                                printf("Checking for invitation.\n");
+                                //message_to_client = "invited";
+                                bzero(message_to_client, BUFFER_SIZE);
+                                strcpy(message_to_client, "invited");
+                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                                read_write_error_check(n, newsock_fd, client_count);
+                            }
+                            else
+                            {
+                                printf("invitation not found.\n");
+                                //message_to_client = "no";
+                                bzero(message_to_client, BUFFER_SIZE);
+                                strcpy(message_to_client, "no");
+                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                                read_write_error_check(n, newsock_fd, client_count);
+                            }
+                             */
                         }
                         else if(strcmp(command_to_execute, ALL_USERS) == 0)
                         {
@@ -227,12 +270,26 @@ int main(int argc, char * argv[])
                             filename = strtok(NULL, " ");
                             filename[strlen(filename) - 1] = '\0';
                             
-                            download_file(filename, newsock_fd, client_count);
-                            update_file_metadata(filename, client_number);
-                            //Enter the detail of filename, num_of lines and owner id in a file
-                            
+                            if(is_owner(filename, client_number))  //Also need to check collaborator permission is_collaborator()
+                            {
+                                bzero(message_to_client, BUFFER_SIZE);
+                                strcpy(message_to_client, "approved");
+                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                                read_write_error_check(n, newsock_fd, client_count);
+                                
+                                download_file(filename, newsock_fd, client_count);
+                                update_file_metadata(filename, client_number);
+                            }
+                            else
+                            {
+                                //Send not allowed to upload. File of same name exits
+                                bzero(message_to_client, BUFFER_SIZE);
+                                strcpy(message_to_client, "denied");
+                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                                read_write_error_check(n, newsock_fd, client_count);
+                            }
                         }
-                        else if(strcmp(command_to_execute, DOWNLOAD) == 0)
+                        else if(strcmp(command_to_execute, DOWNLOAD) == 0) //Also need to check collaborator permission is_collaborator()
                         {
                             printf("Processing %s\n", master_command);
                             
@@ -243,24 +300,33 @@ int main(int argc, char * argv[])
                             filename = strtok(NULL, " ");
                             filename[strlen(filename) - 1] = '\0';
                             
-                            strcpy(file, CLIENTS_DATA);
-                            strcat(file, filename);
-                            
-                            /*
-                            if(is_download_permitted(filename, client_number))
+                            if(is_owner(filename, client_number))
                             {
-                                printf("Permitted.\n");
+                                strcpy(file, CLIENTS_DATA);
+                                strcat(file, filename);
+                                
+                                bzero(message_to_client, BUFFER_SIZE);
+                                strcpy(message_to_client, "approved");
+                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                                read_write_error_check(n, newsock_fd, client_count);
+                                
+                                //STEP : Calculate filesize
+                                long long filesize = stat_filesize(file);
+                                if(filesize == -1)
+                                {
+                                    printf("Failed to upload the file.\n");
+                                }
+                                //People with editor permission should be able to download the file
+                                upload_file(newsock_fd, file, filesize, client_count);
                             }
-                             */
-                            
-                            //STEP : Calculate filesize
-                            long long filesize = stat_filesize(file);
-                            if(filesize == -1)
+                            else
                             {
-                                printf("Failed to upload the file.\n");
+                                //Send not allowed to upload. File of same name exits
+                                bzero(message_to_client, BUFFER_SIZE);
+                                strcpy(message_to_client, "denied");
+                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                                read_write_error_check(n, newsock_fd, client_count);
                             }
-                            //People with editor permission should be able to download the file
-                            upload_file(newsock_fd, file, filesize, client_count);
                             
                             
                         }
@@ -271,10 +337,30 @@ int main(int argc, char * argv[])
                             //Process
                             //get_files();
                         }
-                        else
+                        else if(strcmp(command_to_execute, INVITE) == 0)
                         {
-                            //Do your processing here!
+                            printf("Processing %s\n", master_command);
+                            
+                            char *command;
+                            char *filename;
+                            char *client_id;
+                            char *permission;
+                            strtok(master_command, " ");
+                            filename = strtok(NULL, " ");
+                            client_id = strtok(NULL, " ");
+                            permission = strtok(NULL, " ");
+                            permission[strlen(permission) - 1] = '\0';
+                            printf("Filename: %s ClientId: %s Permission: %s\n", filename, client_id, permission);
+                            
+                            
+                            struct CLIENT client = get_client_detail(client_id);
+                            add_invitation(client.sock_fd, ntohs(client_addr.sin_port), client.port, filename, permission);
+                            printf("Invitation queued for clients approval.\n");
+                            //bzero(message_to_client, BUFFER_SIZE);
+                            //n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                            //read_write_error_check(n, newsock_fd, client_count);
                         }
+                        
                         bzero(message_from_client, BUFFER_SIZE);
                         bzero(message_to_client, BUFFER_SIZE);
                     }
@@ -413,7 +499,6 @@ char* validate_command(char *buffer)
     return result;
 }
 
-
 int generate_client_id()
 {
     int upper = 99999;
@@ -489,7 +574,6 @@ int is_clientid_exists(int client_id)
 struct CLIENT *parse_client_file(int num_of_lines)
 {
     char client_buffer[BUFFER_SIZE];
-    //int num_of_lines = calculate_num_of_lines(CLIENTS_FILE);
     struct CLIENT *client_list = malloc(sizeof(struct CLIENT) * num_of_lines);
     
     FILE *fp = fopen(CLIENTS_FILE, "r");
@@ -499,9 +583,12 @@ struct CLIENT *parse_client_file(int num_of_lines)
     }
     for(int i = 0; i < num_of_lines && fscanf(fp, "%[^\n]\n", client_buffer) != EOF; i++)
     {
-        int n = sscanf(client_buffer, "%d\t%d",
+        int n = sscanf(client_buffer, "%d\t%s\t%d\t%d\t%d\n",
                        &client_list[i].client_id,
-                       &client_list[i].active_status);
+                       client_list[i].hostname,
+                       &client_list[i].port,
+                       &client_list[i].active_status,
+                       &client_list[i].sock_fd);
     }
     fclose(fp);
     return client_list;
@@ -510,7 +597,6 @@ struct CLIENT *parse_client_file(int num_of_lines)
 struct FILE_METADATA *parse_filemeta_file(int num_of_lines)
 {
     char filemeta_buffer[BUFFER_SIZE];
-    //int num_of_lines = calculate_num_of_lines(CLIENTS_FILE);
     struct FILE_METADATA *filemeta_list = malloc(sizeof(struct FILE_METADATA) * num_of_lines);
     
     FILE *fp = fopen(FILES_METADATA, "r");
@@ -518,22 +604,47 @@ struct FILE_METADATA *parse_filemeta_file(int num_of_lines)
     {
         error("ERROR: FAILED to open clients file.");
     }
-    for(int i = 0; i < num_of_lines && fscanf(fp, "%[^\n]\n", filemeta_buffer) != EOF; i++)
+    for(int i = 0; i < num_of_lines; i++)
     {
-        int n = sscanf(filemeta_buffer, "%[^\t]\t%d\t%d",
+        fscanf(fp, "%[^\n]\n", filemeta_buffer);
+        int n = sscanf(filemeta_buffer, "%s\t%d\t%d\n",
                        filemeta_list[i].filename,
                        &filemeta_list[i].owner,
                        &filemeta_list[i].filesize);
+        bzero(filemeta_buffer, BUFFER_SIZE);
     }
     fclose(fp);
-    for(int i = 0; i < num_of_lines; i++)
-    {
-        printf("Meta: %s\t%dt%d\n", filemeta_list[i].filename, filemeta_list[i].owner, filemeta_list[i].filesize);
-    }
     return filemeta_list;
 }
 
-void register_client(char* client_id)
+struct INVITATION *parse_invitation_file(int num_of_lines)
+{
+    char invitation_buffer[BUFFER_SIZE];
+    struct INVITATION *invitation_list = malloc(sizeof(struct INVITATION) * num_of_lines);
+    
+    FILE *fp = fopen(INVITATION_FILE, "r");
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to open clients file.");
+    }
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        fscanf(fp, "%[^\n]\n", invitation_buffer);
+        int n = sscanf(invitation_buffer, "%d\t%d\t%d\t%s\t%s\t%d\n",
+                       &invitation_list[i].sockfd,
+                       &invitation_list[i].from_port,
+                       &invitation_list[i].to_port,
+                       invitation_list[i].filename,
+                       invitation_list[i].permission,
+                       &invitation_list[i].is_active
+                       );
+        bzero(invitation_buffer, BUFFER_SIZE);
+    }
+    fclose(fp);
+    return invitation_list;
+}
+
+void register_client(char* client_id, char* hostname, int port, int sock_fd)
 {
     FILE *fp;
     fp = fopen(CLIENTS_FILE, "a+");
@@ -541,8 +652,24 @@ void register_client(char* client_id)
     {
         error("ERROR: FAILED to open clients file.");
     }
-    fprintf(fp, "%s\t1\n", client_id);
+    fprintf(fp, "%s\t%s\t%d\t1\t%d\n", client_id, hostname, port, sock_fd);
     fclose(fp);
+}
+
+int has_invitation(int sockfd)
+{
+    int num_of_lines = calculate_num_of_lines(INVITATION_FILE);
+    struct INVITATION* invitation_list = parse_invitation_file(num_of_lines);
+    
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(sockfd == invitation_list[i].sockfd && invitation_list[i].is_active == 1)
+        {
+            return 1;
+        }
+    }
+    
+    return 0;
 }
 
 void update_active_users(int client_id)
@@ -555,11 +682,11 @@ void update_active_users(int client_id)
     {
        if(client_list[i].client_id == client_id)
        {
-           fprintf(fp1, "%d\t0\n", client_id);
+           fprintf(fp1, "%d\t%s\t%d\t0\t%d\n", client_list[i].client_id, client_list[i].hostname, client_list[i].port, client_list[i].sock_fd);
        }
        else
        {
-           fprintf(fp1, "%d\t%d\n", client_list[i].client_id, client_list[i].active_status);
+           fprintf(fp1, "%d\t%s\t%d\t%d\t%d\n", client_list[i].client_id, client_list[i].hostname, client_list[i].port, client_list[i].active_status, client_list[i].sock_fd);
        }
     }
     fclose(fp1);
@@ -665,20 +792,87 @@ void update_file_metadata(char* filename, int client_id)
     file_location = (char*)malloc(BUFFER_SIZE);
     strcpy(file_location, CLIENTS_DATA);
     strcat(file_location, filename);
-    long long filesize = stat_filesize(file_location);
     
     FILE* fp = fopen(FILES_METADATA, "a+");
     if (fp == NULL)
     {
         error("ERROR: FAILED to open files_metadata file.");
     }
-    fprintf(fp, "%s\t1%d\t%lld\n", filename, client_id, filesize);
+    long long filesize = stat_filesize(file_location);
+    fprintf(fp, "%s\t%d\t%lld\n", filename, client_id, filesize);
     fclose(fp);
 }
 
-int is_download_permitted(char* filename, int client_number)
+int is_owner(char* filename, int client_number)
 {
     int num_of_lines = calculate_num_of_lines(FILES_METADATA);
     struct FILE_METADATA* file_meta = parse_filemeta_file(num_of_lines);
-    return 0;
+    
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(strcmp(file_meta[i].filename, filename) == 0 && file_meta[i].owner != client_number)
+        {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+struct CLIENT get_client_detail(char* client_id)
+{
+    struct CLIENT *client = malloc(sizeof(struct CLIENT));
+    
+    int num_of_lines = calculate_num_of_lines(CLIENTS_FILE);
+    struct CLIENT* client_list = parse_client_file(num_of_lines);
+    
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(client_list[i].client_id == convert_string_to_int(client_id))
+        {
+            *client = client_list[i];
+        }
+    }
+    return *client;
+}
+
+int convert_string_to_int(char *string)
+{
+    char *ptr;
+    int integer_value = strtol(string, &ptr, 10);
+    return integer_value;
+}
+
+void add_invitation(int sock_fd, int from_port, int to_port, char* filename, char* permission)
+{
+    FILE* fp = fopen(INVITATION_FILE, "a+");
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to invitation list file.");
+    }
+    fprintf(fp, "%d\t%d\t%d\t%s\t%s\t1\n", sock_fd, from_port, to_port, filename, permission);
+    fclose(fp);
+
+}
+
+
+void check_invitations(int sock_fd, int *client_count)
+{
+    int n;
+    char message_to_client[BUFFER_SIZE];
+    if(has_invitation(sock_fd))
+    {
+        printf("Invitations Found.\n");
+        bzero(message_to_client, BUFFER_SIZE);
+        strcpy(message_to_client, "invited");
+        n = write(sock_fd, message_to_client, strlen(message_to_client) + 1);
+        read_write_error_check(n, sock_fd, client_count);
+    }
+    else
+    {
+        printf("No Invitations Found.\n");
+        bzero(message_to_client, BUFFER_SIZE);
+        strcpy(message_to_client, "no");
+        n = write(sock_fd, message_to_client, strlen(message_to_client) + 1);
+        read_write_error_check(n, sock_fd, client_count);
+    }
 }
