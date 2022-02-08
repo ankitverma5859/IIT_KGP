@@ -126,7 +126,7 @@ char* insert_in_file(char* filename, char* index, char* message);
 void display_file_content(char* filename);
 void append_file(char* file_location, char* message);
 int is_file_exists(char* filename);
-void delete(char* file_location, int s_index, int e_index);
+char* delete(char* file_location, int s_index, int e_index);
 char* read_file(char* file_location, int s_index, int e_index);
 
 /*
@@ -450,12 +450,12 @@ int main(int argc, char * argv[])
                         {
                             printf("Processing %s\n", master_command);
                             char* result;
-                            char cmd[10];
+                            char cmd[50];
                             char filename[100];
                             int s_idx;
                             int e_idx;
                             
-                            int var = sscanf(master_command, "%s %s %d %d", cmd, filename, &s_idx, &e_idx);
+                            int var = sscanf(master_command, "%s %s %d %d\n", cmd, filename, &s_idx, &e_idx);
                             if(is_file_exists(filename) && (is_owner(filename, client_number) || (is_collaborator(filename, client_number) == 2)))
                             {
                                 char *file_location;
@@ -475,7 +475,7 @@ int main(int argc, char * argv[])
                                                 s_idx = total_lines + s_idx;
                                                 e_idx = total_lines + e_idx;
                                             }
-                                            delete(file_location, s_idx, e_idx);
+                                            result = delete(file_location, s_idx, e_idx);
                                         }
                                         else
                                         {
@@ -495,7 +495,7 @@ int main(int argc, char * argv[])
                                         {
                                             s_idx = total_lines + s_idx;
                                         }
-                                        delete(file_location, s_idx, MAX_INT);
+                                        result = delete(file_location, s_idx, MAX_INT);
                                     }
                                     else
                                     {
@@ -1198,7 +1198,6 @@ void activate_invitation(int sock_fd, int client_id)
     {
         if(sock_fd == invitation_list[i].sockfd && invitation_list[i].is_active == 1)
         {
-            printf("collaboration captured.\n");
             fprintf(fp, "%s\t%d\t%s\n", invitation_list[i].filename, client_id, invitation_list[i].permission);
             invitation_list[i].is_active = 0;
         }
@@ -1529,8 +1528,9 @@ int is_file_exists(char* filename)
     return 0;
 }
 
-void delete(char* file_location, int s_index, int e_index)
+char* delete(char* file_location, int s_index, int e_index)
 {
+    char* result;
     int small, large;
     if(s_index < e_index)
     {
@@ -1577,7 +1577,8 @@ void delete(char* file_location, int s_index, int e_index)
     fclose(bkp_fp);
     
     copy_backup_to_master(file_location, bkp_location);
-    
+    result = "Delete Successful.\n";
+    return result;
 }
 
 char* read_file(char* file_location, int s_index, int e_index)
@@ -1616,7 +1617,6 @@ char* read_file(char* file_location, int s_index, int e_index)
         {
             if(idx >= small && idx <= large)
             {
-                printf("%s\n", line);
                 strcat(result, line);
                 strcat(result, "\n");
             }
