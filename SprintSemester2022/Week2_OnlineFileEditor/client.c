@@ -20,8 +20,11 @@
 #include <sys/wait.h>
 #include <sys/mman.h>
 
-const int BUFFER_SIZE = 256;
+const int BUFFER_SIZE = 1024;
+const int READ_SIZE = 10000;
+
 char *EXIT = "exit";
+char *PRINT = "print";
 char *NONE = "none";
 char *APPROVED = "approved";
 char *DENIED = "denied";
@@ -31,9 +34,12 @@ char *FILES = "files";
 char *UPLOAD = "upload";
 char *DOWNLOAD = "download";
 char *INVITE = "invite";
+char *INVITE_ANSWER_Y = "Y\n";
+char *INVITE_ANSWER_N = "N\n";
 char *READ = "read";
 char *INSERT = "insert";
 char *DELETE = "delete";
+char* REG_PRINT = "^/print [a-zA-Z0-9_].*.txt\n$";
 char* REG_EXIT = "^/exit\n$";
 char* REG_USERS = "^/users\n$";
 char* REG_ALLUSERS = "^/allusers\n$";
@@ -42,7 +48,7 @@ char* REG_UPLOAD = "^/upload [a-zA-Z0-9_].*.txt\n$";
 char* REG_DOWNLOAD = "^/download [a-zA-Z0-9_].*.txt\n$";
 char* REG_INVITE = "^/invite [a-zA-Z0-9_].*.txt [0-9]{5} [VE]{1}\n$";
 char* REG_READ = "^/read [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
-char* REG_INSERT = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[A-Za-z0-9 _\\-].*\n$";
+char* REG_INSERT = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}\"[A-Za-z0-9 _\\-].*\"\n$";
 char* REG_DELETE = "^/delete [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
 char* BASE_LOCATION = "client_files/";
 char* DOWNLOAD_LOCATION = "client_files/downloaded/";
@@ -57,12 +63,15 @@ long long stat_filesize(char *filename);
 char* create_file(char *data, char *filename);
 void upload_file(int sock_fd, char* filename, long long filesize);
 void download_file(char* filename, int sock_fd);
+void handle_invitations(int sock_fd, char* message_from_server);
 
 /*
     Main function
 */
 int main(int argc, const char * argv[])
 {
+    int *agree_invitation = mmap(NULL, sizeof(int), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
+    
     /*
         To handle the signal CTRL + C
     */
@@ -86,7 +95,7 @@ int main(int argc, const char * argv[])
     
     char buffer[BUFFER_SIZE];
     char message_to_server[BUFFER_SIZE];
-    char message_from_server[BUFFER_SIZE];
+    char message_from_server[10000];
     int *start = mmap(NULL, sizeof(int), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
     
     if (argc < 3)
@@ -137,7 +146,6 @@ int main(int argc, const char * argv[])
     if((child_pid = fork()) == 0)
     {
         char* command = validate_command(message_to_server);
-        
         if(strcmp(command, NONE) != 0)
         {
             char bkp_command[BUFFER_SIZE];
@@ -150,7 +158,6 @@ int main(int argc, const char * argv[])
                 close(sock_fd);
                 error("Connection closed.");
             }
-            
             if(strcmp(command, USERS) == 0)
             {
                 //Send /users command to server
@@ -161,25 +168,15 @@ int main(int argc, const char * argv[])
                 n = read(sock_fd, message_from_server, BUFFER_SIZE);
                 read_write_error_check(n, sock_fd);
                 
-                
                 printf("Active Clients: \n%s", message_from_server);
                 
-                //invi
-                bzero(message_from_server, BUFFER_SIZE);
-                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                handle_invitations(sock_fd, message_from_server);
+            }
+            else if(strcmp(command, PRINT) == 0)
+            {
+                //Send /print command to server
+                n = write(sock_fd, message_to_server, strlen(message_to_server));
                 read_write_error_check(n, sock_fd);
-                
-                if(strncmp(message_from_server, "invited", 7) == 0)
-                {
-                    printf("You have pending invitations.\n");
-                }
-                else
-                {
-                    printf("You do not have pending invitations.\n");
-                }
-                //invi
-                
-                
             }
             else if(strcmp(command, ALL_USERS) == 0)
             {
@@ -200,6 +197,11 @@ int main(int argc, const char * argv[])
                 read_write_error_check(n, sock_fd);
                 
                 //Receive the result and print
+                bzero(message_from_server, BUFFER_SIZE);
+                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                read_write_error_check(n, sock_fd);
+                
+                printf("%s\n", message_from_server);
             }
             else if(strcmp(command, UPLOAD) == 0)
             {
@@ -236,7 +238,7 @@ int main(int argc, const char * argv[])
                 }
                 else
                 {
-                    printf("You do not have the permission to upload the file.\n");
+                    printf("File already exists on the server. Replace operation is turned off.\n");
                 }
             }
             else if(strcmp(command, DOWNLOAD) == 0)
@@ -261,30 +263,61 @@ int main(int argc, const char * argv[])
                 }
                 else
                 {
-                    printf("You do not have the permission to download the file.\n");
+                    printf("The file doesn't exist or you do not have the permission to download the file.\n");
                 }
             }
-            else if(strcmp(command, INVITE) == 0)
+            else if(strcmp(command, INVITE) == 0 || strcmp(command, INVITE_ANSWER_Y) == 0 || strcmp(command, INVITE_ANSWER_N) == 0)
             {
-                //Send /files command to server
-                n = write(sock_fd, message_to_server, strlen(message_to_server));
-                read_write_error_check(n, sock_fd);
-                printf("Invitation is sent to the client.\nClient will be able to view this invitation after his command is executed.\n");
-
-                
-                //Check for validity of request, if current client is not the owner of the file he cannot send invitation.
+                if(strcmp(command, INVITE_ANSWER_Y) == 0 || strcmp(command, INVITE_ANSWER_N) == 0)
+                {
+                    //send invitations answer to server
+                    printf("Invite Answer Selected: %s\n", command);
+                    n = write(sock_fd, message_to_server, strlen(message_to_server));
+                    read_write_error_check(n, sock_fd);
+                    printf("Invite Answer sent to server.\n");
+                }
+                else
+                {
+                    //Send /files command to server
+                    n = write(sock_fd, message_to_server, strlen(message_to_server));
+                    read_write_error_check(n, sock_fd);
+                    printf("Invitation is sent to the client.\nClient will be able to view this invitation after his command is executed.\n");
+                }
             }
             else if(strcmp(command, READ) == 0)
             {
-                printf("Read selected.\n");
+                //Send /insert command to server
+                n = write(sock_fd, message_to_server, strlen(message_to_server));
+                read_write_error_check(n, sock_fd);
+                
+                //Reading the contents from the server
+                bzero(message_from_server, READ_SIZE);
+                n = read(sock_fd, message_from_server, READ_SIZE);
+                read_write_error_check(n, sock_fd);
+                printf("%s\n", message_from_server);
+                 
             }
             else if(strcmp(command, INSERT) == 0)
             {
-                printf("Insert selected.\n");
+                //Send /insert command to server
+                n = write(sock_fd, message_to_server, strlen(message_to_server));
+                read_write_error_check(n, sock_fd);
+                
+                bzero(message_from_server, BUFFER_SIZE);
+                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                read_write_error_check(n, sock_fd);
+                printf("%s\n", message_from_server);
             }
             else if(strcmp(command, DELETE) == 0)
             {
-                printf("Delete selected.\n");
+                //Send /insert command to server
+                n = write(sock_fd, message_to_server, strlen(message_to_server));
+                read_write_error_check(n, sock_fd);
+             
+                bzero(message_from_server, BUFFER_SIZE);
+                n = read(sock_fd, message_from_server, BUFFER_SIZE);
+                read_write_error_check(n, sock_fd);
+                printf("%s\n", message_from_server);
             }
         }
         else
@@ -303,7 +336,7 @@ int main(int argc, const char * argv[])
         bzero(message_to_server, BUFFER_SIZE);
         sleep(1);
         
-        printf("\nEnter your COMMAND:");
+        printf("\nInput:");
         fgets(message_to_server, BUFFER_SIZE, stdin);
         *start = *start + 1;
         
@@ -389,7 +422,11 @@ char* validate_command(char *buffer)
     int regex_result;
     char *result;
     
-    if (regex_match(buffer, REG_EXIT))
+    if(strncmp(buffer,"Y",1) == 0 || strncmp(buffer,"N",1) == 0)
+    {
+        return buffer;
+    }
+    else if (regex_match(buffer, REG_EXIT))
     {
         result = "exit";
     }
@@ -428,6 +465,10 @@ char* validate_command(char *buffer)
     else if(regex_match(buffer, REG_DELETE))
     {
         result = "delete";
+    }
+    else if(regex_match(buffer, REG_PRINT))
+    {
+        result = "print";
     }
     else
     {
@@ -495,6 +536,7 @@ void upload_file(int sock_fd, char* filename, long long filesize)
 
 void download_file(char* filename, int sock_fd)
 {
+    printf("Downloading file...\n");
     int n;
     char* data;
     char message_from_client[BUFFER_SIZE];
@@ -514,4 +556,47 @@ void download_file(char* filename, int sock_fd)
     //Create a file for the content
     printf("File downloaded at: %s\n", create_file(data ,filename));
      
+}
+
+void handle_invitations(int sock_fd, char* message_from_server)
+{
+    int n;
+    char message_to_server[BUFFER_SIZE];
+    bzero(message_from_server, BUFFER_SIZE);
+    n = read(sock_fd, message_from_server, BUFFER_SIZE);
+    read_write_error_check(n, sock_fd);
+    
+    if(strncmp(message_from_server, "invited", 7) == 0)
+    {
+        printf("\nYou have pending invitations.\n");
+        
+        bzero(message_from_server, BUFFER_SIZE);
+        n = read(sock_fd, message_from_server, BUFFER_SIZE);
+        read_write_error_check(n, sock_fd);
+        printf("%s\n", message_from_server);
+        printf("Do you want to accept above invitation(Y/N)?\n");
+        
+        //char option[BUFFER_SIZE];
+        //fgets(option, sizeof(option), stdin);
+        /*
+        if (fgets(option, sizeof(option), stdin) == 0)
+        {
+            fprintf(stderr, "Failed to read your options\n");
+            exit(0);
+        }
+        option[strcspn(option, "\n")] = '\0';
+        printf("\n");
+        */
+        
+        //TODO: Implement user input
+        //bzero(message_to_server, BUFFER_SIZE);
+        //strcpy(message_to_server, "Y"); //fgets not working :(
+        //n = write(sock_fd, message_to_server, strlen(message_to_server));
+        //read_write_error_check(n, sock_fd);
+        
+    }
+    else
+    {
+        printf("\nYou do not have pending invitations.\n");
+    }
 }
