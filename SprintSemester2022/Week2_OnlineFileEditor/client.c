@@ -138,11 +138,12 @@ int main(int argc, const char * argv[])
     n = read(sock_fd, message_from_server, BUFFER_SIZE);
     read_write_error_check(n, sock_fd);
     printf("Successfully connected to the Server.\nAssigned ClientId: %s\n", message_from_server);
+    printf("\nValid Commands:\n/users\n/files\n/upload <filename>\tFiles should be present in \"client_files\" directory.\n/download <filename>\tFiles will be download in \"client_files/downloaded\" directory\n/invite <filename> <client_id> <permission>\n/insert <filename> <idx> “<message>”\n/delete <filename> <start_idx> <end_idx>\n/exit\n\n");
     
     pid_t child_pid, wpid;
     int status = 0;
     
-    start:
+    begin:
     if((child_pid = fork()) == 0)
     {
         char* command = validate_command(message_to_server);
@@ -260,6 +261,7 @@ int main(int argc, const char * argv[])
                     filename = strtok(NULL, " ");
                     filename[strlen(filename) - 1] = '\0';
                     download_file(filename, sock_fd);
+                    sleep(2);
                 }
                 else
                 {
@@ -326,7 +328,6 @@ int main(int argc, const char * argv[])
             {
                 printf("Invalid Command.\n");
             }
-            
         }
         exit(0);
     }
@@ -344,13 +345,11 @@ int main(int argc, const char * argv[])
         waitpid(child_pid, &returnStatus, 0);
         if(returnStatus == 0)
         {
-            goto start;
+            goto begin;
         }
     }
     return 0;
 }
-
-
 
 /*
     Function to print an error
@@ -552,7 +551,6 @@ void download_file(char* filename, int sock_fd)
     data = (char*)malloc ((filesize+1)*sizeof(char));
     n = read(sock_fd, data, filesize);
     read_write_error_check(n, sock_fd);
-    
     //Create a file for the content
     printf("File downloaded at: %s\n", create_file(data ,filename));
      
