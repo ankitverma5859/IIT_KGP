@@ -20,10 +20,13 @@
 #include <sys/stat.h>
 #include <time.h>
 
+const int MAX_INT = 32766;
 const int BUFFER_SIZE = 256;
 const int MAX_CLIENTS = 5;
+const int READ_SIZE = 10000;
 
 char *EXIT = "exit";
+char *PRINT = "print";
 char *NONE = "none";
 char *USERS = "users";
 char *ALL_USERS = "allusers";
@@ -31,9 +34,13 @@ char *FILES = "files";
 char *UPLOAD = "upload";
 char *DOWNLOAD = "download";
 char *INVITE = "invite";
+char *INVITE_ANSWER_Y = "Y\n";
+char *INVITE_ANSWER_N = "N\n";
 char *READ = "read";
 char *INSERT = "insert";
 char *DELETE = "delete";
+char* REG_PRINT = "^/print [a-zA-Z0-9_].*.txt\n$";
+char* REG_DIGIT = "^[0-9\\-].*$";
 char* REG_EXIT = "^/exit\n$";
 char* REG_USERS = "^/users\n$";
 char* REG_ALLUSERS = "^/allusers\n$";
@@ -42,12 +49,14 @@ char* REG_UPLOAD = "^/upload [a-zA-Z0-9_].*.txt\n$";
 char* REG_DOWNLOAD = "^/download [a-zA-Z0-9_].*.txt\n$";
 char* REG_INVITE = "^/invite [a-zA-Z0-9_].*.txt [0-9]{5} [V,E]{1}\n$";
 char* REG_READ = "^/read [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
-char* REG_INSERT = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[A-Za-z0-9 _\\-].*\n$";
+char* REG_INSERT = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}\"[A-Za-z0-9 _\\-].*\"\n$";
 char* REG_DELETE = "^/delete [a-zA-Z0-9_].*.txt[ ]{0,1}[0-9\\-]*[ ]{0,1}[0-9\\-]*\n$";
 char* CLIENTS_FILE = "server_files/clients.txt";
 char* CLIENTS_DATA = "server_files/client_uploads/";
 char* INVITATION_FILE = "server_files/invitations.txt";
 char* FILES_METADATA = "server_files/files_metadata.txt";
+char* COLLABORATORS_FILE = "server_files/collaborators.txt";
+char* REG_INSERT_NOINDEX = "^/insert [a-zA-Z0-9_].*.txt[ ]{0,1}\"[A-Za-z0-9 _\\-].*\"\n$";
 
 struct CLIENT
 {
@@ -56,6 +65,13 @@ struct CLIENT
     char hostname[100];
     int port;
     int sock_fd;
+};
+
+struct COLLABORATOR
+{
+    char filename[50];
+    int client_id;
+    char permission[5];
 };
 
 struct FILE_METADATA
@@ -99,7 +115,20 @@ struct CLIENT get_client_detail(char* client_id);
 int convert_string_to_int(char *string);
 void add_invitation(int sock_fd, int from_port, int to_port, char* filename, char* permission);
 int has_invitation(int sockfd);
-void check_invitations(int sock_fd, int *client_count);
+void check_invitations(int sock_fd, int *client_count, int client_id);
+char* get_invitations(int sock_fd);
+void turn_off_invitation(int sock_fd);
+void activate_invitation(int sock_fd, int client_id);
+struct COLLABORATOR *parse_collaborator_file(int num_of_lines);
+int is_collaborator(char* filename, int client_number);
+char* get_files();
+char* insert_in_file(char* filename, char* index, char* message);
+void display_file_content(char* filename);
+void append_file(char* file_location, char* message);
+int is_file_exists(char* filename);
+void delete(char* file_location, int s_index, int e_index);
+char* read_file(char* file_location, int s_index, int e_index);
+
 /*
     Main Function
 */
@@ -112,6 +141,8 @@ int main(int argc, char * argv[])
     fclose(fp1);
     FILE *fp2 = fopen(INVITATION_FILE, "w");
     fclose(fp2);
+    FILE *fp3 = fopen(COLLABORATORS_FILE, "w");
+    fclose(fp3);
     
     printf("Give Start message to user:\n");
     signal(SIGINT, signal_handler);
@@ -200,9 +231,9 @@ int main(int argc, char * argv[])
                     bzero(message_from_client, BUFFER_SIZE);
                     n = read(newsock_fd, message_from_client, BUFFER_SIZE);
                     read_write_error_check(n, newsock_fd, client_count);
-                    
                     char master_command[BUFFER_SIZE];
                     strcpy(master_command, message_from_client);
+                    
                     char *command_to_execute = validate_command(message_from_client);
                     if(strcmp(command_to_execute, EXIT) == 0)
                     {
@@ -231,27 +262,8 @@ int main(int argc, char * argv[])
                             n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
                             read_write_error_check(n, newsock_fd, client_count);
                             
-                            check_invitations(newsock_fd, client_count);
-                            /*
-                            if(has_invitation(newsock_fd))
-                            {
-                                printf("Checking for invitation.\n");
-                                //message_to_client = "invited";
-                                bzero(message_to_client, BUFFER_SIZE);
-                                strcpy(message_to_client, "invited");
-                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
-                                read_write_error_check(n, newsock_fd, client_count);
-                            }
-                            else
-                            {
-                                printf("invitation not found.\n");
-                                //message_to_client = "no";
-                                bzero(message_to_client, BUFFER_SIZE);
-                                strcpy(message_to_client, "no");
-                                n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
-                                read_write_error_check(n, newsock_fd, client_count);
-                            }
-                             */
+                            check_invitations(newsock_fd, client_count, client_number);
+                            
                         }
                         else if(strcmp(command_to_execute, ALL_USERS) == 0)
                         {
@@ -270,7 +282,7 @@ int main(int argc, char * argv[])
                             filename = strtok(NULL, " ");
                             filename[strlen(filename) - 1] = '\0';
                             
-                            if(is_owner(filename, client_number))  //Also need to check collaborator permission is_collaborator()
+                            if(!is_file_exists(filename))
                             {
                                 bzero(message_to_client, BUFFER_SIZE);
                                 strcpy(message_to_client, "approved");
@@ -300,7 +312,7 @@ int main(int argc, char * argv[])
                             filename = strtok(NULL, " ");
                             filename[strlen(filename) - 1] = '\0';
                             
-                            if(is_owner(filename, client_number))
+                            if(is_file_exists(filename) && (is_owner(filename, client_number) || (is_collaborator(filename, client_number) == 2) || (is_collaborator(filename, client_number) == 1)))
                             {
                                 strcpy(file, CLIENTS_DATA);
                                 strcat(file, filename);
@@ -316,7 +328,6 @@ int main(int argc, char * argv[])
                                 {
                                     printf("Failed to upload the file.\n");
                                 }
-                                //People with editor permission should be able to download the file
                                 upload_file(newsock_fd, file, filesize, client_count);
                             }
                             else
@@ -327,44 +338,270 @@ int main(int argc, char * argv[])
                                 n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
                                 read_write_error_check(n, newsock_fd, client_count);
                             }
-                            
-                            
                         }
                         else if(strcmp(command_to_execute, FILES) == 0)
                         {
                             printf("Processing %s\n", master_command);
+                            char* result = get_files();
                             
-                            //Process
-                            //get_files();
+                            bzero(message_to_client, BUFFER_SIZE);
+                            strcpy(message_to_client, result);
+                            n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                            read_write_error_check(n, newsock_fd, client_count);
+                            
                         }
-                        else if(strcmp(command_to_execute, INVITE) == 0)
+                        else if(strcmp(command_to_execute, PRINT) == 0)
+                        {
+                            printf("Processing %s\n", master_command);
+                            char *filename;
+                            strtok(master_command, " ");
+                            filename = strtok(NULL, " ");
+                            filename[strlen(filename) - 1] = '\0';
+                            
+                            display_file_content(filename);
+                        }
+                        else if(strcmp(command_to_execute, INVITE) == 0 || strcmp(command_to_execute, INVITE_ANSWER_Y) == 0 || strcmp(command_to_execute, INVITE_ANSWER_N) == 0)
+                        {
+                            if(strcmp(command_to_execute, INVITE_ANSWER_Y) == 0 || strcmp(command_to_execute, INVITE_ANSWER_N) == 0)
+                            {
+                                printf("Clients Answers received: %s\n", command_to_execute);
+                                if(strcmp(command_to_execute, INVITE_ANSWER_Y) == 0)
+                                {
+                                    printf("Colllaboration activated.\n");
+                                    activate_invitation(newsock_fd, client_number);
+                                }
+                                else if(strcmp(command_to_execute, INVITE_ANSWER_N) == 0)
+                                {
+                                    printf("Colllaboration deactivated.\n");
+                                    turn_off_invitation(newsock_fd);
+                                }
+                            }
+                            else
+                            {
+                                printf("Processing %s\n", master_command);
+                                
+                                char *command;
+                                char *filename;
+                                char *client_id;
+                                char *permission;
+                                strtok(master_command, " ");
+                                filename = strtok(NULL, " ");
+                                client_id = strtok(NULL, " ");
+                                permission = strtok(NULL, " ");
+                                permission[strlen(permission) - 1] = '\0';
+                                printf("Filename: %s ClientId: %s Permission: %s\n", filename, client_id, permission);
+                                
+                                struct CLIENT client = get_client_detail(client_id);
+                                add_invitation(client.sock_fd, ntohs(client_addr.sin_port), client.port, filename, permission);
+                                printf("Invitation queued for clients approval.\n");
+                            }
+                            
+                        }
+                        else if(strcmp(command_to_execute, INSERT) == 0)
                         {
                             printf("Processing %s\n", master_command);
                             
-                            char *command;
+                            char* result;
                             char *filename;
-                            char *client_id;
-                            char *permission;
-                            strtok(master_command, " ");
-                            filename = strtok(NULL, " ");
-                            client_id = strtok(NULL, " ");
-                            permission = strtok(NULL, " ");
-                            permission[strlen(permission) - 1] = '\0';
-                            printf("Filename: %s ClientId: %s Permission: %s\n", filename, client_id, permission);
+                            char *index;
+                            char *message;
+                            char msg[200];
+                            strcpy(msg, "");
+                            strcat(msg, master_command);
                             
                             
-                            struct CLIENT client = get_client_detail(client_id);
-                            add_invitation(client.sock_fd, ntohs(client_addr.sin_port), client.port, filename, permission);
-                            printf("Invitation queued for clients approval.\n");
-                            //bzero(message_to_client, BUFFER_SIZE);
-                            //n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
-                            //read_write_error_check(n, newsock_fd, client_count);
+                            if(regex_match(msg, REG_INSERT_NOINDEX))
+                            {
+                                strtok(msg, " ");
+                                filename = strtok(NULL, " ");
+                                message = strtok(NULL, "");
+                           }
+                            else
+                            {
+                                strtok(msg, " ");
+                                filename = strtok(NULL, " ");
+                                index = strtok(NULL, " ");
+                                message = strtok(NULL, "");
+                            }
+                            
+                            if(is_file_exists(filename) && (is_owner(filename, client_number) || (is_collaborator(filename, client_number) == 2)))
+                            {
+                                if(!regex_match(master_command, REG_INSERT_NOINDEX))
+                                {
+                                    result = insert_in_file(filename, index, message);
+                                    //result = "Insert Successful.\n";
+                                }
+                                else
+                                {
+                                    result = insert_in_file(filename, "X", message);//here, is_index is the message
+                                    //result = "Insert Successful.\n";
+                                }
+                            }
+                            else
+                            {
+                                result = "The file doesn't exist or you do not have the permission to edit the file.\n";
+                            }
+                            bzero(message_to_client, BUFFER_SIZE);
+                            strcpy(message_to_client, result);
+                            n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                            read_write_error_check(n, newsock_fd, client_count);
                         }
-                        
+                        else if(strcmp(command_to_execute, DELETE) == 0)
+                        {
+                            printf("Processing %s\n", master_command);
+                            char* result;
+                            char cmd[10];
+                            char filename[100];
+                            int s_idx;
+                            int e_idx;
+                            
+                            int var = sscanf(master_command, "%s %s %d %d", cmd, filename, &s_idx, &e_idx);
+                            if(is_file_exists(filename) && (is_owner(filename, client_number) || (is_collaborator(filename, client_number) == 2)))
+                            {
+                                char *file_location;
+                                file_location = (char*)malloc(BUFFER_SIZE);
+                                strcpy(file_location, CLIENTS_DATA);
+                                strcat(file_location, filename);
+                                
+                                int total_lines = calculate_num_of_lines(file_location);
+                                if(var == 4)
+                                {
+                                    if(s_idx >= -(total_lines) && s_idx <= total_lines && e_idx >= -(total_lines) && e_idx <= total_lines)
+                                    {
+                                        if((s_idx <= 0 && e_idx <= 0) || (s_idx >= 0 && e_idx >= 0))
+                                        {
+                                            if (s_idx < 0 && e_idx < 0)
+                                            {
+                                                s_idx = total_lines + s_idx;
+                                                e_idx = total_lines + e_idx;
+                                            }
+                                            delete(file_location, s_idx, e_idx);
+                                        }
+                                        else
+                                        {
+                                            result = "ERROR: Index out of Range.\n";
+                                        }
+                                    }
+                                    else
+                                    {
+                                        result = "ERROR: Index out of Range.\n";
+                                    }
+                                }
+                                else if(var == 3)
+                                {
+                                    if(s_idx >= -(total_lines) && s_idx <= total_lines)
+                                    {
+                                        if (s_idx < 0)
+                                        {
+                                            s_idx = total_lines + s_idx;
+                                        }
+                                        delete(file_location, s_idx, MAX_INT);
+                                    }
+                                    else
+                                    {
+                                        result = "ERROR: Index out of Range.\n";
+                                    }
+                                }
+                                else
+                                {
+                                    printf("Deleting all the contents of the file.\n");
+                                    FILE* fp = fopen(file_location, "w");
+                                    fclose(fp);
+                                    result = "All contents of the files is deleted.\n";
+                                }
+                            }
+                            else
+                            {
+                                result = "The file doesn't exist or you do not have the permission to delete the file.\n";
+                            }
+                            bzero(message_to_client, BUFFER_SIZE);
+                            strcpy(message_to_client, result);
+                            n = write(newsock_fd, message_to_client, strlen(message_to_client) + 1);
+                            read_write_error_check(n, newsock_fd, client_count);
+                        }
+                        else if(strcmp(command_to_execute, READ) == 0)
+                        {
+                            printf("Processing %s\n", master_command);
+                            char* result = (char*)malloc(READ_SIZE);;
+                            char cmd[10];
+                            char filename[100];
+                            int s_idx;
+                            int e_idx;
+                            
+                            bzero(result, READ_SIZE);
+                            int var = sscanf(master_command, "%s %s %d %d", cmd, filename, &s_idx, &e_idx);
+                            if(is_file_exists(filename) && (is_owner(filename, client_number) || (is_collaborator(filename, client_number) == 2) || (is_collaborator(filename, client_number) == 1)))
+                            {
+                                char *file_location;
+                                file_location = (char*)malloc(BUFFER_SIZE);
+                                strcpy(file_location, CLIENTS_DATA);
+                                strcat(file_location, filename);
+                                
+                                int total_lines = calculate_num_of_lines(file_location);
+                                if(var == 4)
+                                {
+                                    if(s_idx >= -(total_lines) && s_idx <= total_lines && e_idx >= -(total_lines) && e_idx <= total_lines)
+                                    {
+                                        if((s_idx <= 0 && e_idx <= 0) || (s_idx >= 0 && e_idx >= 0))
+                                        {
+                                            if (s_idx < 0 && e_idx < 0)
+                                            {
+                                                s_idx = total_lines + s_idx;
+                                                e_idx = total_lines + e_idx;
+                                            }
+                                            result = read_file(file_location, s_idx, e_idx);
+                                        }
+                                        else
+                                        {
+                                            result = "ERROR: Index out of Range.\n";
+                                        }
+                                    }
+                                    else
+                                    {
+                                        result = "ERROR: Index out of Range.\n";
+                                    }
+                                }
+                                else if(var == 3)
+                                {
+                                    if(s_idx >= -(total_lines) && s_idx <= total_lines)
+                                    {
+                                        if (s_idx < 0)
+                                        {
+                                            s_idx = total_lines + s_idx;
+                                        }
+                                        result = read_file(file_location, s_idx, MAX_INT);
+                                    }
+                                    else
+                                    {
+                                        result = "ERROR: Index out of Range.\n";
+                                    }
+                                }
+                                else
+                                {
+                                    printf("Reading all the contents of the file.\n");
+                                    FILE* fp = fopen(file_location, "r");
+                                    if(fp == NULL)
+                                    {
+                                        error("ERROR: FAILED to read the file.");
+                                    }
+                                    char line_buffer[BUFFER_SIZE];
+                                    while(fgets(line_buffer, BUFFER_SIZE, fp))
+                                    {
+                                        strcat(result, line_buffer);
+                                    }
+                                    fclose(fp);
+                                }
+                            }
+                            else
+                            {
+                                result = "The file doesn't exist or you do not have the permission to delete the file.\n";
+                            }
+                            n = write(newsock_fd, result, READ_SIZE);
+                            read_write_error_check(n, newsock_fd, client_count);
+                        }
                         bzero(message_from_client, BUFFER_SIZE);
                         bzero(message_to_client, BUFFER_SIZE);
                     }
-                    
                 }
             }
         }
@@ -452,7 +689,11 @@ char* validate_command(char *buffer)
     int regex_result;
     char *result;
     
-    if (regex_match(buffer, REG_EXIT))
+    if(strncmp(buffer,"Y",1) == 0 || strncmp(buffer,"N",1) == 0)
+    {
+        return buffer;
+    }
+    else if (regex_match(buffer, REG_EXIT))
     {
         result = "exit";
     }
@@ -492,6 +733,10 @@ char* validate_command(char *buffer)
     {
         result = "delete";
     }
+    else if(regex_match(buffer, REG_PRINT))
+    {
+        result = "print";
+    }
     else
     {
         result = "none";
@@ -518,6 +763,10 @@ int calculate_num_of_lines(char* filelocation)
 {
     char buffer[BUFFER_SIZE];
     FILE *fp = fopen(filelocation, "r");
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to reading the file.\n");
+    }
     int lines = 0;
     while(fscanf(fp, "%[^\n]\n", buffer) != EOF)
     {
@@ -592,6 +841,28 @@ struct CLIENT *parse_client_file(int num_of_lines)
     }
     fclose(fp);
     return client_list;
+}
+
+struct COLLABORATOR *parse_collaborator_file(int num_of_lines)
+{
+    char collaborator_buffer[BUFFER_SIZE];
+    struct COLLABORATOR *collaborator_list = malloc(sizeof(struct COLLABORATOR) * num_of_lines);
+    
+    FILE *fp = fopen(COLLABORATORS_FILE, "r");
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to open clients file.");
+    }
+    for(int i = 0; i < num_of_lines && fscanf(fp, "%[^\n]\n", collaborator_buffer) != EOF; i++)
+    {
+        int n = sscanf(collaborator_buffer, "%s\t%d\t%s\n",
+                       collaborator_list[i].filename,
+                       &collaborator_list[i].client_id,
+                       collaborator_list[i].permission
+                       );
+    }
+    fclose(fp);
+    return collaborator_list;
 }
 
 struct FILE_METADATA *parse_filemeta_file(int num_of_lines)
@@ -818,6 +1089,28 @@ int is_owner(char* filename, int client_number)
     return 1;
 }
 
+int is_collaborator(char* filename, int client_number)
+{
+    int num_of_lines = calculate_num_of_lines(COLLABORATORS_FILE);
+    struct COLLABORATOR* collaborator = parse_collaborator_file(num_of_lines);
+    
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(strcmp(collaborator[i].filename, filename) == 0 && collaborator[i].client_id == client_number)
+        {
+            if(strcmp(collaborator[i].permission, "E") == 0)
+            {
+                return 2;
+            }
+            else if(strcmp(collaborator[i].permission, "V") == 0)
+            {
+                return 1;
+            }
+        }
+    }
+    return 0;
+}
+
 struct CLIENT get_client_detail(char* client_id)
 {
     struct CLIENT *client = malloc(sizeof(struct CLIENT));
@@ -854,11 +1147,10 @@ void add_invitation(int sock_fd, int from_port, int to_port, char* filename, cha
 
 }
 
-
-void check_invitations(int sock_fd, int *client_count)
+void check_invitations(int sock_fd, int *client_count, int client_id)
 {
     int n;
-    char message_to_client[BUFFER_SIZE];
+    char message_to_client[BUFFER_SIZE], message_from_client[BUFFER_SIZE];
     if(has_invitation(sock_fd))
     {
         printf("Invitations Found.\n");
@@ -866,6 +1158,16 @@ void check_invitations(int sock_fd, int *client_count)
         strcpy(message_to_client, "invited");
         n = write(sock_fd, message_to_client, strlen(message_to_client) + 1);
         read_write_error_check(n, sock_fd, client_count);
+        
+        //send the pending invitations
+        char* invitations = get_invitations(sock_fd);
+        
+        printf("Invitations: %s\n", invitations);
+        bzero(message_to_client, BUFFER_SIZE);
+        strcpy(message_to_client, invitations);
+        n = write(sock_fd, message_to_client, strlen(message_to_client) + 1);
+        read_write_error_check(n, sock_fd, client_count);
+        free(invitations);
     }
     else
     {
@@ -875,4 +1177,454 @@ void check_invitations(int sock_fd, int *client_count)
         n = write(sock_fd, message_to_client, strlen(message_to_client) + 1);
         read_write_error_check(n, sock_fd, client_count);
     }
+}
+
+void activate_invitation(int sock_fd, int client_id)
+{
+    int num_of_lines = calculate_num_of_lines(INVITATION_FILE);
+    struct INVITATION* invitation_list = parse_invitation_file(num_of_lines);
+    
+    FILE* fp = fopen(COLLABORATORS_FILE, "a+");
+    FILE* fp1 = fopen(INVITATION_FILE, "w");
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to open collaboratos file.");
+    }
+    if (fp1 == NULL)
+    {
+        error("ERROR: FAILED to open invitations file.");
+    }
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(sock_fd == invitation_list[i].sockfd && invitation_list[i].is_active == 1)
+        {
+            printf("collaboration captured.\n");
+            fprintf(fp, "%s\t%d\t%s\n", invitation_list[i].filename, client_id, invitation_list[i].permission);
+            invitation_list[i].is_active = 0;
+        }
+        fprintf(fp1, "%d\t%d\t%d\t%s\t%s\t%d\n", invitation_list[i].sockfd, invitation_list[i].from_port, invitation_list[i].to_port, invitation_list[i].filename, invitation_list[i].permission, invitation_list[i].is_active);
+    }
+    fclose(fp);
+    fclose(fp1);
+}
+
+void turn_off_invitation(int sock_fd)
+{
+    int num_of_lines = calculate_num_of_lines(INVITATION_FILE);
+    struct INVITATION* invitation_list = parse_invitation_file(num_of_lines);
+    
+    FILE* fp = fopen(INVITATION_FILE, "w");
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to open invitations file.");
+    }
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(sock_fd == invitation_list[i].sockfd && invitation_list[i].is_active == 1)
+        {
+            invitation_list[i].is_active = 0;
+        }
+        fprintf(fp, "%d\t%d\t%d\t%s\t%s\t%d\n", invitation_list[i].sockfd, invitation_list[i].from_port, invitation_list[i].to_port, invitation_list[i].filename, invitation_list[i].permission, invitation_list[i].is_active);
+    }
+    fclose(fp);
+}
+
+char* get_invitations(int sock_fd)
+{
+    int num_of_lines = calculate_num_of_lines(INVITATION_FILE);
+    struct INVITATION* invitation_list = parse_invitation_file(num_of_lines);
+    
+    char* invitations;
+    invitations = (char*) malloc((BUFFER_SIZE)*sizeof(char));
+    strcpy(invitations, "");
+    for(int i = 0; i < num_of_lines; i++)
+    {
+        if(sock_fd == invitation_list[i].sockfd && invitation_list[i].is_active == 1)
+        {
+            strcat(invitations, invitation_list[i].filename);
+            strcat(invitations, "\t");
+            strcat(invitations, invitation_list[i].permission);
+            strcat(invitations, "\n");
+        }
+    }
+    return invitations;
+}
+
+char* get_files()
+{
+    char *result = (char*)malloc(3000 * sizeof(char));
+    char *buffer1 = (char*)malloc(100 * sizeof(char));
+    char *buffer2 = (char*)malloc(100 * sizeof(char));
+    int filemeta_lines = calculate_num_of_lines(FILES_METADATA);
+    struct FILE_METADATA* file_meta = parse_filemeta_file(filemeta_lines);
+    int collaborator_lines = calculate_num_of_lines(COLLABORATORS_FILE);
+    struct COLLABORATOR* collaborator = parse_collaborator_file(collaborator_lines);
+    
+    strcpy(result, "");
+    for(int i = 0; i < filemeta_lines; i++)
+    {
+        char *file_location;
+        file_location = (char*)malloc(BUFFER_SIZE);
+        strcpy(file_location, CLIENTS_DATA);
+        strcat(file_location, file_meta[i].filename);
+        
+        sprintf(buffer1, "Filename:\t%s\nOwner:\t%d\tNo. of lines:\t%d\nCollaborators:\n", file_meta[i].filename, file_meta[i].owner, calculate_num_of_lines(file_location));
+        strcat(result, buffer1);
+        if(collaborator_lines == 0)
+        {
+            strcat(result, "NONE\n");
+        }
+        else
+        {
+            for(int j = 0; j < collaborator_lines; j++)
+            {
+                if(strcmp(file_meta[i].filename, collaborator[j].filename) == 0)
+                {
+                    sprintf(buffer2, "%d\t%s\n", collaborator[j].client_id, collaborator[j].permission);
+                    strcat(result, buffer2);
+                }
+            }
+        }
+        printf("\n");
+        strcat(result, "\n");
+    }
+    
+    return result;
+    
+}
+
+void copy_backup_to_master(char* masterfile, char* backfile)
+{
+    FILE *bkp, *fp;
+    fp = fopen(masterfile, "w");
+    bkp = fopen(backfile,"r");
+    
+    if(fp == NULL)
+    {
+        error("ERROR: FAILED to open master file.");
+    }
+    
+    if(bkp == NULL)
+    {
+        error("ERROR: FAILED to open backup file.");
+    }
+    
+    fseek(fp, 0, SEEK_SET);
+    fseek(bkp, 0, SEEK_SET);
+    
+    char c;
+    while((c = getc(bkp)) != EOF)
+    {
+        putc(c, fp);
+    }
+    
+    fclose(fp);
+    fclose(bkp);
+}
+
+void insert_at_top(char* file_location, char* message)
+{
+    char *bkp_location;
+    bkp_location = (char*)malloc(BUFFER_SIZE);
+    strcpy(bkp_location, CLIENTS_DATA);
+    strcpy(bkp_location, "bkp.txt");
+    
+    char *content;
+    content = message;
+    FILE *fp, *bkp_fp;
+    
+    fp = fopen(file_location, "r");
+    bkp_fp = fopen(bkp_location, "w");
+    
+    if (fp == NULL)
+    {
+        error("ERROR: FAILED to open master file file.");
+    }
+    
+    if (bkp_fp == NULL)
+    {
+        error("ERROR: FAILED to open backup file.");
+    }
+    
+    message++; //removing the first character i.t "
+    message[strlen(message) - 2] = '\0'; // removing the last character i.t "
+    fprintf(bkp_fp, "%s\n", message);
+    fseek(bkp_fp, 0, SEEK_END);
+    
+    char line[250];
+    while(fscanf(fp, "%[^\n] ", line) != EOF)
+    {
+        fprintf(bkp_fp, "%s\n", line);
+    }
+    
+    fclose(fp);
+    fclose(bkp_fp);
+    
+    copy_backup_to_master(file_location, bkp_location);
+}
+
+void insert_at_index(char* file_location, int index, char* message)
+{
+    char *bkp_location;
+    bkp_location = (char*)malloc(BUFFER_SIZE);
+    strcpy(bkp_location, CLIENTS_DATA);
+    strcpy(bkp_location, "bkp.txt");
+    
+    FILE *fp, *bkp_fp;
+    char c;
+    int newlines = 0;
+    
+    fp = fopen(file_location, "r");
+    bkp_fp = fopen(bkp_location, "w");
+    if(fp == NULL)
+    {
+        error("ERROR: FAILED to open master file.");
+    }
+    
+    if (bkp_fp == NULL)
+    {
+        error("ERROR: FAILED to open backup file.");
+    }
+    
+    while(newlines < index)
+    {
+        c = getc(fp);
+        if(c == '\n')
+            newlines = newlines + 1;
+        
+        if (newlines < index)
+        {
+            putc(c, bkp_fp);
+        }
+    }
+    putc('\n', bkp_fp);
+    
+    message++; //removing the first character i.t "
+    message[strlen(message) - 2] = '\0'; // removing the last character i.t "
+    fprintf(bkp_fp, "%s\n", message);
+    
+    char line[250];
+    while(fscanf(fp, "%[^\n] ", line) != EOF)
+    {
+        fprintf(bkp_fp, "%s\n", line);
+    }
+    
+    fclose(bkp_fp);
+    fclose(fp);
+    
+    copy_backup_to_master(file_location, bkp_location);
+}
+
+void append_file(char* file_location, char* message)
+{
+    FILE *fp;
+    fp = fopen(file_location, "a");
+    
+    if(fp == NULL)
+    {
+        error("ERROR: FAILED to open input file.");
+    }
+    
+    message++; //removing the first character i.t "
+    message[strlen(message) - 2] = '\0'; // removing the last character i.t "
+    fprintf(fp, "%s\n", message);
+    fclose(fp);
+}
+
+char* insert_in_file(char* filename, char* index, char* message)
+{
+    char* result;
+    char *file_location;
+    file_location = (char*)malloc(BUFFER_SIZE);
+    strcpy(file_location, CLIENTS_DATA);
+    strcat(file_location, filename);
+    
+    
+    int total_lines = calculate_num_of_lines(file_location);
+    if(strcmp(index, "X") == 0)
+    {
+        append_file(file_location, message);
+        result = "INSERT sucessfull at the end.\n";
+    }
+    else
+    {
+        int line_number = atoi(index);
+        if(line_number >= -(total_lines) && line_number <= total_lines)
+        {
+            if (line_number < 0)
+            {
+                //Convert -index to positive index
+                //-1 -> (num of lines - 1)      249
+                //-2 -> (num of lines - 2)      248
+                //
+                //-250->(num of lines - 250)    0 first line
+                line_number = total_lines + line_number;
+            }
+            
+            if (line_number == 0) //add at the top
+            {
+                insert_at_top(file_location, message);
+                result = "INSERT sucessfull at the top.\n";
+                printf("INSERT sucessfull at the top.\n");
+            }
+            else if (line_number == total_lines) // append at the end
+            {
+                append_file(file_location, message);
+                result = "INSERT sucessfull at the end.\n";
+                printf("INSERT sucessfull at the end.\n");
+            }
+            else // add in the middle
+            {
+                insert_at_index(file_location, line_number, message);
+                result = "INSERT sucessfull at the index.\n";
+                printf("INSERT sucessfull at the index.\n");
+            }
+        }
+        else
+        {
+            result = "ERROR: Index out of Range.\n";
+            printf("ERROR: Index out of Range.\n"); //TODO: return this to user
+        }
+    }
+    return result;
+}
+
+void display_file_content(char* filename)
+{
+    char *file_location;
+    file_location = (char*)malloc(BUFFER_SIZE);
+    strcpy(file_location, CLIENTS_DATA);
+    strcat(file_location, filename);
+    
+    
+     char line_buffer[BUFFER_SIZE];
+     
+     FILE *fp;
+     fp = fopen(file_location, "r");
+    
+     if(fp == NULL)
+     {
+         error("ERROR: FAILED to read file.");
+     }
+     
+     while(fgets(line_buffer, BUFFER_SIZE, fp))
+     {
+         printf("%s",line_buffer);
+     }
+     printf("\n");
+}
+
+int is_file_exists(char* filename)
+{
+    int filemeta_lines = calculate_num_of_lines(FILES_METADATA);
+    struct FILE_METADATA* file_meta = parse_filemeta_file(filemeta_lines);
+    
+    for(int i = 0; i < filemeta_lines; i++)
+    {
+        if(strcmp(file_meta[i].filename, filename) == 0)
+        {
+            return 1;
+        }
+    }
+    return 0;
+}
+
+void delete(char* file_location, int s_index, int e_index)
+{
+    int small, large;
+    if(s_index < e_index)
+    {
+        small = s_index;
+        large = e_index;
+    }
+    else
+    {
+        large = s_index;
+        small = e_index;
+    }
+    char *bkp_location;
+    bkp_location = (char*)malloc(BUFFER_SIZE);
+    strcpy(bkp_location, CLIENTS_DATA);
+    strcat(bkp_location, "bkp.txt");
+    
+    FILE *fp, *bkp_fp;
+    
+    fp = fopen(file_location, "r");
+    bkp_fp = fopen(bkp_location, "w");
+    
+    int idx = 0;
+    char line[250];
+    while(fscanf(fp, "%[^\n] ", line) != EOF)
+    {
+        if(e_index == MAX_INT)
+        {
+            if(idx != s_index)
+            {
+                fprintf(bkp_fp, "%s\n", line);
+            }
+        }
+        else
+        {
+            if(idx < small || idx > large)
+            {
+                fprintf(bkp_fp, "%s\n", line);
+            }
+        }
+        idx++;
+    }
+    
+    fclose(fp);
+    fclose(bkp_fp);
+    
+    copy_backup_to_master(file_location, bkp_location);
+    
+}
+
+char* read_file(char* file_location, int s_index, int e_index)
+{
+    char* result =(char*)malloc(READ_SIZE);
+    int small, large;
+    if(s_index < e_index)
+    {
+        small = s_index;
+        large = e_index;
+    }
+    else
+    {
+        large = s_index;
+        small = e_index;
+    }
+    
+    FILE *fp;
+    fp = fopen(file_location, "r");
+    
+    int idx = 0;
+    char line[250];
+    bzero(result, READ_SIZE);
+    while(fscanf(fp, "%[^\n] ", line) != EOF)
+    {
+        if(e_index == MAX_INT)
+        {
+            if(idx == s_index)
+            {
+                strcat(result, line);
+                strcat(result, "\n");
+                break;
+            }
+        }
+        else
+        {
+            if(idx >= small && idx <= large)
+            {
+                printf("%s\n", line);
+                strcat(result, line);
+                strcat(result, "\n");
+            }
+        }
+        idx++;
+    }
+    
+    fclose(fp);
+    return result;
+    
 }
