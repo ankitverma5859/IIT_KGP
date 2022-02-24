@@ -79,3 +79,86 @@ ORDER BY
 */    
 SELECT DISTINCT Location
 FROM Tournament;
+
+/*
+	Filtering Data
+*/
+SELECT *
+FROM Tournament
+WHERE Name = "Australian Open";
+
+SELECT * 
+FROM Tournament
+WHERE NumRounds = 5;
+
+/*
+	Filtering with AND OR Operators
+*/
+SELECT * 
+FROM Tournament 
+WHERE NumRounds = 5 AND Surface = "Hard";
+
+SELECT * 
+FROM Tournament 
+WHERE NumRounds = 5 OR Surface = "Hard";
+
+SELECT * 
+FROM Tournament 
+WHERE NumRounds = 5 OR Surface = "Hard"
+ORDER BY NumRounds;
+
+
+SELECT * 
+FROM Tournament 
+WHERE (NumRounds = 5 OR Surface = "Hard") AND TType = "Singles"
+ORDER BY NumRounds;
+
+
+SELECT *
+FROM Tournament
+WHERE NumRounds != 5;
+
+SELECT *
+FROM Tournament
+WHERE NumRounds > 5;
+
+SELECT *
+FROM Tournament
+WHERE NumRounds >= 5;
+
+SELECT *
+FROM Tournament
+WHERE NumRounds < 5;
+
+SELECT *
+FROM Tournament
+WHERE NumRounds <= 5;
+
+/*
+	Filtering on Date
+*/
+SELECT *
+FROM Tournament
+Where StartDate < '2009-1-1'
+ORDER By StartDate;
+
+SELECT *
+FROM Tournament
+Where StartDate > '2009-1-1'
+ORDER By StartDate;
+    
+    
+/*
+	Filtering on Varchar 
+*/
+SELECT *
+FROM Tournament 
+WHERE Name != 'Wimbledon';
+
+SELECT *
+FROM Tournament 
+WHERE Name < 'Australian Open';
+
+SELECT *
+FROM Tournament 
+WHERE Name < 'Brasil Open';
