@@ -1,0 +1,2200 @@
+[
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["when the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt."]
+    },
+    "context": "What a different speech this could have been. And it’s only luck that allowed President Obama’s first State of the Union (although it’s his third speech to a joint session of Congress) to be as boring as it was. The presentation opened with a series of banalities. “When the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt,” Obama intoned.",
+    "id": "1",
+    "question": "The presentation opened with a series of banalities.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["When the market crashed on Black Tuesday, and civil rights marchers were beaten on Bloody Sunday, the future was anything but certain."]
+    },
+    "context": "The presentation opened with a series of banalities. “When the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt,” Obama intoned. “When the market crashed on Black Tuesday, and civil rights marchers were beaten on Bloody Sunday, the future was anything but certain.”",
+    "id": "2",
+    "question": "“When the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt,” Obama intoned.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["Again, we are tested. And again, we must answer history's call."]
+    },
+    "context": "While more dark days will come, things are getting better. In Gipper-speak, it will be morning in America soon.\"Again, we are tested. And again, we must answer history's call.\"",
+    "id": "3",
+    "question": "While more dark days will come, things are getting better. In Gipper-speak, it will be morning in America soon.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["One in ten Americans still cannot find work."]
+    },
+    "context": "The 2 blue-uniformed personnel in the First lady's box are Sergeant Kimberly Munley and Sergeant Mark Todd, who ended the November 5th Fort Hood shootings when they took down Nidal Hasan. 13 dead and 30 wounded. Is Obama going have them stand later as examples of how the system worked? He said \"one in ten Americans still cannot find work.\"",
+    "id": "4",
+    "question": "Is Obama going have them stand later as examples of how the system worked?",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["One in 10 Americans still cannot find work. Many businesses have shuttered. Home values have declined. Small towns and rural communities have been hit especially hard. for those who already known poverty, life has become that much harder."]
+    },
+    "context": "n his first State of the Union address, President Obama actually talked about the state of the union. He gave voice to our hopes and values, but he also sees what I see:, economic devastation. \"One in 10 Americans still cannot find work. Many businesses have shuttered. Home values have declined. Small towns and rural communities have been hit especially hard. For those who had already known poverty, life has become that much harder.\"",
+    "id": "5",
+    "question": "He gave voice to our hopes and values, but he also sees what I see:, economic devastation.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": [""]
+    },
+    "context": "\"I have never been more hopeful about America's future than I am tonight,\" says Obama, to a standing ovation. \"Despite our hardships, our union is strong.\" \"Change has not come fast enough,\" Obama says, discussing middle- and working-class anxieties and quickly comparing the fortunes on Wall Street to the struggles on Main Street.",
+    "id": "6",
+    "question": "\"Despite our hardships, our union is strong.\"",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["unable or unwilling to solve any of our problems."]
+    },
+    "context": "Simply as a matter of internal logic, this is somewhat perplexing. After all, when he isn’t blaming George W. Bush, Mr. Obama blames “Washington” - a Washington mired in “partisanship” and “pettiness” and “the same tired battles” and “Washington gimmicks” that do nothing but ensure that our “problems have grown worse.” Washington, Mr. Obama tells us, is “unable or unwilling to solve any of our problems.”",
+    "id": "7",
+    "question": "After all, when he isn’t blaming George W. Bush, Mr. Obama blames “Washington” - a Washington mired in “partisanship” and “pettiness” and “the same tired battles” and “Washington gimmicks” that do nothing but ensure that our “problems have grown worse.”",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["we face big and difficult challenges."]
+    },
+    "context": "For these Americans and so many others, change has not come fast enough. Some are frustrated; some are angry. They don't understand why it seems like bad behavior on Wall Street is rewarded, but hard work on Main Street isn't, or why Washington has been unable or unwilling to solve any of our problems. They're tired of the partisanship and the shouting and the pettiness. They know we can't afford it, not now. So we face big and difficult challenges.",
+    "id": "8",
+    "question": "They're tired of the partisanship and the shouting and the pettiness. They know we can't afford it, not now.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["And what the American people hope- what they deserve- is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics."]
+    },
+    "context": "And what the American people hope- what they deserve- is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics.",
+    "id": "9",
+    "question": "“We face big and difficult challenges,” Mr. Obama will say, according to excerpts from his speech.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["what the American people hope-what they deserve-is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics."]
+    },
+    "context": "The speech had a feel of a relaunch. In tone and spirit, the president returned repeatedly to the themes he campaigned on—a call to end partisanship and special interest influence, and to create a government equal to the spirit of the American people. “What the American people hope—what they deserve—is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics.”",
+    "id": "10",
+    "question": "In tone and spirit, the president returned repeatedly to the themes he campaigned on—a call to end partisanship and special interest influence, and to create a government equal to the spirit of the American people. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["resilience in the face of adversity."]
+    },
+    "context": "People, especially women, don't like whiners or those who blame others instead of accepting responsibility for their own actions. Mr. Obama kept blaming Washington as though he were an outsider -- as though he was not the president and his party in the majority. He continued to whine about the nation's condition when he took office; he said that he took office \"during awful times\" and that he \"acted immediately and aggressively.\" He lamented the deficit that the nation was in \"before he walked in the door.\" He claimed that \"anxieties aren't new\" -- that we've \"struggled for years.\" The problem, he said, is what we did \"for eight years\" before he came into office -- \"that is what helped us to this crisis.\" He lamented the \"partisanship and pettiness,\" and he talked about \"deep corrosive doubts\" and \"credibility gaps\" as though they had nothing to do with his leadership or his party's failures. He had many bogeymen -- the banks, the lobbyists, Wall Street, the health insurance companies. The president talked about a \"deficit of trust\" as though it had nothing to do with him or his leadership. In short, he praised people's \"resilience in the face of adversity,\" and blamed everything else. Then he reiterated that he came into office to \"change\" all those \"bad things.\"",
+    "id": "11",
+    "question": "The president talked about a \"deficit of trust\" as though it had nothing to do with him or his leadership. In short",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["We are strained but hopeful, struggling but encouraged."]
+    },
+    "context": "You know what else they share? They share a stubborn resilience in the face of adversity. After one of the most difficult years in our history, they remain busy building cars and teaching kids; starting businesses and going back to school. They're coaching little league and helping their neighbours. As one woman wrote me, \"We are strained but hopeful, struggling but encouraged.\"",
+    "id": "12",
+    "question": "They're coaching little league and helping their neighbours.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["We are strained but hopeful, struggling but encouraged."]
+    },
+    "context": "He aligned himself not only with those who were frustrated with Washington but with historic American struggles—from the Civil War to World War II. He called upon the common sense of determination and grit that has rescued Americans before. Quoting a woman who wrote him, he said: “We are strained but hopeful, struggling but encouraged.”",
+    "id": "13",
+    "question": "Quoting a woman who wrote him, he said: ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["It's because of this spirit-this great decency and great strength-that I have never been more hopeful about America's future than I am tonight. Despite our hardships, our union is strong."]
+    },
+    "context": "Hope: There’s that word again. Once he identified with voters, Obama went beyond the simple “I get it” message. He took their hope and made it his own. “It’s because of this spirit—this great decency and great strength—that I have never been more hopeful about America’s future than I am tonight. Despite our hardships, our union is strong.”",
+    "id": "14",
+    "question": "He took their hope and made it his own.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["never been more hopeful about America's future than I am tonight."]
+    },
+    "context": "The White House has just released excerpts of President Obama's first State of the Union, which he's scheduled to deliver at 9 p.m. EST tonight. As is fairly typical for these sorts of early glimpses, there aren't a whole lot of details so far; mostly message, and a somewhat contradictory one at that, as the president tries to strike a delicate balance. Obama says both that \"we face big and difficult challenges\" and that he's \"never been more hopeful about America's future than I am tonight.\"",
+    "id": "15",
+    "question": "Obama says both that \"we face big and difficult challenges\" and that he's",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["It's because of this spirit-this great decency and great strength-that I have never been more hopeful about America's future than I am tonight. Despite our hardships, our union is strong."]
+    },
+    "context": "Hope: There’s that word again. Once he identified with voters, Obama went beyond the simple “I get it” message. He took their hope and made it his own. “It’s because of this spirit—this great decency and great strength—that I have never been more hopeful about America’s future than I am tonight. Despite our hardships, our union is strong.”",
+    "id": "16",
+    "question": "He took their hope and made it his own. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["it's time the American people get a government that matches their decency;"]
+    },
+    "context": "Despite -- despite our hardships, our union is strong. We do not give up. We do not quit. We do not allow fear or division to break our spirit. In this new decade, it's time the American people get a government that matches their decency, that embodies their strength.",
+    "id": "17",
+    "question": "",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["It was not easy to do. And if there's one thing that has unified Democrats and Republicans, and everybody in between, it's that we all hated the bank bailout. I hated it- I hated it. You hated it. It was about as popular as a root canal."]
+    },
+    "context": "\"Here's what I ask of Congress, though: Do not walk away from reform. Not now. Not when we are so close. Let us find a way to come together and finish the job for the American people.\"It was not easy to do. And if there's one thing that has unified Democrats and Republicans, and everybody in between, it's that we all hated the bank bailout. I hated it- I hated it. You hated it. It was about as popular as a root canal.",
+    "id": "18",
+    "question": "Let us find a way to come together and finish the job for the American people.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["when I ran for President, I promised that I wouldn't just do what was popular- I would do what was necessary."]
+    },
+    "context": "So our political system, like our health care system, is dysfunctional -- at least if these institutions are supposed to be in the business of making life healthier and better for most of the people most of the time. One example of the frailty of the system today is that it could be rocked seismically by the election of one senator in Massachusetts. What happens next in Washington is known but to God. What the Republicans will almost certainly do is stay in their trenches with Emperor Qin. Their obvious goal is to destroy Obama's presidency. (They would argue, with a single voice, of course, that he is taking care of that himself.) To me, the most important single line in Obama's long address was this: \"When I ran for president, I promised that I wouldn't just do what was popular -- I would do what was necessary.\"",
+    "id": "19",
+    "question": "To me, the most important single line in Obama's long address was this",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["But when I ran for President, I promised I wouldn't just do what was popular- I would do what was necessary."]
+    },
+    "context": "You'll be able to tell that very early on in the president's speech tonight, when, according to the prepared text released by the White House, he'll say, \"[I]f there’s one thing that has unified Democrats and Republicans, it’s that we all hated the bank bailout. I hated it. You hated it. It was about as popular as a root canal.\" Of course, he'll go on to say, \"But when I ran for President, I promised I wouldn’t just do what was popular -- I would do what was necessary.\" ",
+    "id": "20",
+    "question": "I hated it. You hated it. It was about as popular as a root canal.\" Of course, he'll go on to say",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["So I supported the last administration's efforts to create the financial rescue program."]
+    },
+    "context": "\"It was not easy to do. And if there's one thing that has unified Democrats and Republicans, it's that we all hated the bank bailout. I hated it. You hated it. It was about as popular as a root canal. \"Hey, we were the ones in the dentist's chair. Sure, we liked the cheap financing available from the Federal Reserve, but we didn't all need to partake of that $250 billion rescue fund. You might remember that Secretary Paulson had to twist more than a few arms in that October meeting at the Treasury Department with the heads of the country's nine biggest banks.. So I supported the last administration's efforts to create the financial rescue program.",
+    "id": "21",
+    "question": "You might remember that Secretary Paulson had to twist more than a few arms in that October meeting at the Treasury Department with the heads of the country's nine biggest banks.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I know Wall Street isn't keen on this idea."]
+    },
+    "context": " The President will fight to recover the money American taxpayers spent to bailout the banks. \"To recover the rest, I have proposed a fee on the biggest banks.  I know Wall Street isn't keen on this idea, but if these firms can afford to hand out big bonuses again, they can afford a modest fee to pay back the taxpayers who rescued them in their time of need.\"",
+    "id": "22",
+    "question": "To recover the rest, I have proposed a fee on the biggest banks.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["We cut taxes for 95 percent of working families"]
+    },
+    "context": "While Democrats jumped to their feet after nearly every sentence, Republicans greeted many of the proposals with skepticism. The bank tax drew Democratic cheers. Republicans were unmoved. When Obama suggested that health care reform “would bring down the deficit by as much as $1 trillion over the next two decades,” Republicans stayed quiet. During many of the bipartisan standing ovations—like those for Obama’s declaration that combat troops would be out of Iraq by August or his exhortation for the Senate to pass a bill supporting community colleges—Republicans were slow to rise. Even those policies you’d think would be palatable to Republicans were met with silence. “We cut taxes for 95 percent of working families,” Obama bragged.",
+    "id": "23",
+    "question": "Even those policies you’d think would be palatable to Republicans were met with silence. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["We cut taxes for 95 percent of working families"]
+    },
+    "context": "Striking an early bipartisan tone, Obama says: \"If there's one thing that's unified Republicans and Democrats, it's the bank bailout. I hated it, you hated it, it was about as popular as a root-canal.\" He adds: \"We cut taxes. Let me repeat: we cut taxes. We cut taxes for 95 percent of working families."
+	"id": "24",
+    "question": "I hated it, you hated it, it was about as popular as a root-canal.\" He adds:",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I thought I'd get some applause on that side"]
+    },
+    "context": "The Republican lawmakers in attendance sat on their hands while the president discussed policy provisions that, ostensibly, are very much in their philosophical wheelhouse. When Republicans didn't even applaud on behalf of his tax cuts, Obama pointed to the GOP side of the chamber and expressed surprise: \"I thought I'd get some applause on that one,\"",
+    "id": "25",
+    "question": "Obama pointed to the GOP side of the chamber and expressed surprise:",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I thought I'd get some applause on that one."]
+    },
+    "context": "As he boasted in his first State of the Union address that his economic program had cut taxes for 95 percent of working families, Democrats jumped to their feet to cheer. Republicans sat quietly. Mr. Obama paused as he glanced over to their side of the House chamber. “I thought I’d get some applause on that one,”",
+    "id": "26",
+    "question": "Republicans sat quietly. Mr. Obama paused as he glanced over to their side of the House chamber.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I thought I'd get some applause on that one."]
+    },
+    "context": "By the time he announced that \"we cut taxes for 8 million Americans paying for college,\" Obama was forced to go off script. \"I thought I'd get some applause on that one,\"",
+    "id": "27",
+    "question": "Obama was forced to go off script.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I thought I'd get some applause on that one."]
+    },
+    "context": "Joe Biden just mouthed the words \"good line\". It's like they didn't let him read it beforehand. Republicans sitting stone-faced at \"we cut taxes\". Ha! \"I thought I'd get some applause on that one.\"",
+    "id": "28",
+    "question": "Republicans sitting stone-faced at \"we cut taxes\".",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I thought I'd get some applause on that one."]
+    },
+    "context": "Democrats applauded, while Republicans were silent for the most part. In one of the unscripted moments of the night, Obama looked at the Republican side of the room, smiled and said, \"I thought I'd get some applause on that one.\"",
+    "id": "29",
+    "question": "Obama looked at the Republican side of the room, smiled and said,",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["we haven't raised income taxes by a single dime on a single person. Not a single dime."]
+    },
+    "context": "The fact is, House Republicans have offered dozens of ideas and proposals. More precisely, they have introduced 60 bills related to healthcare reform. By the way, most doctors serving in Congress today are Republicans, and all of them oppose Obama’s socialized medicine scheme. The president said last night, “We haven’t raised income taxes by a single dime on a single person. Not a single dime.”",
+    "id": "30",
+    "question": "By the way, most doctors serving in Congress today are Republicans, and all of them oppose Obama’s socialized medicine scheme.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["we And we haven't raised income taxes by a single dime on a single person."]
+    },
+    "context": "While Democrats jumped to their feet after nearly every sentence, Republicans greeted many of the proposals with skepticism. The bank tax drew Democratic cheers. Republicans were unmoved. When Obama suggested that health care reform “would bring down the deficit by as much as $1 trillion over the next two decades,” Republicans stayed quiet. During many of the bipartisan standing ovations—like those for Obama’s declaration that combat troops would be out of Iraq by August or his exhortation for the Senate to pass a bill supporting community colleges—Republicans were slow to rise. Even those policies you’d think would be palatable to Republicans were met with silence. “We cut taxes for 95 percent of working families,” Obama bragged. “We cut taxes for small businesses … and we haven’t raised income taxes by a single dime on a single person.”",
+    "id": "31",
+    "question": "We cut taxes for 95 percent of working families,” Obama bragged. “We cut taxes for small businesses",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["we And we haven't raised income taxes by a single dime on a single person."]
+    },
+    "context": "\"As a result, millions of Americans had more to spend on gas, and food, and other necessities, all of which helped businesses keep more workers. And we haven't raised income taxes by a single dime on a single person.\"",
+    "id": "32",
+    "question": "As a result, millions of Americans had more to spend on gas, and food, and other necessities, all of which helped businesses keep more workers.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["And we are on track to add another one and a half million jobs to this total by the end of the year."]
+    },
+    "context": "\"Because of the steps we took, there are about 2 million Americans working right now who would otherwise be unemployed; 200,000 work in construction and clean energy, 300,000 are teachers and other education workers,\" the president said tonight. \"Tens of thousands are cops, firefighters, correctional officers and first responders. And we are on track to add another one and a half million jobs to this total by the end of the year.\"",
+    "id": "33",
+    "question": "Tens of thousands are cops, firefighters, correctional officers and first responders.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["“after two years of recession, the economy is growing again.”"]
+    },
+    "context": "Then there is this: Rasmussen also finds a “deficit of trust,” as voters disbelieve most of what the Democrats are telling them about the economy. For example, Americans reject Obama’s claim that his stimulus measures have “put two million people back to work who would otherwise be unemployed.” Only 27% of voters buy that claim, while 51% say it is false. Here, the majority is right. But skepticism only goes so far. The President says that “after two years of recession, the economy is growing again.”",
+    "id": "34",
+    "question": "But skepticism only goes so far. The President says that",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["after two years of recession, the economy is growing again."]
+    },
+    "context": "The president in the speech declared that his administration has cut taxes for 95% of Americans. He even chided Republicans for not applauding on that point. However, just 21% of voters nationwide believe that taxes have been cut for 95% of Americans. Most (53%) say it has not happened, and 26% are not sure. Other polling shows that nearly half the nation’s voters expect their own taxes to go up during the Obama years. The president also asserted that “after two years of recession, the economy is growing again.” ",
+    "id": "35",
+    "question": "Other polling shows that nearly half the nation’s voters expect their own taxes to go up during the Obama years. The president also asserted that",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["I realize that for every success story, there are other stories, of men and women who wake up with the anguish of not knowing where their next paycheck will come from; who send out resumes week after week and hear nothing in response. That is why jobs must be our number one focus in 2010, and that is why I am calling for a new jobs bill tonight."]
+    },
+    "context": "It was not easy to do. And if there's one thing that has unified Democrats and Republicans, it's that we all hated the bank bailout. I hated it. You hated it. It was about as popular as a root canal. I realize that for every success story, there are other stories, of men and women who wake up with the anguish of not knowing where their next paycheck will come from; who send out resumes week after week and hear nothing in response. That is why jobs must be our number one focus in 2010, and that is why I am calling for a new jobs bill tonight.",
+    "id": "36",
+    "question": "It was about as popular as a root canal.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["\"Now, the true engine of job creation in this country will always be America's businesses.\""]
+    },
+    "context": "\"we extended or increased unemployment benefits for more than 18 million Americans\" \"Now, the true engine of job creation in this country will always be America's businesses.\"",
+    "id": "37",
+    "question": "\"we extended or increased unemployment benefits for more than 18 million Americans\"",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["the true engine of job creation in this country will always be America's businesses."]
+    },
+    "context": "Wisely, Obama chose instead to make his case with reason as well as passion. He made clear that jobs must be Washington’s top priority, but he leveled with people that government can do only so much because “the true engine of job creation in this country will always be America’s businesses.” He promised to make America more competitive for the jobs of the future by promoting energy innovation—because if we’re not first, we’re last. But he spoke another truth too seldom heard in Democratic circles: If we want to create jobs in this country, we need an aggressive strategy to expand exports and promote trade, not put up barriers or shy away from trade agreements. During that part of the speech, congressional Democrats sat on their hands, but America cannot afford to.",
+    "id": "38",
+    "question": "He made clear that jobs must be Washington’s top priority, but he leveled with people that government can do only so much because",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["Now, the true engine of job creation in this country will always be America's businesses."]
+    },
+    "context": "The bill will provide for taking USD 30 billion of the money Wall Street banks repay and use it to help community banks give small businesses the credit they need. Now, the true engine of job creation in this country will always be America's businesses."
+    "id": "39",
+    "question": "The bill will provide for taking USD 30 billion of the money Wall Street banks repay and use it to help community banks give small businesses the credit they need.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["\"The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\""]
+    },
+    "context": "The details of the initiative, which Mr. Obama is expected to highlight when he visits Baltimore today, include a $5,000 tax credit for every net new employee in 2010. This credit would be retroactive to the beginning of the calendar year and could be received on a quarterly basis, if the business so chooses. In addition, employers would receive a tax credit to cover Social Security payroll taxes on wage increases. \"The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\"",
+    "id": "40",
+    "question": "In addition, employers would receive a tax credit to cover Social Security payroll taxes on wage increases.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["\"[w]e should start where most new jobs do -- in small businesses, companies that begin when . . . an entrepreneur takes a chance on a dream, or a worker decides it's time she became her own boss.\""]
+    },
+    "context": "The one million businesses Obama proposed assisting obtain bank loans to stay afloat are likely the same approximately one million firms that represent for-profit enterprises with ten or more employees on their payroll. In his address, President Obama stated that \"[w]e should start where most new jobs do -- in small businesses, companies that begin when . . . an entrepreneur takes a chance on a dream, or a worker decides it's time she became her own boss.\"",
+    "id": "41",
+    "question": "The one million businesses Obama proposed assisting obtain bank loans to stay afloat are likely the same approximately one million firms that represent for-profit enterprises with ten or more employees on their payroll. In his address, President Obama stated that",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["\"We should start where most new jobs do - in small businesses.\""]
+    },
+    "context": "\"The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\" said Mr. Obama on Wednesday. \"We should start where most new jobs do - in small businesses.\"",
+    "id": "42",
+    "question": "The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\" said Mr. Obama on Wednesday.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["As the first order of business this year, I urge the Senate to do the same."]
+    },
+    "context": "The President also called on the Senate to pass a jobs bill that he can sign. \"The House has passed a jobs bill..  As the first order of business this year, I urge the Senate to do the same. People are out of work.  They are hurting.  They need our help.  And I want a jobs bill on my desk without delay.\"",
+    "id": "43",
+    "question": "People are out of work.  They are hurting.  They need our help.  And I want a jobs bill on my desk without delay.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["\"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\""]
+    },
+    "context": "In the address, Obama asked the Senate to emulate the House of Representatives in swiftly passing a bill to create jobs in a bid to ease one of the biggest crises facing his administration. \"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\"",
+    "id": "44",
+    "question": "In the address, Obama asked the Senate to emulate the House of Representatives in swiftly passing a bill to create jobs in a bid to ease one of the biggest crises facing his administration.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["But he put the greatest emphasis on the need to fix the still-struggling US economy and bring down the punishing unemployment rate."]
+    },
+    "context": "Still smarting from the loss by his Democratic Party of a pivotal US Senate seat in Massachusetts, Obama said he would not back down from efforts to revamp the US health-care system and forge bipartisan consensus on climate change. But he put the greatest emphasis on the need to fix the still-struggling US economy and bring down the punishing unemployment rate. \"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\" he said.",
+    "id": "45",
+    "question": "\"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\"",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["Well, I do not accept 2nd place for the United States of America"]
+    },
+    "context": "Liberals want to debate whether it’s rude of not for conservatives to point out that Obama’s lying instead of his lies. I plan on throwing Obama’s “Well, I do not accept 2nd place for the United States of America” back in his face many times.",
+    "id": "46",
+    "question": "Liberals want to debate whether it’s rude of not for conservatives to point out that Obama’s lying instead of his lies. I plan on throwing Obama\’s",
+    "title": "<OPTION>"
+},
+{
+        "answers":{
+            "answer_start":[289],
+            "text":["over time people respond to civility and rational argument"]
+        },
+        "context":"he said, I am the eternal optimist.",
+        "id":"251",
+        "question":"Old habits are hard to break, he said. We're coming off an election, and people sort of want to test the limits of what they can get. There's a lot of jockeying in this town and who's up and who's down, testing for the next election.Still, he said, I am the eternal optimist. I think that over time people respond to civility and rational argument",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":[ "there's some ideological blockage there that needs to be cleared up"]
+        },
+        "context":"At the conclusion of his press conference Monday, Obama mused aloud that he gets a sense that “there's some ideological blockage there that needs to be cleared up.” But, he continued, “I am the eternal optimist. I think that over time people respond to civility and rational argument.",
+        "id":"252",
+        "question":"At the conclusion of his press conference Monday, Obama mused aloud that he gets a sense",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["I'm not sure they have a lot of credibility when it comes to fiscal responsibility."]
+        },
+        "context":"But the president also had sharp words for the Republicans in Congress. He emphasized several times that both the crisis and deficit were inherited from their party and questioned their reticence toward government spending. I'm not sure that they have a lot of credibility when it comes to fiscal responsibility, Obama said",
+        "id":"253",
+        "question":"He emphasized several times that both the crisis and deficit were inherited from their party and questioned their reticence toward government spending.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["my initial measure of success is creating or saving 4 million jobs."]
+        },
+        "context":"Jake Tapper: beyond avoiding the catastrophe, once all the legs of the stools are in place...how can the American people gauge whether Obama's plan is working? Obama: My initial measure of success is creating or saving four million jobs.  Jobs --> Confidence ---> Spending --> Business investments --> More jobs. Then -- seeing if our credit markets operate.  Step 3 -- Housing. Have we stabilized the housing market.  Says that if we get things right, country will start to see improvement next year.",
+        "id":"254",
+        "question":"how can the American people gauge whether Obama's plan is working?",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["My immediate task is making sure that the second half of that money, $350 billion, is spent properly."]
+        },
+        "context":"Won't the government need more than the $350 billion in TARP funds? [The answer is yes. But the White House doesn't want to acknowledge this publicly this yet.]  Obama: My immediate task is making sure that ... $350 billion ... is spent properly....before I even think about anything else.  Says Giethner and Summers are working together on transparency .... We are going to have to work with the banks in an effective way to clean up their balance sheets." Obama: "We don't know yet.... whether we'll need any additional money.  He makes a good point: we gotta see how institutions handle the money they're getting before we can figure out whether we need more.",
+        "id":"255",
+        "question":"Won't the government need more than the $350 billion in TARP funds? [The answer is yes. But the White House doesn't want to acknowledge this publicly this yet.] ",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["tax cuts alone can't solve all of our economic problems- especially tax cuts that are targeted to the wealthiest few Americans."]
+        },
+        "context":"Much has been made about President Obama's initial displays of bipartisanship, and his subsequent return to the rhetoric of the campaign trail. In his first press conference last night, it seemed clearer that in his view, the two approaches are not contradictory - that two different philosophies of government should not preclude the nation's leaders from quick action. Obama's own philosophy was made clear in his opening statement, as he declared that it is only government that can break the vicious cycle the nation finds itself in, and furthermore that tax cuts alone can't solve all of our economic problems. His recovery plan is not perfect, he said, but it's of sufficient size and scope to have the kind of impact he desires.",
+        "id":"256",
+        "question":"Obama's own philosophy was made clear in his opening statement, as he declared that it is only government that can break the vicious cycle the nation finds itself in,",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["no matter how much money you spend, nothing makes a difference, so let's just blow up the public school systems."]
+        },
+        "context":"Both Democrats and Republicans are going to have to think differently in order to come together and solve that problem. I think there are areas like education where some in my party have been too resistant to reform and have argued only money makes a difference.And there have been others on the Republican side or the conservative side who said, "No matter how much money you spend, nothing makes a difference, so let's just blow up the public school systems."",
+        "id":"257",
+        "question":"I think there are areas like education where some in my party have been too resistant to reform and have argued only money makes a difference.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["There are no quick fixes, and there are no silver bullets."]
+        },
+        "context":"Obama said his budget, which will be taken up by congressional committees this week, would pave the way for broad economic growth by moving from an era of borrow and spend to one where we save and invest.The Congressional Budget Office projects under Obama’s budget plan the deficit for fiscal 2009 will be just over $1.8 trillion and for fiscal 2010 will be almost $1.4 trillion.Mindful of the challenges he faces, Obama tempered his economic outlook. “There are no quick fixes and there are no silver bullets,” he said.",
+        "id":"258",
+        "question":"Mindful of the challenges he faces, Obama tempered his economic outlook.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["the rest of us can't afford to demonize every investor or entrepreneur who seeks to make a profit."]
+        },
+        "context":"In his second prime-time news conference, Obama said he sees “signs of progress” on the economy, promised a recovery from the recession and attempted to blunt the finger-pointing that has dominated Washington since the discovery that $165 million in bonuses were paid to executives at American International Group even as the insurance giant was being bailed out by the government.The rest of us can’t afford to demonize every investor or entrepreneur who seeks to make a profit,” Obama said in opening remarks in the East Room of the White House. When each of us looks beyond our own short-term interests to the wider set of obligations we have to each other — that’s when we succeed.",
+        "id":"259",
+        "question":"In his second prime-time news conference, Obama said he sees “signs of progress” on the economy, promised a recovery from the recession and attempted to blunt the finger-pointing that has dominated Washington since the discovery that $165 million in bonuses were paid to executives at American International Group even as the insurance giant was being bailed out by the government.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["it will take time, it will take patience,"]
+        },
+        "context":"So he expressed solidarity with those who are outraged that AIG executives were awarded $165 million in bonuses at a time the company was being propped up by billions in federal rescue funds, but he also urged Americans to keep their focus on the big picture.We will recover from this recession, but it will take time, it will take patience, he said in a seven-minute opening statement, read from a teleprompter screen. Later, his only flash of annoyance came when pressed by CNN's Ed Henry about his slowness in decrying the AIG bonuses",
+        "id":"260",
+        "question":"So he expressed solidarity with those who are outraged that AIG executives were awarded $165 million in bonuses at a time the company was being propped up by billions in federal rescue funds, but he also urged Americans to keep their focus on the big picture.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we're in a better- better place because of the decisions that we make."]
+        },
+        "context":"President Obama said his philosophy was persistence.You look back four years from now, I think, hopefully, people will judge that body of work and say, 'This is [a] big ocean liner; it's not a speedboat. It doesn't turn around immediately, but we're in a better -- better place because of the decisions that we made, he said.",
+        "id":"261",
+        "question":"This is big ocean liner; it's not a speedboat. It doesn't turn around immediately",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["there's very little evidence that this has a significant impact on charitable giving."]
+        },
+        "context":"President Obama has proposed decreasing the charitable tax deduction for wealthy taxpayers. The USA Today reports that Obama's proposed 2010 federal budget contains a 7% cut in charitable tax deductions for the nation's wealthiest taxpayers... Americans whose household income exceeds $250,000 a year...can currently save $350 in taxes for every $1,000 donated to charity; under Obama's plan, that amount would drop to $280 per $1,000 donation. Speaking at a news conference Tuesday evening, Obama said there's very little evidence that this has a significant impact on charitable giving. He went on to say that if it's really a charitable contribution, I'm assuming that that shouldn't be the determining factor as to whether you're giving that $100 to the homeless shelter down the street.",
+        "id":"262",
+        "question":"Americans whose household income exceeds $250,000 a year...can currently save $350 in taxes for every $1,000 donated to charity; under Obama's plan, that amount would drop to $280 per $1,000 donation",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["it is not acceptable for children and families to be without a roof over their heads in a country as wealthy as ours."]
+        },
+        "context":"FOLKS ARE SACRIFICING LEFT AND RIGHT: One of the odder questions posed to Obama was NBC News's Chuck Todd's query about why he hadn't asked for something specific that the public should be sacrificing to participate in this economic recovery. As Center for American Progress Action Fund fellow Matt Yglesias notes, Obama responded with a progressive answer, saying that folks are sacrificing left and right.You've got a lot of parents who are cutting back on everything to make sure that their kids can still go to college, said Obama. You've got workers who are deciding to cut an entire day and entire day's worth of pay so that their fellow co-workers aren't laid off. I think that across the board people are making adjustments, large and small, to accommodate the fact that we're in very difficult times right now.Indeed, Obama's assessment of Americans' sacrifice was emphasized later in the press conference when Ebony magazine's Kevin Chappell asked about a recent report, which found that as a result of the economic downturn, one in 50 children are now homeless in America.Part of the change in attitudes that I want to see here in Washington and all across the country is a belief that it is not acceptable for children and families to be without a roof over their heads in a country as wealthy as ours, replied Obama, pledging to initiate a range of programs as well to deal with homelessness",
+        "id":"263",
+        "question":"Part of the change in attitudes that I want to see here in Washington and all across the country is a belief",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["I think that the last 64 days has been dominated by me trying to figure out how we're going to fix the economy."]
+        },
+        "context":"",
+        "id":"264",
+        "question":"",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["right now the American people are judging me exactly the way I should be judged,"]
+        },
+        "context":"Asked about race, a subject he rarely addresses publicly, Obama, the nation’s first African-American president, said the economic situation means that his main task has nothing to do with color. The country experienced justifiable pride” at his inauguration, the culmination of a long journey in a society long divided by race, he said.But that lasted about a day, Obama said. Right now the American people are judging me exactly the way I should be judged and that is, are we taking the steps to improve liquidity in the financial markets, create jobs, keep business open and keep America safe?",
+        "id":"265",
+        "question":"The country experienced “justifiable pride” at his inauguration, the culmination of a long journey in a society long divided by race, he said.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we're eliminating nuclear weapons and stop funding terrorism."]
+        },
+        "context":"When it comes to Iran, you know, we did a video, sending a message to the Iranian people and the leadership of the Islamic Republic of Iran. And some people said, "Well, they did not immediately say that we’re eliminating nuclear weapons and stop funding terrorism. Well, we didn’t expect that. We expect that we’re going to make steady progress on this front.,
+        "id":"266",
+        "question":"",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[" I'm a big believer in persistence. I"],
+            "text":[]
+        },
+        "context":"If you stick to it, if you are persistent, than these problems can be dealt with, he says of the Middle East. That's an approach, Obama says, he is going to be emphasizing again and again. ... I'm a big believer in persistence when it comes to tackling issues from the economy to the budget to the environment.",
+        "id":"267",
+        "question":"That's an approach, Obama says, he is going to be emphasizing again and again",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["if you are persistent, then- then these problems can be dealt with."]
+        },
+        "context":"The president links the difficult problem of bringing peace to the Middle East to domestic issues:If you stick to it, if you are persistent, than these problems can be dealt with, he says of the Middle East. That's an approach, Obama says, he is going to be emphasizing again and again. ... I'm a big believer in persistence when it comes to tackling issues from the economy to the budget to the environment.",
+        "id":"268",
+        "question":"The president links the difficult problem of bringing peace to the Middle East to domestic issue",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["I don't believe that there's a need for a global currency."]
+        },
+        "context":"We don't want a situation in which some countries are making extraordinary efforts and other countries aren't, with the hope that countries that are making those important steps lift everybody up, he said. But rejecting a proposal floated by China's central bank governor, Zhou Xiaochuan, Obama said: I don't believe there is a need for a global currency to supplant the dollar as the world's reserve currency.",
+        "id":"269",
+        "question":"We don't want a situation in which some countries are making extraordinary efforts and other countries aren't, with the hope that countries that are making those important steps lift everybody up, he said",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["It's a strategy to create jobs, to help responsible homeowners, to restart lending, and to grow our economy over the long term"]
+        },
+        "context":"Last night, President Obama held his second prime-time press conference from the White House, where he sought to reassure the nation that he could solve the crisis that has gripped the economy for more than a year. Before taking questions, Obama delivered a prepared update on the steps that his administration is taking to move this economy from recession to recovery, and ultimately to prosperity. We've put in place a comprehensive strategy designed to attack this crisis on all fronts, said Obama. It's a strategy to create jobs, to help responsible homeowners, to restart lending, and to grow our economy over the long term. And we're beginning to see signs of progress.",
+        "id":"270",
+        "question":"Obama delivered a prepared update on the steps that his administration is taking to move this economy from recession to recovery, and ultimately to prosperity",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":[" I do not buy into the notion that America can't lead in the world"]
+        },
+        "context":"But neither Obama’s popularity nor his image as the “anti-Bush” quelled questions about whether America’s clout in the world was on the decline in the wake of a financial crisis that many abroad blame on lax regulation of U.S. markets.Even as Obama insisted he did not “buy into the notion that America can’t lead in the world,” he acknowledged that a great deal had changed since the last major reshaping of the world’s financial architecture took place at Bretton Woods, New Hampshire, as World War Two came to a close",
+        "id":"271",
+        "question":"But neither Obama’s popularity nor his image as the “anti-Bush” quelled questions about whether America’s clout in the world was on the decline in the wake of a financial crisis that many abroad blame on lax regulation of U.S. markets.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["that it is very important for us to be able to forge partnerships as opposed to simply dictating solutions."]
+        },
+        "context":"The Russian President Dmitry Medvedev looked into Obama's eyes and says, MY COMRADE.  My comrade Obama can listen.  Those two words, My Comrade are all you have to hear to know that Obama's Policy in Foreign Affairs is a 180 degree turn from our Super Power past.  This is the shape of a New World Order, a new COLLECTIVISM.  Robert Hormats, vice chairmen of Goldman Sachs International, who helped prepare summits for presidents Gerald R. Ford, Jimmy Carter and Ronald Reagan, claimed, it's the passing of an era, the U.S. is becoming less dominant while other nations are gaining influence.   A new world collectivism where the voice of the collective is the leadership in the world.  At the conclusion of the G20 summit Obama explained, in a world that is as complex as it is, it is very important for us to be able to forge partnerships as opposed to simply dictating solutions. The president brokered the New World Collectivism even signing on to a communique that Nobel Laureate Joseph Stiglitz said repudiated the previous U.S. led push to free capitalism from the constraints of government.  This is a major step forward and a reversal of the ideology of the 1990s, and at a very official level, a rejection of the ideas pushed by the U.S. and others, it's a historic moment when the world came together and said we were wrong to push deregulation, said Stiglitz.",
+        "id":"272",
+        "question":"A new world collectivism where the voice of the collective is the leadership in the world.  ",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":[" the world we live in and it shouldn't be the world we live in"]
+        },
+        "context":"During his press conference, however, Obama did not play down the difficulties of reaching consensus: There has been a lot of discussion about Bretton Wood around this summit, he said.If it was just Roosevelt and Churchill sitting in a room with a brandy ... that's an easier negotiation.But that's not the world we live in and it shouldn't be the world we live in.",
+        "id":"273",
+        "question":"If it was just Roosevelt and Churchill sitting in a room with a brandy ... that's an easier negotiation.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["The challenge is clear. The global economy is contracting"]
+        },
+        "context":"The Group of 20, which represents most of the world's largest economies, is taking unprecedented steps to attack the global economic downturn, stimulate growth and expand loans to troubled nations, President Obama said at the close of the group's meeting in London.The challenge is clear, Obama said. The global economy is contracting. Trade is shrinking. Unemployment is rising. The international financial system is nearly frozen.",
+        "id":"274",
+        "question":"The Group of 20, which represents most of the world's largest economies, is taking unprecedented steps to attack the global economic downturn, stimulate growth and expand loans to troubled nations, President Obama said at the close of the group's meeting in London",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["world's leaders have responded with an unprecedented set of comprehensive and coordinated actions."]
+        },
+        "context":"The one-day conference ended with smiles and back thumps among the leaders, projecting an image of unity where a messy breakdown of purpose had been feared.The whole world has been touched by this devastating downturn, and today, the world’s leaders have responded with an unprecedented set of comprehensive and coordinated actions,” declared Obama, who described the raft of measures unveiled Thursday as “a turning point in our pursuit of global economic recovery.",
+        "id":"275",
+        "question":"The whole world has been touched by this devastating downturn",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we have agreed on a series of unprecedented steps to restore growth and prevent a crisis like this from happening again."]
+        },
+        "context":"The summit also allocated more than $US1 trillion ($A1.4 trillion) to the International Monetary Fund and other institutions and ordered a crackdown on tax havens and excessive corporate pay, and new measures to help poor nations.We have agreed on a series of unprecedented steps to restore growth and prevent a crisis like this from happening again, said Obama, who appeared tired and was battling a heavy cold.",
+        "id":"276",
+        "question":"The summit also allocated more than $US1 trillion ($A1.4 trillion) to the International Monetary Fund and other institutions and ordered a crackdown on tax havens and excessive corporate pay, and new measures to help poor nations.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we exercise our leadership best when we are listening"]
+        },
+        "context":"Still, the leaders, many wary of piling up debt, did not sign off on large new stimulus packages for their own countries. Obama's administration had initially pushed for such a commitment.... The steps that have been taken are critical to preventing us sliding into a depression, he said. They are bolder and more rapid than any international response that we've seen to a financial crisis in memory....I do not buy into the notion that America can't lead in the world, Obama said. America is a critical actor and leader on the world stage and that we shouldn't be embarrassed about that. But ... we exercise our leadership best when we are listening",
+        "id":"277",
+        "question":"America is a critical actor and leader on the world stage and that we shouldn't be embarrassed about that.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we exercise our leadership best when we are listening; when we recognise that the world is a complicated place and that we are going to have to act in partnership with other countries; when we lead by example; when we show some element of humility"]
+        },
+        "context":"The president did offer a measured pitch for continued U.S. leadership. America is a critical actor and leader on the world stage, and we shouldn't be embarrassed about that, he said in London. But we exercise our leadership best when we are listening, when we recognize the world is a complicated place and that we are going to have to act in partnership with other countries, when we lead by example, when we show some element of humility and recognize we may not always have the best answer.",
+        "id":"278",
+        "question":"We—I strongly believe in a free-market system, and as I—as I think people understand in America",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["people don't resent the rich; they want to be rich"]
+        },
+        "context":"In a press conference after the summit, US President Obama made it clear that there is no intention to actually enforce international standards limiting the hundreds of millions of dollars earned by Wall Street executives. It doesn't mean the state micromanaging, he said. It doesn't mean that we want the state dictating salaries; we don't. We—I strongly believe in a free-market system, and as I—as I think people understand in America, at least, people don't resent the rich; they want to be rich. And that's good.",
+        "id":"279",
+        "question":"We—I strongly believe in a free-market system, and as I—as I think people understand in America",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":[]
+        },
+        "context":"",
+        "id":"280",
+        "question":"",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["The old Washington consensus is over"]
+        },
+        "context":"What comes next is far from sure, but it will be different from the headlong dash for individual enrichment, short-term profit and financial acrobatics that began with the dominance of U.S. President Ronald Reagan and British Prime Minister Margaret Thatcher in 1980s.The old Washington consensus is over,” British Prime Minister Gordon Brown declared after chairing the London summit. It was a clear acknowledgement that the deregulation that allowed casino capitalism to flourish on Wall Street and in the City of London, the world’s two biggest financial centres, had failed and will be fundamentally overhauled.",
+        "id":"281",
+        "question":"What comes next is far from sure, but it will be different from the headlong dash for individual enrichment, short-term profit and financial acrobatics that began with the dominance of U.S. President Ronald Reagan and British Prime Minister Margaret Thatcher in 1980s.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["In life there are no guarantees and economics there are no guarantees"]
+        },
+        "context":"That’s what’s embodied in these documents and I think you’re going to see a lot of countries trying to encourage that kind of transparency and accountability. It doesn’t mean that we want the state dictating salaries, we don’t, I strongly believe in a free-market system.In life there are no guarantees and economics there are no guarantees... There are always risks involved. I have no doubt though that the steps that have been taken are critical to preventing us sliding into a depression, they are bolder and more rapid than any international response that we’ve seen to a financial crisis in memory and I think that they will have a concrete effect in our ability, individually, in each nation to create jobs, save jobs that exist, grow the economy, loosen up credit (and) restore trust and confidence in the financial markets.",
+        "id":"282",
+        "question":"That’s what’s embodied in these documents and I think you’re going to see a lot of countries trying to encourage that kind of transparency and accountability. It doesn’t mean that we want the state dictating salaries, we don’t, I strongly believe in a free-market system.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["the steps that have been taken are critical to preventing us sliding into a depression."]
+        },
+        "context":"In life there are no guarantees and economics there are no guarantees... There are always risks involved.I have no doubt though that the steps that have been taken are critical to preventing us sliding into a depression, they are bolder and more rapid than any international response that we’ve seen to a financial crisis in memory and I think that they will have a concrete effect in our ability, individually, in each nation to create jobs, save jobs that exist, grow the economy, loosen up credit (and) restore trust and confidence in the financial markets",
+        "id":"283",
+        "question":"In life there are no guarantees and economics there are no guarantees... There are always risks involved",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["that some of this contagion did start on Wall Street"]
+        },
+        "context":"This explains why Obama has been so reluctant to admit while overseas that the global financial crisis may just have had something to do with America's lax or non-existent regulation of critical parts of the financial market.In his news conference he said it was hard to deny that some of the contagion started in Wall Street. The other leaders had been polite, but dropped the occasional reference to the US role into discussion, Obama said.",
+        "id":"284",
+        "question":"This explains why Obama has been so reluctant to admit while overseas that the global financial crisis may just have had something to do with America's lax or non-existent regulation of critical parts of the financial market.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["the greatest enemy of both India and Pakistan should be poverty"]
+        },
+        "context":"We also spoke about the fact that in a nuclear age, at a time when perhaps the greatest enemy of both India and Pakistan should be poverty, it may make sense to create a more effective dialogue between India and Pakistan. But obviously we didn't go in depth into those issues.",
+        "id":"285",
+        "question":"We also spoke about the fact that in a nuclear age",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we'll need more resources and a sustained effort to achieve our ultimate goals"]
+        },
+        "context":"Obama, who has sought to use his popularity in Europe to wring concessions from allies, said he was pleased by the pledges and that a substantial step forward had been taken.But he added: We will need more resources and a sustained effort to achieve our ultimate goals.He said Washington expected additional resources would be committed to support its strategy, which he said would establish a baseline of honesty and integrity of purpose.",
+        "id":"286",
+        "question":"Obama, who has sought to use his popularity in Europe to wring concessions from allies, said he was pleased by the pledges and that “a substantial step forward” had been taken.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["I am heartbroken for the families who survived this tragedy"]
+        },
+        "context":"President Obama, speaking in Strasbourg, France, after a NATO summit, said his administration is in communication with law enforcement officials in Binghamton.I am heartbroken for the families who survived this tragedy and it just underscores the degree to which in each of our countries we have to guard against the kind of senseless violence that the tragedy represents, Obama said.",
+        "id":"287",
+        "question":"President Obama, speaking in Strasbourg, France, after a NATO summit, said his administration is in communication with law enforcement officials in Binghamton.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["America can't meet our global challenges alone; nor can Europe meet them without America"]
+        },
+        "context":"It's significant and revealing that the NATO 'allies' have lost faith and will to continue battling Taliban resistance fighters indefinitely in the fight against al-Qaeda that Mr. Obama identified as his primary reason for continuing and escalating the military mission in Afghanistan, and are focused instead on using their resources and influence to provide economic and humanitarian aid and assistance. The president will find a great reservoir of goodwill in the international community for his diplomatic initiatives and offers, but I predict declining support for his entire Afghanistan mission - both at home and abroad - if the consequences and effects of the military operations continue to dominate the landscape.Declaring after the NATO meeting that, America can’t meet our global challenges alone; nor can Europe meet them without America, President Obama worked to bring NATO allies in line with his plan to 'secure' the government in Kabul while pressing the military offensive against the Taliban resistance. I’m confident that the leaders who join me here today share that view and that we’re moving forward with a sense of common purpose, he told reporters in Strasbourg, France.",
+        "id":"288",
+        "question":"The president will find a great reservoir of goodwill in the international community for his diplomatic initiatives and offers, but I predict declining support for his entire Afghanistan mission - both at home and abroad - if the consequences and effects of the military operations continue to dominate the landscape.",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["we'll need more resources and a sustained effort to achieve our ultimate goals"]
+        },
+        "context":"What was pledged here today was significant,” Mr. Obama said after emerging from a day of meetings to talk with reporters, though he added that he considered the the pledges to be “a down payment on the future of our mission in Afghanistan.We’ll need more resources and a sustained effort to achieve our ultimate goals, he said.",
+        "id":"289",
+        "question":"What was pledged here today was significant,” Mr. Obama said after emerging from a day of meetings to talk with reporters, though he added that he considered the the pledges to be “a down payment on the future of our mission in Afghanistan",
+        "title":"<OPTION>"
+    },
+    {
+        "answers":{
+            "answer_start":[],
+            "text":["the President and I agreed that the relationship between Russia and the United States has suffered from a sense of drift."]
+        },
+        "context":"Obama said the U.S.-Russia relationship had cooled in recent years and reiterated that the trip was aimed at repairing the damages.The president and I agreed that the relationship between Russia and the United States has suffered from a sense of drift, Obama said. President Medvedev and I are committed to leaving behind the suspicion and rivalry of the past.",
+        "id":"290",
+        "question":"Obama said the U.S.-Russia relationship had cooled in recent years and reiterated that the trip was aimed at repairing the damages",
+        "title":"<OPTION>"
+    },
+{
+      "answers":{
+         "answer_start":[
+            220
+         ],
+         "text":[
+            "brought the global economy back from the brink."
+         ]
+      },
+      "context":"\"Our coordinated stimulus plans played an indispensable role in averting catastrophe. Now we must make sure that when growth returns, jobs do, too,\" he said at a wrap-up news conference.Obama said actions taken so far \"brought the global economy back from the brink.\"",
+      "id":501,
+      "question":"Obama said actions taken so far",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            184
+         ],
+         "text":[
+            "Financial markets have come back to life, and we stopped the crisis from spreading further to the developing world,"
+         ]
+      },
+      "context":"The leaders also declared major progress in their co-ordinated efforts and \"forceful response\" to prevent global financial collapse but cautioned that their work was far from over. \"Financial markets have come back to life, and we stopped the crisis from spreading further to the developing world,\".",
+      "id":502,
+      "question":"The leaders also declared major progress in their co-ordinated efforts and \"forceful response\" to prevent global financial collapse but cautioned that their work was far from over",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            521
+         ],
+         "text":[
+            "Because our global economy is now fundamentally interconnected, we need to act together to make sure the recovery creates new jobs and industries, while preventing the kind of imbalances and abuses that led us into this crisis."
+         ]
+      },
+      "context":"President Obama, hosting his first Group of 20 summit, managed to achieve most but not all of his top objectives. They included getting member nations to agree to review one another's economic policies to ensure they do not provoke a repeat of the worst financial crisis since the Depression. 'Because our global economy is now fundamentally interconnected, we need to act together to make sure the recovery creates new jobs and industries while preventing the kind of imbalances and abuses that led us into this crisis,'",
+      "id":503,
+      "question":"They included getting member nations to agree to review one another's economic policies to ensure they do not provoke a repeat of the worst financial crisis since the Depression.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            493
+         ],
+         "text":[
+            "“We want to make sure when growth returns that jobs do, too,”"
+         ]
+      },
+      "context":" But they resisted pressures from investment markets to quickly pull back the massive fiscal stimulus programs and lenient monetary policies that helped stoke the budding global recovery. Despite growing inflation concerns stemming from such policies, Mr. Obama and other leaders stressed that the recovery isn’t complete until millions of lost jobs are restored. “We want to make sure when growth returns that jobs do, too,” said Mr. Obama. Nearly 7 million jobs have been lost in the U.S. alone, and the sharp rise in joblessness is a problem worldwide",
+      "id":504,
+      "question":"Despite growing inflation concerns stemming from such policies, Mr. Obama and other leaders stressed that the recovery isn’t complete until millions of lost jobs are restored.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            197
+         ],
+         "text":[
+            "\"We can\\'t grow complacent. We can\\'t wait for a crisis, to co-operate.\""
+         ]
+      },
+      "context":"Barack Obama described the agreement as the opening of a \"new era of engagement\". \"We cannot tolerate the same old boom and bust economies of the past,\" he said at the close of the two-day summit. \"We can\\'t grow complacent. We can\\'t wait for a crisis, to co-operate.\"",
+      "id":505,
+      "question":"\"We cannot tolerate the same old boom and bust economies of the past,\" he said at the close of the two-day summit.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            481
+         ],
+         "text":[
+            "“We can no longer meet the challenges of the 21st century economy with 20th century approaches,” "
+         ]
+      },
+      "context":"The old economic powers — the United States, Japan, Germany, France, Britain, Italy, Canada and relative newcomer Russia — are now joined by fast-growing developing countries such as China, Brazil and India. The cozy club — first the G7, then the G8 — had ruled over economic decision-making for the past three decades. President Barack Obama helped handle the membership negotiations.“We can no longer meet the challenges of the 21st century economy with 20th century approaches,”",
+      "id":506,
+      "question":"President Barack Obama helped handle the membership negotiations.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            198
+         ],
+         "text":[
+            "going to have to come clean and they are going to have to make a choice,"
+         ]
+      },
+      "context":"For a crisis such as this, the immense prestige of the American presidency ought to be held in reserve. Let the secretary of state issue grave warnings. When Obama said in Pittsburgh that Iran is “going to have to come clean and they are going to have to make a choice,”",
+      "id":507,
+      "question":"When Obama said in Pittsburgh that Iran is ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            291
+         ],
+         "text":[
+            "a path that is going to lead to confrontation"
+         ]
+      },
+      "context":"“Iran is on notice that when we meet with them on Oct. 1 they are going to have to come clean and they are going to have to make a choice” between international isolation and giving up any aspirations to becoming a nuclear power, he said. If they refuse to give ground, they will stay on “a path that is going to lead to confrontation.”",
+      "id":508,
+      "question":"If they refuse to give ground, they will stay on",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            117
+         ],
+         "text":[
+            "That's exactly what I'm doing, is asking some very tough questions."
+         ]
+      },
+      "context":"\"This is not easy and I would expect that the public would ask some very tough questions,\" Obama said last Friday. \"That\\'s exactly what I\\'m doing, is asking some very tough questions.\"",
+      "id":509,
+      "question":"\"This is not easy and I would expect that the public would ask some very tough questions,\" Obama said last Friday. ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            173
+         ],
+         "text":[
+            "But my solemn obligation is to make sure that I get the best answers possible, particularly before I make decisions about sending additional troops"
+         ]
+      },
+      "context":"Mr Obama said he understood that Americans and others were becoming discouraged by the war – NATO yesterday announced the deaths of five more US soldiers in Afghanistan. \"But my solemn obligation is to make sure that I get the best answers possible, particularly before I make decisions about sending additional troops.\"",
+      "id":510,
+      "question":"Mr Obama said he understood that Americans and others were becoming discouraged by the war – NATO yesterday announced the deaths of five more US soldiers in Afghanistan. ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            247
+         ],
+         "text":[
+            "was the work product of three intelligence agencies, not just one,"
+         ]
+      },
+      "context":"Mr Obama said at a news conference later that the unity displayed by the three allies and other governments should put Iran \"on notice\" that it will have to heed demands that it conform to international rules. The information on the secret site \"was the work product of three intelligence agencies, not just one,\"",
+      "id":511,
+      "question":"The information on the secret site",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            302
+         ],
+         "text":[
+            "When we find that diplomacy does not work, we will be in a much stronger position to, for example, apply sanctions that have bite,"
+         ]
+      },
+      "context":"A deal under which Iran would suspend uranium enrichment in return for a package of economic assistance and help with the construction of a civilian power industry has been on offer for more than a year and has so far been flatly rejected by Iran. Hopes of a breakthrough in Geneva are at a low ebb. \"When we find that diplomacy does not work, we will be in a much stronger position to, for example, apply sanctions that have bite,\"",
+      "id":512,
+      "question":"Hopes of a breakthrough in Geneva are at a low ebb.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            259
+         ],
+         "text":[
+            "that's not the preferred course of action. I would love nothing more than to see Iran choose the responsible path."
+         ]
+      },
+      "context":" “When we find that diplomacy does not work, we will be in a much stronger position to, for example, apply sanctions that have bite,” he said. “That’s not the preferred course of action. I would love nothing more than to see Iran choose the responsible path.”",
+      "id":513,
+      "question":"“When we find that diplomacy does not work, we will be in a much stronger position to, for example, apply sanctions that have bite,” he said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            215
+         ],
+         "text":[
+            "to make sure that we were absolutely confident about the situation there."
+         ]
+      },
+      "context":"The U.S. president said the conclusions about Iran\\'s nuclear ambitions came as a result of the work of three intelligence agencies -- those of Britain, France and the United States. The work, Obama said, was done \"to make sure that we were absolutely confident about the situation there.\"",
+      "id":514,
+      "question":"The work, Obama said, was done ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            344
+         ],
+         "text":[
+            "grown quite accustomed to calling each other by our names."
+         ]
+      },
+      "context":"While President George W. Bush had a famously boisterous friendship with Japanese Prime Minister Junichiro Koizumi -- taking him to Memphis to visit Graceland, where Koizumi impersonated Elvis -- Obama has adopted a more professional stance. The new Japanese prime minister, Yukio Hatoyama, reported after meeting with Obama that the two had \"grown quite accustomed to calling each other by our names.\"",
+      "id":515,
+      "question":"The new Japanese prime minister, Yukio Hatoyama, reported after meeting with Obama that the two had",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            393
+         ],
+         "text":[
+            "can you explain to people watching and criticizing your deliberations what piece of information you're still lacking to make that call"
+         ]
+      },
+      "context":"SHANGHAI, China – President Barack Obama made no effort to conceal his irritation when his press corps used the first question of his maiden Far East trip to ask what was taking him so long on Afghanistan. Jennifer Loven of The Associated Press had asked: “Can you explain to people watching and criticizing your deliberations what piece of information you're still lacking to make that call.”",
+      "id":516,
+      "question":"Jennifer Loven of The Associated Press had asked:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            173
+         ],
+         "text":[
+            "I am absolutely convinced that Khalid Sheikh Mohammed will be subject to the most exacting demands of justice. The American people will insist on it. My administration will insist on it,"
+         ]
+      },
+      "context":"The big news of the morning is that Khalid Sheikh Mohammed and four other terrorism suspects currently held at Guantanamo Bay will be tried in New York in civilian court. “I am absolutely convinced that Khalid Sheikh Mohammed will be subject to the most exacting demands of justice. The American people will insist on it. My administration will insist on it,”",
+      "id":517,
+      "question":"The big news of the morning is that Khalid Sheikh Mohammed and four other terrorism suspects currently held at Guantanamo Bay will be tried in New York in civilian court. ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            232
+         ],
+         "text":[
+            "It's a matter of making certain that when I send young men and women into war, and when I devote billions of dollars of U.S. taxpayer money, that it's making us safer,"
+         ]
+      },
+      "context":"Obama said he is committed to shutting down networks that plot terrorist activity against the United States, while also avoiding an open-ended troop commitment and ensuring that the government of Afghanistan is a reliable partner. \"It\\'s a matter of making certain that when I send young men and women into war, and when I devote billions of dollars of U.S. taxpayer money, that it\\'s making us safer,",
+      "id":518,
+      "question":"Obama said he is committed to shutting down networks that plot terrorist activity against the United States, while also avoiding an open-ended troop commitment and ensuring that the government of Afghanistan is a reliable partner.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            168
+         ],
+         "text":[
+            "They tend not to be folks who I think are directly involved in what's happening in Afghanistan."
+         ]
+      },
+      "context":"“I recognize that there have been critics of the process,” Obama said. “They tend not to be folks who I think are directly involved in what’s happening in Afghanistan.”",
+      "id":519,
+      "question":"“I recognize that there have been critics of the process,” Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            274
+         ],
+         "text":[
+            "it has been not a academic exercise, but a necessary process in order to make sure that we're making the best possible decisions"
+         ]
+      },
+      "context":"Promising to make the decision soon, Obama said that after eight meetings with his National Security Council, he was pleased with the process. \"It has been not a academic exercise, but a necessary process in order to make sure that we\\'re making the best possible decisions,\"",
+      "id":520,
+      "question":"Promising to make the decision soon, Obama said that after eight meetings with his National Security Council, he was pleased with the process. ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            366
+         ],
+         "text":[
+            "the decision will be made soon"
+         ]
+      },
+      "context":"\"It\\'s a matter of making certain that when I send young men and women into war, and when I devote billions of dollars of U.S. taxpayer money, that it\\'s making us safer, and that the strategies that are placed not just on the military side but also on the civilian side are coordinated and effective in our primary goal,\" Obama said. \"The decision will be made soon,\"",
+      "id":521,
+      "question":"\"It\\'s a matter of making certain that when I send young men and women into war, and when I devote billions of dollars of U.S. taxpayer money, that it\\'s making us safer, and that the strategies that are placed not just on the military side but also on the civilian side are coordinated and effective in our primary goal,\" Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            385
+         ],
+         "text":[
+            "I think we have to consider the meaning of this logistical support, and we've come to think there's another type of assistance that is more appropriate for afghanistan,"
+         ]
+      },
+      "context":"Mr Hatoyama confirmed Japan would no longer refuel ships that supply forces in Afghanistan but promised an \"alternative package\", which would involve civilian aid in areas such as schooling, agriculture and police. \"I think we have to consider the meaning of this logistical support, and we\\'ve come to think there\\'s another type of assistance that is more appropriate for Afghanistan,\"",
+      "id":522,
+      "question":"Mr Hatoyama confirmed Japan would no longer refuel ships that supply forces in Afghanistan but promised an \"alternative package\", which would involve civilian aid in areas such as schooling, agriculture and police.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            158
+         ],
+         "text":[
+            "And the United States welcomes and encourages India's leadership role in helping to shape the rise of a stable, peaceful and prosperous Asia."
+         ]
+      },
+      "context":"\"In Asia, Indian leadership is expanding prosperity and the security across the region,\" Obama said after a two-hour meeting with Singh at the White House. \"And the United States welcomes and encourages India\\'s leadership role in helping to shape the rise of a stable, peaceful and prosperous Asia.\"",
+      "id":523,
+      "question":"\"In Asia, Indian leadership is expanding prosperity and the security across the region,\" Obama said after a two-hour meeting with Singh at the White House.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            317
+         ],
+         "text":[
+            "the relationship between the United States and India will be one of the defining partnerships of the 21st century"
+         ]
+      },
+      "context":"President Obama committed Tuesday to implementing a Bush-era nuclear pact and vowed to share more anti-terrorism information with India as he welcomed Prime Minister Manmohan Singh to the White House. \"The relationship between the United States and India will be one of the defining partnerships of the 21st century,\"",
+      "id":524,
+      "question":"President Obama committed Tuesday to implementing a Bush-era nuclear pact and vowed to share more anti-terrorism information with India as he welcomed Prime Minister Manmohan Singh to the White House.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            327
+         ],
+         "text":[
+            "reaffirmed to the Prime Minister my administration's commitment to fully implement nuclear agreement"
+         ]
+      },
+      "context":"The only wrinkle in an otherwise fruitful engagement appeared to be the inability of the two sides to wrap up residual issues in the nuclear, including a fuel reprocessing agreement, which Prime Minister Singh admitted still had some Ts to be crossed and Is to be dotted. However, in his remarks Obama said he had \"reaffirmed to the Prime Minister my administration\\'s commitment to fully implement nuclear agreement.\"",
+      "id":525,
+      "question":"However, in his remarks Obama said he had",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            605
+         ],
+         "text":[
+            "it's also essential that all countries do what is necessary to reach a strong operational agreement that will confront the threat of climate change while serving as a stepping-stone to a legally binding treaty"
+         ]
+      },
+      "context":"US President Barack Obama sought Tuesday to boost hopes of a landmark deal at the Copenhagen climate summit, as a new report showed the crisis facing the planet is deeper than previously thought. Obama said the world was \"one step closer to a successful outcome in Copenhagen,\" as he hosted key developing nation India at the White House a week after returning from top global polluter China. \"It\\'s also essential that all countries do what is necessary to reach a strong operational agreement that will confront the threat of climate change while serving as a stepping-stone to a legally binding treaty,\"",
+      "id":526,
+      "question":"Obama said the world was \"one step closer to a successful outcome in Copenhagen,\" as he hosted key developing nation India at the White House a week after returning from top global polluter China.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            501
+         ],
+         "text":[
+            "it takes us one step closer to a successful outcome in Copenhagen."
+         ]
+      },
+      "context":"With today\\'s understanding, three of the world\\'s top emitters, China, America and India are now committed to action on emissions at Copenhagen, though they have yet to reveal the actual targets. But it does significantly boost the prospect that world leaders could commit to strong action at the UN summit, despite the rancourous atmosphere among their official negotiating teams at the last set of meetings in Barcelona this month. \"It takes us one step closer to a successful outcome in Copenhagen.\"",
+      "id":527,
+      "question":"But it does significantly boost the prospect that world leaders could commit to strong action at the UN summit, despite the rancourous atmosphere among their official negotiating teams at the last set of meetings in Barcelona this month.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            306
+         ],
+         "text":[
+            "our Indian friends in remembering the horrific attacks in Mumbai year ago"
+         ]
+      },
+      "context":"\"As nuclear powers, we can be full partners in preventing the spread of the world\\'s most deadly weapons, securing loose nuclear materials from terrorists, and pursuing our shared vision of a world without nuclear weapons.\" - Obama Obama acknowledged the horrific Mumbai attacks of one year ago, joining \"our Indian friends in remembering the horrific attacks in Mumbai year ago.\"",
+      "id":528,
+      "question":"Obama acknowledged the horrific Mumbai attacks of one year ago, joining",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            145
+         ],
+         "text":[
+            "I believe our relationship between our two countries has never been stronger"
+         ]
+      },
+      "context":"This is the concrete progress made today across a whole range of issues to create jobs, opportunity and security for our people. As a result, \"I believe our relationship between our two countries has never been stronger\".",
+      "id":529,
+      "question":"This is the concrete progress made today across a whole range of issues to create jobs, opportunity and security for our people. As a result, ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            465
+         ],
+         "text":[
+            "the forces of terrorism in our region pose a grave threat to the entire civilized world and have to be defeated. President Obama and I have decided to strengthen our cooperation in the area of counterterrorism"
+         ]
+      },
+      "context":"\"I believe that the relationship between the United States and India will be one of the defining partnerships of the 21st century,\" Pres. Obama said this afternoon.India\\'s Prime Minister Manmohan Singh touched on that when discussing the war on terror. \"The forces of terrorism in our region pose a grave threat to the entire civilized world and have to be defeated. President Obama and I have decided to strengthen our cooperation in the area of counterterrorism,\"",
+      "id":530,
+      "question":"Obama said this afternoon.India's Prime Minister Manmohan Singh touched on that when discussing the war on terror.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            260
+         ],
+         "text":[
+            "make sure that al Qaeda and its extremist allies cannot operate effectively"
+         ]
+      },
+      "context":"Obama, who Monday night held his ninth and final meeting on an Afghanistan strategy in the situation room, said the new course will include “civilian and diplomatic efforts” and will “make sure that Al Qaeda and its extremist allies cannot operate effectively”",
+      "id":531,
+      "question":"Obama, who Monday night held his ninth and final meeting on an Afghanistan strategy in the situation room, said the new course will include “civilian and diplomatic efforts” and will",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            507
+         ],
+         "text":[
+            "And I feel very confident that when the American people hear a clear rationale for what we're doing there and how we intend to achieve our goals that they will be supportive"
+         ]
+      },
+      "context":"But critics, most famously former Vice President Dick Cheney, have called it \"dithering,\" and say the delay in reaching a conclusion not only undercuts the military leadership, but unnerves allies and shows some measure of weakness to enemies. Regardless of one\\'s opinion, it\\'s a notable departure from the frequent modus operandi President Bush, who famously called himself \"The Decider\" in 2006. Obama will reportedly make that public announcement in a nationally televised address after Thanksgiving. \"And I feel very confident that when the American people hear a clear rationale for what we\\'re doing there and how we intend to achieve our goals that they will be supportive,\"",
+      "id":532,
+      "question":"Obama will reportedly make that public announcement in a nationally televised address after Thanksgiving.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            118
+         ],
+         "text":[
+            "one of the things I'm going to be discussing is the obligations of our international partners in this process."
+         ]
+      },
+      "context":"Obama\\'s speech is expected to include an appeal to NATO allies, which the president alluded to Tuesday, saying that \"one of the things I\\'m going to be discussing is the obligations of our international partners in this process.\"",
+      "id":533,
+      "question":"Obama's speech is expected to include an appeal to NATO allies, which the president alluded to Tuesday, saying that",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            114
+         ],
+         "text":[
+            "going to have to provide ultimately for their own security"
+         ]
+      },
+      "context":"Speaking at a press conference with Indian Prime Minister Manmohan Singh, he added that the Afghan people were \"going to have to provide ultimately for their own security\".",
+      "id":534,
+      "question":"Speaking at a press conference with Indian Prime Minister Manmohan Singh, he added that the Afghan people were",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            218
+         ],
+         "text":[
+            "Does it make coverage affordable and available to the tens of millions of working Americans who don't have it right now? And does it help us get on a path of fiscal sustainability?"
+         ]
+      },
+      "context":"\"Does it bring down costs for all Americans, as well as for the federal government, which spends a huge amount of health care? Does it provide adequate protection against abuses by the insurance industry?\" he asked. \"Does it make coverage affordable and available to the tens of millions of working Americans who don\\'t have it right now? And does it help us get on a path of fiscal sustainability?\"",
+      "id":535,
+      "question":"\"Does it bring down costs for all Americans, as well as for the federal government, which spends a huge amount of health care? Does it provide adequate protection against abuses by the insurance industry?\" he asked.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            472
+         ],
+         "text":[
+            "Now, bipartisanship depends on a willingness among both Democrats and Republicans to put aside matters of party for the good of the country"
+         ]
+      },
+      "context":"As the exit polls showed after the election of Sen. Scott Brown (R-Mass.), \"Three-quarters of those who voted for Brown say they would like him to work with Democrats to get Republican ideas into legislation in general.\" Today\\'s poll reports that \"Nearly six in 10 [respondents] say that Republicans are not doing enough to forge compromise with Obama on important issues, while nearly half view the president as doing too little to overcome differences with the GOP.\" \"Now, bipartisanship depends on a willingness among both Democrats and Republicans to put aside matters of party for the good of the country,\"",
+      "id":536,
+      "question":"Today\\'s poll reports that \"Nearly six in 10 [respondents] say that Republicans are not doing enough to forge compromise with Obama on important issues, while nearly half view the president as doing too little to overcome differences with the GOP.\"",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            440
+         ],
+         "text":[
+            "won't hesitate to condemn what I consider to be obstinacy that's rooted not in substantive disagreement but in political expedience."
+         ]
+      },
+      "context":"Mr. Obama said he “won’t hesitate to embrace a good idea from my friends in the minority party.” But he wants his way. He wants his energy policy enacted along with his jobs bill, his financial regulatory reform and his health care plan. And if the opposition continues to block his objectives, he said he “won’t hesitate to condemn what I consider to be obstinacy that’s rooted not in substantive disagreement but in political expedience.”",
+      "id":537,
+      "question":"And if the opposition continues to block his objectives, he said he ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            487
+         ],
+         "text":[
+            "I respect the Senate's role to advise and consent, but for months, qualified, non- controversial nominees for critical positions in government, often positions related to our national security, have been held up despite having overwhelming support"
+         ]
+      },
+      "context":"Republicans, joined by Nebraska Democrat Ben Nelson, have been successful in holding off Johnsen's nomination with a filibuster.As a result, Obama told reporters this week that he may consider appointing Johnsen via a recess appointment.“I respect the Senate’s role to advise and consent, but for months, qualified, non- controversial nominees for critical positions in government, often positions related to our national security, have been held up despite having overwhelming support,”",
+      "id":538,
+      "question":"As a result, Obama told reporters this week that he may consider appointing Johnsen via a recess appointment.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            364
+         ],
+         "text":[
+            "If the Senate does not act, and I made this very clear, I will consider making several recess appointments during the upcoming recess because we can't afford to let politics stand in the way of a well functioning government."
+         ]
+      },
+      "context":"One year into the Bush administration, there were 70 appointees pending. One year into the Obama administration, there are more than 200. Bush had used the recess appointment 10 times. Obama has not yet even mentioned the tactic. (Update, published 5:37 p.m. ET: On Tuesday afternoon, Obama indicated he might use recess appointments, during next week\\'s recess: \"If the Senate does not act, and I made this very clear, I will consider making several recess appointments during the upcoming recess because we can\\'t afford to let politics stand in the way of a well functioning government.\"",
+      "id":539,
+      "question":"On Tuesday afternoon, Obama indicated he might use recess appointments, during next week's recess:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            129
+         ],
+         "text":[
+            "\"The House can\\'t pass the health care bill it once passed; the Senate can\\'t pass the health care bill it once passed. Why would we have a conversation about legislation that can\\'t pass?\""
+         ]
+      },
+      "context":"So, you know, I\\'m going to take a couple of questions, guys. Major. Q After meeting with you, John Boehner came out and told us, \"The House can\\'t pass the health care bill it once passed; the Senate can\\'t pass the health care bill it once passed. Why would we have a conversation about legislation that can\\'t pass?\"",
+      "id":540,
+      "question":"Q After meeting with you, John Boehner came out and told us,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            235
+         ],
+         "text":[
+            "Everybody out there who talks about deficits has to acknowledge that the single biggest driver of our deficits is health care spending"
+         ]
+      },
+      "context":"President Obama continued his focus on reducing the budget deficit, but instead of buying into the Republican framework on \"cutting spending,\" he emphatically pointed to the biggest long-term structural budget problem: health care. \"Everybody out there who talks about deficits has to acknowledge that the single biggest driver of our deficits is health care spending,\"",
+      "id":541,
+      "question":"President Obama continued his focus on reducing the budget deficit, but instead of buying into the Republican framework on \"cutting spending,\" he emphatically pointed to the biggest long-term structural budget problem: health care.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            303
+         ],
+         "text":[
+            "What I will not do, what I don't think makes sense and I don't think the American people want to see, would be another year of partisan wrangling around these issues"
+         ]
+      },
+      "context":"Obama said his goals continue to be expanding health insurance coverage for most Americans, eliminating abuses of insurance companies and lowering the costs of health care. \"I am going to be starting from scratch in the sense that I will be open to any ideas that help promote these goals,\" he said. \"What I will not do, what I don\\'t think makes sense and I don\\'t think the American people want to see, would be another year of partisan wrangling around these issues.\"",
+      "id":542,
+      "question":"\"I am going to be starting from scratch in the sense that I will be open to any ideas that help promote these goals,\" he said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            255
+         ],
+         "text":[
+            "I’m willing to move off of some of the preferences of my party in order to meet them halfway, but there’s got to be some give from their side as well,"
+         ]
+      },
+      "context":"President Barack Obama said Tuesday he’s prepared to cut deals with Republicans in order to create jobs and improve the nation’s health care system, but he said he’s seen few signs so far that the GOP is willing to support any of his policy initiatives.“I’m willing to move off of some of the preferences of my party in order to meet them halfway, but there’s got to be some give from their side as well,”",
+      "id":543,
+      "question":"President Barack Obama said Tuesday he’s prepared to cut deals with Republicans in order to create jobs and improve the nation’s health care system, but he said he’s seen few signs so far that the GOP is willing to support any of his policy initiatives.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            154
+         ],
+         "text":[
+            "the better off the entire country is going to be."
+         ]
+      },
+      "context":"\"The sooner the business community has a sense that we\\'ve got our act together here in Washington and can move forward on big serious issues,\" he said, \"the better off the entire country is going to be.\"",
+      "id":544,
+      "question":"\"The sooner the business community has a sense that we\\'ve got our act together here in Washington and can move forward on big serious issues,\" he said,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            404
+         ],
+         "text":[
+            "I don’t know how the energy bill is going to affect me.  I don’t know how the health care reform bill is going to affect me.  I better hold off on hiring."
+         ]
+      },
+      "context":"But just to play devil’s advocate on that, a small business, let’s say — not somebody who’s going to be affected by the regulatory reform, a small business — you have proposed, you would acknowledge, a bold agenda, and a small business might wonder, “I don’t know how the energy bill is going to affect me. I don’t know how the health care reform bill is going to affect me. I better hold off on hiring.”",
+      "id":545,
+      "question":"But just to play devil’s advocate on that, a small business, let’s say — not somebody who’s going to be affected by the regulatory reform, a small business — you have proposed, you would acknowledge, a bold agenda, and a small business might wonder,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            258
+         ],
+         "text":[
+            "I am just an eternal optimist, and so it's the right thing to do,"
+         ]
+      },
+      "context":"And, on the biggest political challenge confronting his administration--the need to get Republican support to pass anything major through Congress--Obama told the press that he he remains eternally optimistic, despite the difficulties his party is facing. \"I am just an eternal optimist, and so it\\'s the right thing to do,\"",
+      "id":546,
+      "question":"And, on the biggest political challenge confronting his administration--the need to get Republican support to pass anything major through Congress--Obama told the press that he he remains eternally optimistic, despite the difficulties his party is facing.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            282
+         ],
+         "text":[
+            "we've bent over backwards to say to the Islamic Republic of Iran that we are willing to have a constructive conversation about how far they can align themselves with international norms and rules"
+         ]
+      },
+      "context":"The confusion has hardened the US view that sanctions are now the only way forward. \"We\\'ve bent over backwards to say to the Islamic Republic of Iran that we are willing to have a constructive conversation about how far they can align themselves with international norms and rules,\"",
+      "id":547,
+      "question":"The confusion has hardened the US view that sanctions are now the only way forward.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            299
+         ],
+         "text":[
+            "They rejected it, although one of the difficulties in dealing with Iran over the last several months is it's not always clear who's speaking on behalf of the government, and we get a lot of different mixed signals,"
+         ]
+      },
+      "context":" Iran initially agreed in October to the fuel-swap proposal, but then for weeks sent conflicting signals about the proposed arrangement. The Americans had viewed the idea as both a confidence-building measure and an effort to remove the bulk of Iran\\'s stockpile of enriched uranium from its soil. \"They rejected it, although one of the difficulties in dealing with Iran over the last several months is it\\'s not always clear who\\'s speaking on behalf of the government, and we get a lot of different mixed signals,\"",
+      "id":548,
+      "question":"The Americans had viewed the idea as both a confidence-building measure and an effort to remove the bulk of Iran's stockpile of enriched uranium from its soil.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            243
+         ],
+         "text":[
+            "That indicates to us that despite their posturing that their nuclear power is only for, for civilian use that they in fact continue to pursue a course that would lead to weaponization,"
+         ]
+      },
+      "context":"Obama told reporters during a rare press conference Tuesday that the U.S. is developing a \"significant regime of sanctions\" in response to the Islamic Republic\\'s move to enrich uranium to 20 percent purity level in defiance of world powers. \"That indicates to us that despite their posturing that their nuclear power is only for, for civilian use that they in fact continue to pursue a course that would lead to weaponization,\"",
+      "id":549,
+      "question":"Obama told reporters during a rare press conference Tuesday that the U.S. is developing a \"significant regime of sanctions\" in response to the Islamic Republic\\'s move to enrich uranium to 20 percent purity level in defiance of world powers.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            173
+         ],
+         "text":[
+            "They have made their choice so far; although the door is still open,"
+         ]
+      },
+      "context":" Tehran wanted a simultaneous exchange of low- for higher-enriched uranium on its soil, but Western powers ruled out such an option because of its potential for cheating. “They have made their choice so far; although the door is still open,”",
+      "id":550,
+      "question":" Tehran wanted a simultaneous exchange of low- for higher-enriched uranium on its soil, but Western powers ruled out such an option because of its potential for cheating.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            275
+         ],
+         "text":[
+            "What we are going to be working on over the next several weeks is developing a significant regime of sanctions that will indicate to them (Iran) how isolated they are from the international community as a whole,"
+         ]
+      },
+      "context":"Obama\\'s strong words on the nuclear issue raised the stakes in the confrontation between Tehran and the international community, though there are serious doubts about whether China, one of the five permanent members of the UN security council, will back punitive measures. \"What we are going to be working on over the next several weeks is developing a significant regime of sanctions that will indicate to them (Iran) how isolated they are from the international community as a whole,\"",
+      "id":551,
+      "question":"Obama's strong words on the nuclear issue raised the stakes in the confrontation between Tehran and the international community, though there are serious doubts about whether China, one of the five permanent members of the UN security council, will back punitive measures.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            225
+         ],
+         "text":[
+            "We are going to be looking at a variety of ways in which countries indicate to Iran that their approach is unacceptable. And . . . the U.N. will be one aspect of that broader effort."
+         ]
+      },
+      "context":"\"And what we are going to be working on over the next several weeks is developing a significant regime of sanctions that will indicate to them how isolated they are from the international community as a whole,\" Obama said. \"We are going to be looking at a variety of ways in which countries indicate to Iran that their approach is unacceptable. And . . . the U.N. will be one aspect of that broader effort.\"",
+      "id":552,
+      "question":"\"And what we are going to be working on over the next several weeks is developing a significant regime of sanctions that will indicate to them how isolated they are from the international community as a whole,\" Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            433
+         ],
+         "text":[
+            "my hope is this doesn't end up being political theater,"
+         ]
+      },
+      "context":"“It’s going to be very difficult to have a bipartisan conversation with regard to a 2,700-page health care bill that the Democrat majority in the House and the Democrat majority in the Senate can’t pass,” said House Minority Leader John Boehner, R-Ohio. “It really is time to scrap the bill and start over.” Obama said he intends for the meeting to be a serious conversation. “My hope is this doesn’t end up being political theater,”",
+      "id":553,
+      "question":"Obama said he intends for the meeting to be a serious conversation.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            257
+         ],
+         "text":[
+            "\"Well, I\\'m entitled to my own opinion.\""
+         ]
+      },
+      "context":"In this whole health care debate I\\'m reminded of the story that was told about Senator Moynihan, who was I guess in an argument with one of his colleagues, and his colleague was losing the argument so he got a little flustered and said to Senator Moynihan, \"Well, I\\'m entitled to my own opinion.\"",
+      "id":554,
+      "question":"In this whole health care debate I'm reminded of the story that was told about Senator Moynihan, who was I guess in an argument with one of his colleagues, and his colleague was losing the argument so he got a little flustered and said to Senator Moynihan,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            324
+         ],
+         "text":[
+            "\"Well, you\\'re entitled to your own opinion, but you\\'re not entitled to your own facts.\""
+         ]
+      },
+      "context":"In this whole health care debate I\\'m reminded of the story that was told about Senator Moynihan, who was I guess in an argument with one of his colleagues, and his colleague was losing the argument so he got a little flustered and said to Senator Moynihan, \"Well, I\\'m entitled to my own opinion.\" And Senator Moynihan said, \"Well, you\\'re entitled to your own opinion, but you\\'re not entitled to your own facts.\"",
+      "id":555,
+      "question":"In this whole health care debate I\\'m reminded of the story that was told about Senator Moynihan, who was I guess in an argument with one of his colleagues, and his colleague was losing the argument so he got a little flustered and said to Senator Moynihan, \"Well, I\\'m entitled to my own opinion.\" And Senator Moynihan said,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            531
+         ],
+         "text":[
+            "Democrats give up everything they believe in,"
+         ]
+      },
+      "context":"The survey\\'s release comes hours after the president met at the White House with congressional leaders from both parties. Obama said that he doesn\\'t want a February 25 televised bipartisan meeting on health care reform to be reduced to \"political theater.\" The president said he hopes to \"establish some common facts\" and reach agreement on what the most significant health care problems are. He said he\\'s willing to consider measures such as tort reform, which \"make my party uncomfortable.\" But bipartisanship cannot only mean \"Democrats give up everything they believe in,\"",
+      "id":556,
+      "question":"He said he\\'s willing to consider measures such as tort reform, which \"make my party uncomfortable.\" But bipartisanship cannot only mean",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            408
+         ],
+         "text":[
+            "“That’s certainly not how it works in my marriage with Michelle, though I usually give in most of the time.”"
+         ]
+      },
+      "context":"The only way Republicans can demonstrate their lack of obstinacy, the president made clear, is to adopt the Democratic agenda and to tug a forelock and do it now. “Bipartisanship cannot mean that Democrats give up everything they believe in … and then we have bipartisanship. That’s not how it works in any realm of life.” Then, stepping behind his wife’s fashionable skirt, he tried a little domestic jest: “That’s certainly not how it works in my marriage with Michelle, though I usually give in most of the time.”",
+      "id":557,
+      "question":"“Bipartisanship cannot mean that Democrats give up everything they believe in … and then we have bipartisanship. That’s not how it works in any realm of life.” Then, stepping behind his wife’s fashionable skirt, he tried a little domestic jest:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            227
+         ],
+         "text":[
+            "That’s not how it works in any of realm of life. That’s certainly not how it works in my marriage with Michelle, though I usually give in most of the time, but there’s got to be some give and take."
+         ]
+      },
+      "context":"“Bipartisanship cannot mean simply that Democrats give up everything they believe in, find the handful of things that republicans have been advocating for and we do those things, and then we have bipartisanship,” Obama said. “That’s not how it works in any of realm of life. That’s certainly not how it works in my marriage with Michelle, though I usually give in most of the time, but there’s got to be some give and take.”",
+      "id":558,
+      "question":"“Bipartisanship cannot mean simply that Democrats give up everything they believe in, find the handful of things that republicans have been advocating for and we do those things, and then we have bipartisanship,” Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            148
+         ],
+         "text":[
+            "I think that it’s ... realistic for us to get a package moving quickly that may not include all of the things I think need to be done,"
+         ]
+      },
+      "context":"Speaking to reporters after the meeting, Obama said it may take a “series of incremental steps” to get a jobs package passed in Congress quickly. “I think that it’s ... realistic for us to get a package moving quickly that may not include all of the things I think need to be done,”",
+      "id":559,
+      "question":"Speaking to reporters after the meeting, Obama said it may take a “series of incremental steps” to get a jobs package passed in Congress quickly.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            248
+         ],
+         "text":[
+            "A little while ago, I had a meeting with the Democratic and Republican congressional leaders and it went very well. In fact, I understand that McConnell and Reid are out doing snow angels on the south lawn together,"
+         ]
+      },
+      "context":"Tonight on the program, we\\'ll check in with CNN meteorologist Chad Myers for the latest developments.President Obama joked about all the snow in the nation\\'s capital today in a surprise visit with reporters in the White House press briefing room.\"A little while ago, I had a meeting with the Democratic and Republican congressional leaders and it went very well. In fact, I understand that McConnell and Reid are out doing snow angels on the south lawn together,\"",
+      "id":560,
+      "question":"President Obama joked about all the snow in the nation's capital today in a surprise visit with reporters in the White House press briefing room.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            183
+         ],
+         "text":[
+            "Despite the political posturing that often paralyzes this town, there are many issues upon which we can and should agree,"
+         ]
+      },
+      "context":"Unannounced, President Obama took to the lectern in the White House briefing room today to give a personal readout of his meeting earlier with congressional leaders of both parties.“Despite the political posturing that often paralyzes this town, there are many issues upon which we can and should agree,\"",
+      "id":561,
+      "question":"Unannounced, President Obama took to the lectern in the White House briefing room today to give a personal readout of his meeting earlier with congressional leaders of both parties.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            377
+         ],
+         "text":[
+            "That's why I'm going to continue to seek the best ideas from either party as we work to tackle the pressing challenges ahead"
+         ]
+      },
+      "context":" Not long after emerging from the meeting, Obama unexpectedly took over his press secretary’s daily briefing, declaring that he can set aside some Democratic “preferences” on some issues but warned that Republicans would have to make sacrifices, too.“That’s why I’m going to continue to seek the best ideas from either party as we work to tackle the pressing challenges ahead,\"",
+      "id":562,
+      "question":"Not long after emerging from the meeting, Obama unexpectedly took over his press secretary’s daily briefing, declaring that he can set aside some Democratic “preferences” on some issues but warned that Republicans would have to make sacrifices, too.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            156
+         ],
+         "text":[
+            "What I won’t consider is doing nothing."
+         ]
+      },
+      "context":"But the friendly rhetoric quickly gave way to tougher talk.“We can’t afford grandstanding at the expense of actually getting something done,” Obama said. “What I won’t consider is doing nothing.”",
+      "id":563,
+      "question":"“We can’t afford grandstanding at the expense of actually getting something done,” Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            227
+         ],
+         "text":[
+            "I'm looking forward to a constructive debate with plans that need to be measured against this test: Does it bring down costs for all Americans as well as for the Federal Government, which spends a huge amount on health care? Does it provide adequate protection against abuses by the insurance industry? Does it make coverage affordable and available to the tens of millions of working Americans who don't have it right now? And does it help us get on a path of fiscal sustainability?"
+         ]
+      },
+      "context":" It is the President\\'s hope that the Republican congressional leadership will also put forward their own comprehensive bill to achieve those goals and make it available online as well.As the President said earlier this week, \"I\\'m looking forward to a constructive debate with plans that need to be measured against this test: Does it bring down costs for all Americans as well as for the Federal Government, which spends a huge amount on health care? Does it provide adequate protection against abuses by the insurance industry? Does it make coverage affordable and available to the tens of millions of working Americans who don\\'t have it right now? And does it help us get on a path of fiscal sustainability?\"",
+      "id":564,
+      "question":"It is the President's hope that the Republican congressional leadership will also put forward their own comprehensive bill to achieve those goals and make it available online as well.As the President said earlier this week,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            269
+         ],
+         "text":[
+            "Premiums will continue to rise for folks with insurance, millions more will lose their coverage altogether, our deficits will continue to grow larger,"
+         ]
+      },
+      "context":"Anthem Blue Cross’ 30 to 39 percent rate hike in California will affect an unknown number of its 800,000 individual policyholders — the insurer has declined giving specifics. But Obama said the rate hike is a sign of what will happen to many Americans without reform.“Premiums will continue to rise for folks with insurance, millions more will lose their coverage altogether, our deficits will continue to grow larger,”",
+      "id":565,
+      "question":"But Obama said the rate hike is a sign of what will happen to many Americans without reform.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            471
+         ],
+         "text":[
+            "Now, bipartisanship depends on a willingness among both Democrats and Republicans to put aside matters of party for the good of the country"
+         ]
+      },
+      "context":"As the exit polls showed after the election of Sen. Scott Brown (R-Mass.), \"Three-quarters of those who voted for Brown say they would like him to work with Democrats to get Republican ideas into legislation in general.\" Today\\'s poll reports that \"Nearly six in 10 [respondents] say that Republicans are not doing enough to forge compromise with Obama on important issues, while nearly half view the president as doing too little to overcome differences with the GOP.\"\"Now, bipartisanship depends on a willingness among both Democrats and Republicans to put aside matters of party for the good of the country,\"",
+      "id":566,
+      "question":"Today\\'s poll reports that \"Nearly six in 10 [respondents] say that Republicans are not doing enough to forge compromise with Obama on important issues, while nearly half view the president as doing too little to overcome differences with the GOP.\"",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            239
+         ],
+         "text":[
+            "I respect the Senate’s role to advise and consent, but for months, qualified, non- controversial nominees for critical positions in government, often positions related to our national security, have been held up despite having overwhelming support,"
+         ]
+      },
+      "context":"Republicans, joined by Nebraska Democrat Ben Nelson, have been successful in holding off Johnsen's nomination with a filibuster.As a result, Obama told reporters this week that he may consider appointing Johnsen via a recess appointment.“I respect the Senate’s role to advise and consent, but for months, qualified, non- controversial nominees for critical positions in government, often positions related to our national security, have been held up despite having overwhelming support,”",
+      "id":567,
+      "question":"As a result, Obama told reporters this week that he may consider appointing Johnsen via a recess appointment.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            157
+         ],
+         "text":[
+            "One senator, as you all are aware, had put a hold on every single nominee that we had put forward, due to a dispute over a couple of earmarks in his state,"
+         ]
+      },
+      "context":"While not mentioning him by name, Obama criticized Sen. Richard Shelby, R-Alabama, for putting a hold on all of his nominees as leverage to help his state.\"One senator, as you all are aware, had put a hold on every single nominee that we had put forward, due to a dispute over a couple of earmarks in his state,\"",
+      "id":568,
+      "question":"Richard Shelby, R-Alabama, for putting a hold on all of his nominees as leverage to help his state.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            211
+         ],
+         "text":[
+            "get past the tired debates that have plagued our politics"
+         ]
+      },
+      "context":"Noting the length that some nominations have been held up in Congress as well as the blanket hold that Sen. Richard Shelby (R-Ala.) placed on all presidential nominees last week, Obama called on lawmakers to \"get past the tired debates that have plagued our politics.\"",
+      "id":569,
+      "question":"Richard Shelby (R-Ala.) placed on all presidential nominees last week, Obama called on lawmakers to",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            621
+         ],
+         "text":[
+            "the House cannot pass the health care it once passed, the Senate can't pass the health care bill it once passed, so why would we have a conversation about legislation that can't pass?"
+         ]
+      },
+      "context":"Every one of them, because Obama\\'s basically now telling you, \"You don\\'t know what you\\'re doing,\" and this guy has never operated a payroll or a small business. He wouldn\\'t know the first thing to do if a small business fell into his lap. His inclination is to tax every one of them out of business and take away every bit of profit, and then you stay in business with zero profit. That\\'s what his objective is. Let\\'s go to the sound bites. Obama says he\\'s open to new ideas. In a surprise visit to the White House Briefing Room, Major Garrett of Fox News: \"After meeting with you, John Boehner came out and told us that the House cannot pass the health care it once passed, the Senate can\\'t pass the health care bill it once passed, so why would we have a conversation about legislation that can\\'t pass?",
+      "id":570,
+      "question":"In a surprise visit to the White House Briefing Room, Major Garrett of Fox News:  \"After meeting with you, John Boehner came out and told us that",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            410
+         ],
+         "text":[
+            "So I've got these goals. Now, we have a package, as we work through the differences between the House and the Senate, and we'll put it up on a Web site for all to see over a long period of time, that meets those criteria, meets those goals."
+         ]
+      },
+      "context":"Number two, we've got to deal with insurance abuses that affect millions of Americans who've got health insurance. And number three, we've got to make health insurance more available to folks in the individual market, as I just mentioned, in California, who are suddenly seeing their premiums go up 39 percent. That applies to the majority of small businesses, as well as sole proprietors. They are struggling.So I've got these goals. Now, we have a package, as we work through the differences between the House and the Senate, and we'll put it up on a Web site for all to see over a long period of time, that meets those criteria, meets those goals.",
+      "id":571,
+      "question":"They are struggling.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            302
+         ],
+         "text":[
+            "What I will not do, what I don't think makes sense and I don't think the American people want to see, would be another year of partisan wrangling around these issues."
+         ]
+      },
+      "context":"Obama said his goals continue to be expanding health insurance coverage for most Americans, eliminating abuses of insurance companies and lowering the costs of health care. \"I am going to be starting from scratch in the sense that I will be open to any ideas that help promote these goals,\" he said. \"What I will not do, what I don\\'t think makes sense and I don\\'t think the American people want to see, would be another year of partisan wrangling around these issues.\"",
+      "id":572,
+      "question":"\"I am going to be starting from scratch in the sense that I will be open to any ideas that help promote these goals,\" he said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            129
+         ],
+         "text":[
+            "What I will not do, what I don't think makes sense... will be another year of partisan wrangling around these issues, another six months, or eight months, or nine months worth of hearings in every single committee in the House and Senate in which there is a lot of posturing... Let's get the relevant parties together... My hope is we can find enough overlap that we can say, 'This is the right way to move forward,"
+         ]
+      },
+      "context":"\"I am going to be starting from scratch in the sense that I will be open to any ideas that help promote these goals,\" he said. \"What I will not do, what I don\\'t think makes sense... will be another year of partisan wrangling around these issues, another six months, or eight months, or nine months worth of hearings in every single committee in the House and Senate in which there is a lot of posturing... Let\\'s get the relevant parties together... My hope is we can find enough overlap that we can say, \\'This is the right way to move forward,\"",
+      "id":573,
+      "question":"\"I am going to be starting from scratch in the sense that I will be open to any ideas that help promote these goals,\" he said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            255
+         ],
+         "text":[
+            "I’m willing to move off of some of the preferences of my party in order to meet them halfway, but there’s got to be some give from their side as well,"
+         ]
+      },
+      "context":"President Barack Obama said Tuesday he’s prepared to cut deals with Republicans in order to create jobs and improve the nation’s health care system, but he said he’s seen few signs so far that the GOP is willing to support any of his policy initiatives.“I’m willing to move off of some of the preferences of my party in order to meet them halfway, but there’s got to be some give from their side as well,”",
+      "id":574,
+      "question":"President Barack Obama said Tuesday he’s prepared to cut deals with Republicans in order to create jobs and improve the nation’s health care system, but he said he’s seen few signs so far that the GOP is willing to support any of his policy initiatives.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            181
+         ],
+         "text":[
+            "What I agree with is that the public has soured with the 'process' that they saw over the last year, I think that actually contaminates how they view the substance on the bills, I think it is important for all of these issues to be aired so that people have confidence before moving forward on such a significant part of the economy as health care, that there's complete transparency"
+         ]
+      },
+      "context":"Obama: Public Has Soured on the \"Process\" Of Health Care, Not The Bill (Video) hotairpundit ^ | 2/9/10 | HAP Posted on Tuesday, February 09, 2010 7:47:37 PM by Talkradio03 Obama: \"What I agree with is that the public has soured with the \\'process\\' that they saw over the last year, I think that actually contaminates how they view the substance on the bills, I think it is important for all of these issues to be aired so that people have confidence before moving forward on such a significant part of the economy as health care, that there\\'s complete transparency\"",
+      "id":575,
+      "question":"Posted on Tuesday, February 09, 2010 7:47:37 PM by Talkradio03 Obama:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            203
+         ],
+         "text":[
+            "Together, we’ve stopped that drift, and proven the benefits of cooperation. Today is an important milestone for nuclear security and nonproliferation, and for U.S.-Russia relations."
+         ]
+      },
+      "context":"Harmony was the message of the day. “When the United States and Russia are not able to work together on big issues, it’s not good for either of our nations, nor is it good for the world,” Obama said. “Together, we’ve stopped that drift, and proven the benefits of cooperation. Today is an important milestone for nuclear security and nonproliferation, and for U.S.-Russia relations.” ",
+      "id":576,
+      "question":"“When the United States and Russia are not able to work together on big issues, it’s not good for either of our nations, nor is it good for the world,” Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            144
+         ],
+         "text":[
+            "This day demonstrates the determination of the United States and Russia -- the two nations that hold over 90 percent of the world's nuclear weapons -- to pursue responsible global leadership. Together, we are keeping our commitments under the Nuclear Non-Proliferation Treaty, which must be the foundation of global non-proliferation."
+         ]
+      },
+      "context":"\"Today is an important milestone for nuclear security and non-proliferation, and for U.S.-Russia relations,\" Obama said at the signing today. \"This day demonstrates the determination of the United States and Russia -- the two nations that hold over 90 percent of the world\\'s nuclear weapons -- to pursue responsible global leadership. Together, we are keeping our commitments under the Nuclear Non-Proliferation Treaty, which must be the foundation of global non-proliferation.\"",
+      "id":577,
+      "question":"\"Today is an important milestone for nuclear security and non-proliferation, and for U.S.-Russia relations,\" Obama said at the signing today.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            172
+         ],
+         "text":[
+            "just one step on a longer journey"
+         ]
+      },
+      "context":"\"Together we\\'ve stopped that drift,\" Obama said, adding that the agreement was a \"milestone for US-Russia relations\".He acknowledged, however, that the new agreement was \"just one step on a longer journey\"",
+      "id":578,
+      "question":"\"Together we\\'ve stopped that drift,\" Obama said, adding that the agreement was a \"milestone for US-Russia relations\".He acknowledged, however, that the new agreement was ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            470
+         ],
+         "text":[
+            "We are working together at the un Security Council to pass strong sanctions on Iran. And we will not tolerate actions that flout the NPT, risk an arms race in a vital region, and threaten the credibility of the international community and our collective security."
+         ]
+      },
+      "context":"\"The United States and Russia are part of a coalition of nations insisting that the Islamic Republic of Iran face consequences, because they have continually failed to meet their obligations,\" Obama said. \"We are working together at the UN Security Council to pass strong sanctions on Iran. And we will not tolerate actions that flout the NPT, risk an arms race in a vital region, and threaten the credibility of the international community and our collective security.\"",
+      "id":579,
+      "question":"\"The United States and Russia are part of a coalition of nations insisting that the Islamic Republic of Iran face consequences, because they have continually failed to meet their obligations,\" Obama said.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            307
+         ],
+         "text":[
+            "this ceremony is a testament to the truth that old adversaries can forge new partnerships"
+         ]
+      },
+      "context":"With the stroke of two pens, President Obama and Russian President Dmitri Medvedev signed a new nuclear disarmament treaty in Prague today, replacing the Strategic Arms Reduction Treaty (START) that expired Dec. 5. \"This ceremony is a testament to the truth that old adversaries can forge new partnerships,\"",
+      "id":580,
+      "question":"With the stroke of two pens, President Obama and Russian President Dmitri Medvedev signed a new nuclear disarmament treaty in Prague today, replacing the Strategic Arms Reduction Treaty (START) that expired Dec. 5.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            135
+         ],
+         "text":[
+            "just a couple of months ago it looked like mission impossible"
+         ]
+      },
+      "context":"Medvedev\\'s language was more prosaic, stressing the difficulties in reaching an agreement (it is about four months overdue). He said \"just a couple of months ago it looked like mission impossible\"",
+      "id":581,
+      "question":"Medvedev's language was more prosaic, stressing the difficulties in reaching an agreement (it is about four months overdue). He said",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            206
+         ],
+         "text":[
+            "What matters most is that this is a win-win situation. No one stands to lose from this agreement."
+         ]
+      },
+      "context":"The presidents both remarked on the significance of the treaty. Obama said: \"Today is an important milestone for nuclear security and nonproliferation, and for U.S.-Russia relations.\" And Medvedev added: \"What matters most is that this is a win-win situation. No one stands to lose from this agreement.\"",
+      "id":582,
+      "question":"The presidents both remarked on the significance of the treaty. Obama said: \"Today is an important milestone for nuclear security and nonproliferation, and for U.S.-Russia relations.\" And Medvedev added:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            173
+         ],
+         "text":[
+            "enables us to rise to a higher level of cooperation between Russia and the United States"
+         ]
+      },
+      "context":"Obama said the two nations, which between them have more than 95 percent of the world\\'s nuclear arms, had to show \"responsible global leadership.\"Medvedev said the treaty \"enables us to rise to a higher level of cooperation between Russia and the United States\"",
+      "id":583,
+      "question":"Obama said the two nations, which between them have more than 95 percent of the world\\'s nuclear arms, had to show \"responsible global leadership.\"Medvedev said the treaty",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            507
+         ],
+         "text":[
+            "jeopardize the strategic offensive weapons on the Russian side"
+         ]
+      },
+      "context":"Though President Obama has announced that Russia is no longer the enemy, Russia still considers the U.S. its “principal adversary,” despite the Administration’s attempts to “reset” bilateral relations. U.S. policymakers need to examine Russia’s views on nuclear weapons and understand Russian nuclear doctrine as it is—not as U.S. arms control advocates wish it to be.At the signing of the START follow-on treaty, Medvedev reiterated the Russian position that “the treaty can only be viable” if does not “jeopardize the strategic offensive weapons on the Russian side.”",
+      "id":584,
+      "question":"At the signing of the START follow-on treaty, Medvedev reiterated the Russian position that “the treaty can only be viable” if does not",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            360
+         ],
+         "text":[
+            "The result we have obtained is good."
+         ]
+      },
+      "context":"“Today is an important milestone for nuclear security and non-proliferation, and for US-Russia relations,” the American leader said, speaking in a grand hall inside the Prague Castle where a year ago he gave a speech setting out his vision for a world without nuclear weapons.The Russian President, standing at a podium next to Mr Obama, said of the treaty: “The result we have obtained is good.”",
+      "id":585,
+      "question":"The Russian President, standing at a podium next to Mr Obama, said of the treaty:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            334
+         ],
+         "text":[
+            "We cannot turn a blind eye to this,"
+         ]
+      },
+      "context":"Medvedev called the treaty “a truly historic event” that would “open a new page” in Russian-American relations. “What matters most is that this is a win-win situation,” he said.The Russian signaled support for the U.S.-led drive to impose new sanctions on Iran, saying that Tehran’s nuclear program had flouted international rules. “We cannot turn a blind eye to this,”",
+      "id":586,
+      "question":"The Russian signaled support for the U.S.-led drive to impose new sanctions on Iran, saying that Tehran’s nuclear program had flouted international rules.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            630
+         ],
+         "text":[
+            "my expectation is that we are going to be able to secure strong, tough sanctions on Iran this spring."
+         ]
+      },
+      "context":"A refined oil blockade was being talked about last year but has since appeared to drop off the agenda. Britain opposed it, in part because it would be almost impossible to enforce and boost the smuggling industry on Iran\\'s borders. The real issue now is how far the sanctions go in targeting the Revolutionary Guard. On one hand the guards have real control over the nuclear programme. On the other, they control much of the economy, so if you really go after them, you inevitably affect a lot of ordinary Iranians.Obama said: \"My expectation is that we are going to be able to secure strong, tough sanctions on Iran this spring.\"",
+      "id":587,
+      "question":"The real issue now is how far the sanctions go in targeting the Revolutionary Guard. On one hand the guards have real control over the nuclear programme. On the other, they control much of the economy, so if you really go after them, you inevitably affect a lot of ordinary Iranians.Obama said:",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            334
+         ],
+         "text":[
+            "we are going to be pushing very hard to make sure that both smart and strong sanctions end up being in place soon to send a signal to Iran and other countries that this is an issue that the international community takes seriously,"
+         ]
+      },
+      "context":" Speaking to reporters after an 85-minute closed-door meeting with Medvedev, Obama expressed hope that negotiators in New York will secure \"strong, tough sanctions on Iran this spring.\" \"We are going to be pushing very hard to make sure that both smart and strong sanctions end up being in place soon to send a snity takes seriously,\"",
+      "id":588,
+      "question":"Speaking to reporters after an 85-minute closed-door meeting with Medvedev, Obama expressed hope that negotiators in New York will secure \"strong, tough sanctions on Iran this spring.\"",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            427
+         ],
+         "text":[
+            "those sanctions should be smart sanctions that are capable of producing proper behaviour on the part of relevant sides."
+         ]
+      },
+      "context":"The new relationship, however, will be tested and soon. America is now pushing hard for sanctions against Iran. President Obama expects strong, meaningful sanctions against Tehran in weeks. He also expects Russian support. President Medvedev said today he would \"consider\" sanctions. If he backs them he will remain a reluctant convert. \"If we are to speak about sanctions, although they are not always successful,\" he said, \"those sanctions should be smart sanctions that are capable of producing proper behaviour on the part of relevant sides.\"",
+      "id":589,
+      "question":"\"If we are to speak about sanctions, although they are not always successful,\" he said,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            112
+         ],
+         "text":[
+            "I have outlined our limits for such sanctions."
+         ]
+      },
+      "context":"\"Let me put it straightforward,\" Medvedev said of his discussions with Obama at the meeting at Prague Castle. \"I have outlined our limits for such sanctions.\"",
+      "id":590,
+      "question":"\"Let me put it straightforward,\" Medvedev said of his discussions with Obama at the meeting at Prague Castle.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            100
+         ],
+         "text":[
+            "I feel confident that we are going to be able to get it ratified."
+         ]
+      },
+      "context":"Nuclear missiles and bombers will be cut to between 700 and 800 systems.Mr. Obama said in Prague, “I feel confident that we are going to be able to get it ratified.”",
+      "id":591,
+      "question":"Nuclear missiles and bombers will be cut to between 700 and 800 systems.Mr. Obama said in Prague,",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            79
+         ],
+         "text":[
+            "We have seized the opportunity and because of the steps we are taking as individual nations and as an international community the American people will be safer and the world will be more secure."
+         ]
+      },
+      "context":"\"It has been an enormously productive day,\" Mr Obama said at the summit\\'s end. \"We have seized the opportunity and because of the steps we are taking as individual nations and as an international community the American people will be safer and the world will be more secure.\"",
+      "id":592,
+      "question":"Nuclear missiles and bombers will be cut to between 700 and 800 systems.Mr. Obama said in Prague, ",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            267
+         ],
+         "text":[
+            "agreed on the urgency and seriousness of the threat."
+         ]
+      },
+      "context":"“We were given briefings and when we tried to find specific intelligence on the threat of any known terrorist efforts to get a bomb, the answer was we did not have any.”Mr. Obama told reporters that there was a range of views on the danger but that all the conferees “agreed on the urgency and seriousness of the threat.”",
+      "id":593,
+      "question":"Mr. Obama told reporters that there was a range of views on the danger but that all the conferees",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            309
+         ],
+         "text":[
+            "Nuclear terrorism is one of the most challenging threats to international security, and strong nuclear security measures are the most effective means to prevent terrorists, criminals, or other unauthorised actors from acquiring nuclear materials,"
+         ]
+      },
+      "context":"The leaders of 47 nations left the summit bearing a communiqué giving voice to dangers Mr Obama has been highlighting since coming to office. Though only political, the breakthrough agreement included promises by the nations to ratify existing – and legally binding – treaties on protecting nuclear materials.\"Nuclear terrorism is one of the most challenging threats to international security, and strong nuclear security measures are the most effective means to prevent terrorists, criminals, or other unauthorised actors from acquiring nuclear materials,\"",
+      "id":594,
+      "question":"Though only political, the breakthrough agreement included promises by the nations to ratify existing – and legally binding – treaties on protecting nuclear materials.",
+      "title":"<OPTION>"
+   },
+   {
+      "answers":{
+         "answer_start":[
+            230
+         ],
+         "text":[
+            "This is an ambitious goal, and we are under no illusions that it will be easy,"
+         ]
+      },
+      "context":"Nearly four dozen nations signed a non-binding agreement Tuesday to secure vulnerable nuclear material by 2014, a goal President Obama said would make the world safer from a stockpile big enough to produce 120,000 nuclear bombs.\"This is an ambitious goal, and we are under no illusions that it will be easy,\"",
+      "id":595,
+      "question":"Nearly four dozen nations signed a non-binding agreement Tuesday to secure vulnerable nuclear material by 2014, a goal President Obama said would make the world safer from a stockpile big enough to produce 120,000 nuclear bombs.",
+      "title":"<OPTION>"
+   }
+]
+
+
+
+
+
+
+
+
