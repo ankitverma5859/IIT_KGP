@@ -2188,7 +2188,1011 @@
       "id":595,
       "question":"Nearly four dozen nations signed a non-binding agreement Tuesday to secure vulnerable nuclear material by 2014, a goal President Obama said would make the world safer from a stockpile big enough to produce 120,000 nuclear bombs.",
       "title":"<OPTION>"
-   }
+   },
+{
+    "answers": {
+	"answer_start": [196],
+	"text": ["There are still challenges to overcome but all indications are that the government will be representative, inclusive and reflect the will of the Iraq people who cast their ballots in the last election,"]
+    },
+    "context": "At a news conference in South Korea on Friday, Mr Obama stressed the need for leaders from all the main blocs to hold posts in a broad-based government, whose leaders treated all Iraqis as equals.There are still challenges to overcome but all indications are that the government will be representative, inclusive and reflect the will of the Iraq people who cast their ballots in the last election,",
+    "id": "751",
+    "question": "At a news conference in South Korea on Friday, Mr Obama stressed the need for leaders from all the main blocs to hold posts in a broad-based government, whose leaders treated all Iraqis as equals.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [222],
+        "text": ["This agreement marks another milestone in the history of modern Iraq,"]
+    },
+    "context": "There are still some challenges to come but all indications are the government will be representative, inclusive and reflect the will of the Iraqi people, Obama said, capping an intense US effort to back the unity process.This agreement marks another milestone in the history of modern Iraq",
+    "id": "752",
+    "question": "There are still some challenges to come but all indications are the government will be representative, inclusive and reflect the will of the Iraqi people, Obama said, capping an intense US effort to back the unity process.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [156],
+        "text": ["get the global economy back on the path of recovery."]
+    },
+    "context": "Obama was ignored---he got NOTHING! He couldnt even get a revised trade treaty with South Korea. Look at the verbal and written outcomes. The body agreed to get the global economy back on the path of recovery.",
+    "id": "753",
+    "question": "Look at the verbal and written outcomes. The body agreed to",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [310],
+        "text": ["Many advanced economies are growing too slowly and not creating enough jobs. Some countries are running large surpluses, others running large deficits,"]
+    },
+    "context": "The world risks more economic problems if countries dont do more to end unfair trade practices and currency manipulation, Obama said, and singled out China. He said Beijing spends enormous amounts of money to keep its currency artificially low, and called it an irritant to the United States and other nations.Many advanced economies are growing too slowly and not creating enough jobs. Some countries are running large surpluses, others running large deficits",
+    "id": "754",
+    "question": "He said Beijing spends enormous amounts of money to keep its currency artificially low, and called it an irritant to the United States and other nations.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [274],
+        "text": ["their path to prosperity is paved simply with exports to the United States."]
+    },
+    "context": "Scrapping a longtime practice of speaking with diplomatic caution about Chinas currency policy, Obama accused Beijing of intervening aggressively to keep its currency, the renminbi, below its market value to promote exports.He said it was a mistake for nations to think that their path to prosperity is paved simply with exports to the United States.",
+    "id": "755",
+    "question": "He said it was a mistake for nations to think that ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [118],
+        "text": ["no nation should assume that their path to prosperity is paved simply with exports to the United States."]
+    },
+    "context": "Obama said he continues to believe keeping tax cuts for the rich would be a mistake and we cant afford it.On exports: No nation should assume that their path to prosperity is paved simply with exports to the United States.",
+    "id": "756",
+    "question": "Obama said he continues to believe keeping tax cuts for the rich would be a mistake and we cant afford it.On exports: ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [130],
+        "text": ["exchange rates must reflect economic realities. ...emerging economies need to allow for currencies that are market This is something that I raised with President Hu of China, and we will closely watch the appreciation of China's currency."]
+    },
+    "context": "On exports: No nation should assume that their path to prosperity is paved simply with exports to the United States.On currencies:Exchange rates must reflect economic realities... Emerging economies need to allow for currencies that are market driven. This is something that I raised with President Hu of China and we will closely watch the appreciation of China’s currency.",
+    "id": "757",
+    "question": "On exports: No nation should assume that their path to prosperity is paved simply with exports to the United States.On currencies:",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [152],
+        "text": ["exchange rates must reflect economic realities."]
+    },
+    "context": "US President Barack Obama said there should be no controversy about fixing imbalances that helped to contribute to the crisis that we just went through.Exchange rates must reflect economic realities,",
+    "id": "758",
+    "question": "US President Barack Obama said there should be no controversy about fixing imbalances that helped to contribute to the crisis that we just went through.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [131],
+        "text": ["exchange rates must reflect economic realities. ...emerging economies need to allow for currencies that are market This is something that I raised with President Hu of China, and we will closely watch the appreciation of China's currency."]
+    },
+    "context": "On exports: No nation should assume that their path to prosperity is paved simply with exports to the United States.On currencies: Exchange rates must reflect economic realities... Emerging economies need to allow for currencies that are market driven. This is something that I raised with President Hu of China and we will closely watch the appreciation of Chinas currency.",
+    "id": "759",
+    "question": "On exports: No nation should assume that their path to prosperity is paved simply with exports to the United States.On currencies: ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [56],
+        "text": ["emerging economies need to allow for currencies that are market-driven. This is something that I raised with President Hu of China, and we will closely watch the appreciation of China's currency."]
+    },
+    "context": "Exchange rates must reflect economic realities, he said.Emerging economies need to allow for currencies that are market-driven. This is something that I raised with President Hu of China and we will closely watch the appreciation of China's currency.",
+    "id": "760",
+    "question": "Exchange rates must reflect economic realities, he said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [442],
+        "text": ["emerging economies need to allow for currencies that are market-driven."]
+    },
+    "context": "The failure of the G20 summit heralds an intensification of currency and trade conflicts that threaten to unleash a global trade war. That the opposed camps remained at loggerheads was underscored by the outcome of bilateral meetings held Thursday by Obama with Chinese President Hu Jintao and German Chancellor Angela Merkel.At his press conference in Seoul on Friday, Obama said that he had raised yesterday with President Hu of China that emerging economies need to allow for currencies that are market-driven.",
+    "id": "761",
+    "question": "That the opposed camps remained at loggerheads was underscored by the outcome of bilateral meetings held Thursday by Obama with Chinese President Hu Jintao and German Chancellor Angela Merkel.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [202],
+        "text": ["This is something that I raised with President Hu [jintao] of China, and we will closely watch the appreciation of China's currency."]
+    },
+    "context": "Exchange rates must reflect economic realities … Emerging economies need to allow for currencies that are market driven, US President Barack Obama told a news conference after the communique was agreed.This is something that I raised with President Hu [Jintao] of China and we will closely watch the appreciation of China's currency.",
+    "id": "762",
+    "question": " Emerging economies need to allow for currencies that are market driven, US President Barack Obama told a news conference after the communique was agreed.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [290],
+        "text": ["we will continue to closely watch the appreciation of China's currency."]
+    },
+    "context": "Completion of this deal could lead to billions of dollars in increased exports and thousands of American jobs for American workers, Obama said.Obama did not cite the Chinese money dispute in his speech to the CEOs. Earlier in the week, at the G-20 summit in Seoul, South Korea, Obama said, we will continue to closely watch the appreciation of China's currency.",
+    "id": "763",
+    "question": "Completion of this deal could lead to billions of dollars in increased exports and thousands of American jobs for American workers," Obama said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [229],
+        "text": ["All of us need to avoid actions that perpetuate imbalances and give countries an undue advantage over one another."]
+    },
+    "context": "At his press conference in Seoul on Friday, Obama said that he had raised yesterday with President Hu of China that emerging economies need to allow for currencies that are market-driven. In a thinly veiled attack, he continued: All of us need to avoid actions that perpetuate imbalances and give countries an undue advantage over one another.",
+    "id": "764",
+    "question": "At his press conference in Seoul on Friday, Obama said that he had raised yesterday with President Hu of China that emerging economies need to allow for currencies that are market-driven. In a thinly veiled attack, he continued: ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [112],
+        "text": ["My number-one priority is making sure that we make the middle-class tax cuts permanent,"]
+    },
+    "context": "Responding to questions about Axelrod’s comments in Seoul, Obama signaled his readiness to accept an extension. My number-one priority is making sure that we make the middle-class tax cuts permanent,",
+    "id": "765",
+    "question": "Responding to questions about Axelrod’s comments in Seoul, Obama signaled his readiness to accept an extension. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [209],
+        "text": ["I continue to believe that extending permanently the upper-income tax cuts would be a mistake and that we can't afford it. And my hope is, is that somewhere in between there we can find some sort of solution."]
+    },
+    "context": "Responding to questions about Axelrod’s comments in Seoul, Obama signaled his readiness to accept an extension. My number-one priority is making sure that we make the middle-class tax cuts permanent, he said. I continue to believe that extending permanently the upper-income tax cuts would be a mistake and that we can’t afford it. And my hope is, is that somewhere in between there we can find some sort of solution",
+    "id": "766",
+    "question": " My number-one priority is making sure that we make the middle-class tax cuts permanent, he said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [275],
+        "text": ["I continue to believe that extending permanently the upper-income tax cuts would be a mistake and that we can't afford it."]
+    },
+    "context": "My number-one priority is making sure that we make the middle-class tax cuts permanent, that we give certainty to the 98 percent of Americans who are affected by those tax breaks,Obama said.Obama also said he remains opposed to a permanent extension of upper-income tax cuts:I continue to believe that extending permanently the upper-income tax cuts would be a mistake and that we can't afford it,",
+    "id": "767",
+    "question": "My number-one priority is making sure that we make the middle-class tax cuts permanent, that we give certainty to the 98 percent of Americans who are affected by those tax breaks," Obama said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [449],
+        "text": ["we can chip away at the unemployment rate so that we get back to the kinds of levels that reflect a growing middle class and increased opportunity for all people."]
+    },
+    "context": "Pressed on the slow pace of the U.S. economic recovery and whether he can promise that Americans will feel noticeable job growth during his first four-year term, Obama noted his administration has had 10 consecutive months of private sector job growth but added that he doesn't have a crystal ball about the months ahead.But he noted that job growth needs to be speeded up and he believes his policies will set the right conditions for a turnaround.We can chip away at the unemployment rate so that we get back to the kinds of levels that reflect a growing middle class and increased opportunity for all people,",
+    "id": "768",
+    "question": "But he noted that job growth needs to be speeded up and he believes his policies will set the right conditions for a turnaround.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [331],
+        "text": ["refrain from competitive devaluation of currencies"]
+    },
+    "context": "Negotiators talked through the night to try to hammer out a compromise deal on easing trade imbalances distorting the world economy and hampering growth.I think the prospect is rather bright, Kim told a briefing, when asked about hopes of making progress on deals reached by G20 finance ministers last month.The ministers vowed to refrain from competitive devaluation of currencies",
+    "id": "769",
+    "question": "I think the prospect is rather bright, Kim told a briefing, when asked about hopes of making progress on deals reached by G20 finance ministers last month.The ministers vowed to ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [405],
+        "text": ["the issue of the [renminbi] is one that is an irritant not just to the United States, but is an irritant to a lot of China’s trading partners and those who are competing with China to sell goods around the world. It is undervalued. And China spends enormous amounts of money intervening in the market to keep it undervalued."]
+    },
+    "context": "At his press conference in Seoul on Friday, Obama said that he had raised yesterday with President Hu of China that emerging economies need to allow for currencies that are market-driven. In a thinly veiled attack, he continued: All of us need to avoid actions that perpetuate imbalances and give countries an undue advantage over one another.In reply to a question, Obama was more bellicose, saying that the issue of the [renminbi] is one that is an irritant not just to the United States, but is an irritant to a lot of China’s trading partners and those who are competing with China to sell goods around the world. It is undervalued. And China spends enormous amounts of money intervening in the market to keep it undervalued.",
+    "id": "770",
+    "question": "In a thinly veiled attack, he continued: “All of us need to avoid actions that perpetuate imbalances and give countries an undue advantage over one another.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [259],
+        "text": ["China spends enormous amounts of money intervening in the market to keep it undervalued."]
+    },
+    "context": "What happened Friday: The nations agreed to curb persistently large imbalances in trade, spending and saving, but the U.S. failed to extract numerical targets, a key issue in the increased tension between the U.S. and China.The President on China’s currency: China spends enormous amounts of money intervening in the market to keep it undervalued.",
+    "id": "771",
+    "question": "What happened Friday: The nations agreed to curb persistently large imbalances in trade, spending and saving, but the U.S. failed to extract numerical targets, a key issue in the
+increased tension between the U.S. and China.The President on China's currency: ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [428],
+        "text": ["I think what we will naturally see is a whole bunch of talented people rise to the top as they promote good ideas that attract the American people in terms of jobs and investment and how to grow the economy,"]
+    },
+    "context": "The president also seemed to give outgoing House Speaker Nancy Pelosi an unofficial but tacit endorsement in her bid to remain in the Democratic leadership as House Minority Leader. Asked by a reporter whether or not he believes fellow Democrats in Congress should get some new blood, Obama praised Pelosi as a outstanding partner despite some conservative Democrats back in Washington griping that she should not stay in power.I think what we will naturally see is a whole bunch of talented people rise to the top as they promote good ideas that attract the American people in terms of jobs and investment and how to grow the economy,",
+    "id": "272",
+    "question": "Asked by a reporter whether or not he believes fellow Democrats in Congress should get some new blood, Obama praised Pelosi as a outstanding partner despite some conservative Democrats back in Washington griping that she should not stay in power.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [194],
+        "text": ["It is undervalued and China spends enormous amounts of money intervening in the market to keep it undervalued,"]
+    },
+    "context": "At the end of the summit, US President Barack Obama renewed an offensive on the Chinese yuan, which critics say is kept deliberately cheap to support Chinese exporters at the expense of US jobs.It is undervalued and China spends enormous amounts of money intervening in the market to keep it undervalued,",
+    "id": "773",
+    "question": "At the end of the summit, US President Barack Obama renewed an offensive on the Chinese yuan, which critics say is kept deliberately cheap to support Chinese exporters at the expense of US jobs.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [270],
+        "text": ["I think Speaker Pelosi has been an outstanding partner for me,"]
+    },
+    "context": "As House Speaker Nancy Pelosi, D-Calif., prepares to run for House Minority Leader – and faces dissent among Democratic House members – ABC News asked President Obama at a press conference if he feels the Democratic Party would benefit from new blood and new leadership.I think Speaker Pelosi has been an outstanding partner for me,",
+    "id": "774",
+    "question": "ABC News asked President Obama at a press conference if he feels the Democratic Party would benefit from new blood and new leadership.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [67],
+        "text": ["[Senate Majority Leader] Harry Reid has been a terrific partner in moving some very difficult legislation forward."]
+    },
+    "context": "Speaker Pelosi has been an outstanding partner for me, Obama said. [Senate Majority Leader] Harry Reid has been a terrific partner in moving some very difficult legislation forward.",
+    "id": "775",
+    "question": "Speaker Pelosi has been an outstanding partner for me, Obama said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [363],
+        "text": ["I remember our first G-20, you guys writing the exact same stories you're writing now. Don't you remember that, Sheryl?"]
+    },
+    "context": "The president complained several times during his news conference about the U.S. media's coverage of the G-20 summit. He pushed back at the suggestion that he's weaker on the world stage because of the midterm elections and argued that his fellow leaders are no tougher on him than they were a year ago when he was new to the scene and his poll numbers were high.I remember our first G-20, you guys writing the exact same stories you're writing now. Don't you remember that, Sheryl?",
+    "id": "776",
+    "question": "He pushed back at the suggestion that he's weaker on the world stage because of the midterm elections and argued that his fellow leaders are no tougher on him than they were a year ago when he was new to the scene and his poll numbers were high.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [91],
+        "text": ["And you are now seeing a situation in which a whole host of other countries are doing very well and coming into their own, and naturally, they are going to be more assertive in terms of their interests and ideas."]
+    },
+    "context": "We have had outsized influence over world affairs for a century now, Obama told reporters. And you are now seeing a situation in which a whole host of other countries are doing very well and coming into their own, and naturally, they are going to be more assertive in terms of their interests and ideas.",
+    "id": "777",
+    "question": "We have had outsized influence over world affairs for a century now, Obama told reporters.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [433],
+        "text": ["We are now seeing a situation where a whole host of other countries are doing well and coming into their own and naturally they’re going to be more assertive."]
+    },
+    "context": "World leaders may indeed like Mr. Obama on a personal level, but that has little to do with his stature as a national leader. Machiavelli’s dictum that it is better for a head of state to be feared than loved still applies, and it is clear that there is no reason for any country to fear the affable Mr. Obama.The president again casually confirmed his belief in the decline of America’s outsized influence in world affairs, noting, We are now seeing a situation where a whole host of other countries are doing well and coming into their own and naturally they’re going to be more assertive.",
+    "id": "778",
+    "question": "Machiavelli’s dictum that it is better for a head of state to be feared than loved still applies, and it is clear that there is no reason for any country to fear the affable Mr. Obama.The president again casually confirmed his belief in the decline of America’s outsized influence in world affairs, noting, ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [113],
+        "text": ["The work that we do here is not going to seem dramatic. It is not always going to be world-changing. But step to step, what we’re doing is building stronger international mechanisms and institutions"]
+    },
+    "context": "Still, he would not admit defeat in back-door meetings that often seemed on the verge of breaking into hostility.The work that we do here is not going to seem dramatic. It is not always going to be world-changing. But step to step, what we’re doing is building stronger international mechanisms and institutions",
+    "id": "779",
+    "question": "Still, he would not admit defeat in back-door meetings that often seemed on the verge of breaking into hostility.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [269],
+        "text": ["Part of the reason that sometimes it seems that the United States is attracting some dissent is because we’re initiating ideas,"]
+    },
+    "context": "Last week’s G-20 economic summit in South Korea was widely depicted as a failure for the Obama administration and a rebuff for the United States. In many respects, it was. Obama remarked that if the U.S. hadnt tried to set the agenda, it would have had an easier time. Part of the reason that sometimes it seems that the United States is attracting some dissent is because we’re initiating ideas,",
+    "id": "780",
+    "question": "Obama remarked that if the U.S. hadn’t tried to set the agenda, it would have had an easier time.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [361],
+        "text": ["Part of the reason that sometimes it seems that the United States is attracting some dissent is because we're initiating ideas. We're putting them forward,"]
+    },
+    "context": "YOKOHAMA, Japan, Nov. 12, 2010 — -- President Obama began his trip to Asia with hopes of increasing exports and boosting American jobs, but he ends it with modesty being forced upon him, having failed to deliver in several key areas.The president concluded the summit of the G-20 economic superpowers with an acknowledgement of the limits of American influence.Part of the reason that sometimes it seems that the United States is attracting some dissent is because we're initiating ideas. We're putting them forward,",
+    "id": "781",
+    "question": "The president concluded the summit of the G-20 economic superpowers with an acknowledgement of the limits of American influence.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [658],
+        "text": ["my relationships have grown much stronger"]
+    },
+    "context": "It's an appreciation that, you know, Europe is now rebuilt and a powerhouse, Obama said then. Japan is rebuilt, is a powerhouse. China, India, these are all countries on the move. And that's good. That means there are millions of people - billions of people who are working their way out of poverty. And over time, that potentially makes this a much more peaceful world.On Friday here in Seoul, Obama defended the work of the G-20 by allowing that instead of hitting home runs sometimes leaders have to settle for hitting singles that are still quite impressive.As for his own standing on the world stage and his alliances with specific leaders, Obama said, my relationships have grown much stronger",
+    "id": "782",
+    "question": "On Friday here in Seoul, Obama defended the work of the G-20 by allowing that instead of hitting home runs sometimes leaders have to settle for hitting singles that are still quite impressive.As for his own standing on the world stage and his alliances with specific leaders, Obama said,",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [674],
+        "text": ["Here's the right interpretation - I want to make sure that taxes don't go up for middle class families starting on January 1st,"]
+    },
+    "context": "Seoul, South Korea (CNN) - President Obama declared Friday that his number one priority is preserving tax cuts for the middle class, and sharply denied that comments by his senior adviser David Axelrod suggest that his administration is about to cave in to Republicans who also want to extend the Bush tax cuts for the wealthy.That is the wrong interpretation because I haven't had a conversation with Democratic and Republican leaders, Obama said of a Huffington Post article suggesting that in advance of negotiations with lawmakers next week the White House has calculated that giving in on tax cuts for the rich is the only way to get the middle class cuts extended too.Here's the right interpretation - I want to make sure that taxes don't go up for middle class families starting on January 1st,",
+    "id": "783",
+    "question": "That is the wrong interpretation because I haven't had a conversation with Democratic and Republican leaders, Obama said of a Huffington Post article suggesting that in advance of negotiations with lawmakers next week the White House has calculated that giving in on tax cuts for the rich is the only way to get the middle class cuts extended too.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [303],
+        "text": ["I want to make sure that taxes don't go up for middle-class families starting on January 1st. That is my number-one priority for those families and for our economy... I also believe that it would be fiscally irresponsible for us to permanently extend the high-income tax cuts."]
+    },
+    "context": "WASHINGTON -- Speaking to reporters in Seoul, South Korea, President Barack Obama sought to clarify his position on the expiring Bush tax cuts. In doing so, he hinted once more that a deal with Republicans is in the offing.Here's the right interpretation, Obama told a gathering of reporters on Friday. I want to make sure that taxes don't go up for middle-class families starting on January 1st. That is my number-one priority for those families and for our economy... I also believe that it would be fiscally irresponsible for us to permanently extend the high-income tax cuts.",
+    "id": "784",
+    "question": "Here's the right interpretation, Obama told a gathering of reporters on Friday. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [163],
+        "text": ["There may be a whole host of ways to compromise around those issues,"]
+    },
+    "context": "Nov. 12, 2010— -- President Barack Obama has indicated that the Democrats might be willing to compromise on the extension of the Bush-era tax cuts for the wealthy.There may be a whole host of ways to compromise around those issues,",
+    "id": "785",
+    "question": "Nov. 12, 2010— -- President Barack Obama has indicated that the Democrats might be willing to compromise on the extension of the Bush-era tax cuts for the wealthy.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [507],
+        "text": ["I'm going to study those carefully, consult widely, and see what we can do on the spending side"]
+    },
+    "context": "Obama seemed to be suggesting the party should stay the course by then thanking Senate Majority Leader Harry Reid, D-Nevada, by name as well before concluding, I'm looking forward to working with the entire leadership team on behalf of the American people.For the second straight day Obama also commented on his debt commission, chaired by Democrat Erskine Bowles and Republican Alan Simpson, which released highly-controversial preliminary findings urging major overhauls of programs like Social Security. I'm going to study those carefully, consult widely, and see what we can do on the spending side",
+    "id": "786",
+    "question": "For the second straight day Obama also commented on his debt commission, chaired by Democrat Erskine Bowles and Republican Alan Simpson, which released highly-controversial preliminary findings urging major overhauls of programs like Social Security. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [432],
+        "text": ["What was the number-one complaint, concern, or piece of advice that you got from foreign leaders about the U.S. economy and your stewardship of the economy?"]
+    },
+    "context": "Perhaps Barack Obama learned his journalistic craft from Jeff Zeleny.  After getting skunked at the G-20 and on the free-trade agreement that Obama had gone to Seoul to sign, CBS' Chip Reid wondered what concerns Obama had heard about American policy from his colleagues at the conference, as William Kristol reports:At his November 12 press conference in Seoul, President Obama was asked the following question by CBS's Chip Reid: What was the number-one complaint, concern, or piece of advice that you got from foreign leaders about the U.S. economy and your stewardship of the economy?",
+    "id": "787",
+    "question": "After getting skunked at the G-20 and on the free-trade agreement that Obama had gone to Seoul to sign, CBS’ Chip Reid wondered what concerns Obama had heard about American policy from his colleagues at the conference, as William Kristol reports:At his November 12 press conference in Seoul, President Obama was asked the following question by CBS’s Chip Reid:",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [366],
+        "text": ["You didn’t put that in the list."]
+    },
+    "context": "At his November 12 press conference in Seoul, President Obama was asked the following question by CBS's Chip Reid: What was the number-one complaint, concern, or piece of advice that you got from foreign leaders about the U.S. economy and your stewardship of the economy?Whereupon the president began his response with a complaint: What about compliments? he asked. “You didn’t put that in the list.",
+    "id": "788",
+    "question": "Whereupon the president began his response with a complaint: What about compliments? he asked. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [421],
+        "text": ["What about compliments? You didn’t put that in the list."]
+    },
+    "context": "In his final press conference of the trip, in Seoul on Friday, Obama sounded tetchy when faced by questions about his relationships with and criticism from other world leaders at the G20 summit.Asked what was the number-one complaint, concern, or piece of advice that you got from foreign leaders about the U.S. economy and your stewardship of the economy, the president replied to the questioner, Chip Reid of CBS News, What about compliments? You didn’t put that in the list.",
+    "id": "789",
+    "question": "Asked what was the number-one complaint, concern, or piece of advice that you got from foreign leaders about the U.S. economy and your stewardship of the economy, the president replied to the questioner, Chip Reid of CBS News, ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [301],
+        "text": ["From everything I can see, this decision was not one designed to have an impact on the currency, on the dollar. It was designed to grow the economy."]
+    },
+    "context": "The president also found himself fending off criticism by G-20 members over the Federal Reserve Board's decision to pump $600 billion into the U.S. economy, an action that officials in other countries likened to Chinese currency manipulation.Obama defended the actions of the independent Fed, saying: From everything I can see, this decision was not one designed to have an impact on the currency, on the dollar. It was designed to grow the economy.",
+    "id": "790",
+    "question": "The president also found himself fending off criticism by G-20 members over the Federal Reserve Board's decision to pump $600 billion into the U.S. economy, an action that officials in other countries likened to Chinese currency manipulation.Obama defended the actions of the independent Fed, saying:",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [405],
+        "text": ["We should not anticipate that every time countries come together that we are doing some revolutionary thing. Instead of hitting home runs, sometimes we’re going to hit singles. But they’re really important singles,"]
+    },
+    "context": "The U.S. is not strong enough to handle these multiple challenges on its own and needs partners. But we are also strong enough -- and will remain so for many years -- so that the democracies of Asia want us to stay engaged, said Walter Andersen of Johns Hopkins University's School of Advanced International Studies in Washington.As he assessed the trip, Obama said he expected positive results over time.We should not anticipate that every time countries come together that we are doing some revolutionary thing. Instead of hitting home runs, sometimes we’re going to hit singles. But they’re really important singles,",
+    "id": "791",
+    "question": "As he assessed the trip, Obama said he expected positive results over time.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [283],
+        "text": ["We should not anticipate that every time countries come together that we are doing some revolutionary thing,"]
+    },
+    "context": "For some inexplicable reason, Mr. Obama welcomes the decline of America's role on the international stage. It is his most notable accomplishment.Mr. Obama defended the relative lack of progress at this G-20 meeting by lecturing the press on the importance of maintaining perspective.We should not anticipate that every time countries come together that we are doing some revolutionary thing,",
+    "id": "792",
+    "question": "Mr. Obama defended the relative lack of progress at this G-20 meeting by lecturing the press on the importance of maintaining perspective.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [390],
+        "text": ["Well, it’s wonderful to see you,"]
+    },
+    "context": "In his final press conference of the G-20, President Obama made a point of seeking a question from the Korean press. After some silence—Anybody? Obama asked, plaintively—he called on a man with his hand up, who said: Unfortunately, I hate to disappoint you, President Obama, I'm actually Chinese. But I think I get to represent the entire Asia, part of the family on this side of the world.Well, it’s wonderful to see you,",
+    "id": "793",
+    "question": "But I think I get to represent the entire Asia, part of the family on this side of the world.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [1275],
+        "text": ["Together we've worked hard to reset the relationship between the US and Russia which has led to concrete benefits for both our nations. Now we are also resetting the NATO-Russia relationship. We see Russia as a partner, not an adversary,"]
+    },
+    "context": "Russian president Dmitry Medvedev arrived at the summit of the former Cold War military alliance to leaders welcoming him with open arms.Leaders on both sides seemed to indicate they plan to co-operate, after NATO-Russia talks they hailed as historic.Today marks a true fresh start in NATO-Russia relations, NATO Secretary General Anders Fogh Rasmussen said.It spells out our desire to pursue a strategic partnership. It means we have overcome the difficulties of the past, Russian President Dmitry Medvedev added.Missile defense plans under the Bush White House provoked the most serious rift between Russia and NATO since the Cold War. Now the Alliance wants Russia to join in – but Russia wants more than just sweet words.We have agreed with our NATO partners that we will pursue dialogue on the European ABM. Our main guide here should be that our participation ought to be equal and I will stress this – it can only be as partners, Medvedev said. No other form of participation for the sake of appearance is acceptable. Either we participate fully – we exchange information, take part in decision-making – or we do not participate at all.The US reset of relations with Russia has brought NATO to woo Moscow; once the great enemy, but now courted as a key potential ally.Together we've worked hard to reset the relationship between the US and Russia which has led to concrete benefits for both our nations. Now we are also resetting the NATO-Russia relationship. We see Russia as a partner, not an adversary,",
+    "id": "794",
+    "question": "The US reset of relations with Russia has brought NATO to woo Moscow; once the great enemy, but now courted as a key potential ally.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [100],
+        "text": ["We have agreed to co-operate on missile defence - we have turned a source of past tension into a source of co-operation,"]
+    },
+    "context": "Mr Obama hailed the resetting of Nato-Russia ties.We have agreed to co-operate on missile defence - we have turned a source of past tension into a source of co-operation,",
+    "id": "795",
+    "question": "Mr Obama hailed the resetting of Nato-Russia ties.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [351],
+        "text": ["Unprompted, I have received overwhelming support from our allies here that Start — the New Start treaty — is a critical component to U.S. and European security."]
+    },
+    "context": "Speaking to the media this weekend, Secretary of State Hillary Clinton told CBS's Bob Schieffer that at NATO's Lisbon Summit this weekend, many European states including Germany, Poland and the Baltic states had pressed the Administration on the ratification of New START.During one of the summit's many news conferences, President Obama also stated, Unprompted, I have received overwhelming support from our allies here that Start — the New Start treaty — is a critical component to U.S. and European security.",
+    "id": "796",
+    "question": "Speaking to the media this weekend, Secretary of State Hillary Clinton told CBS’s Bob Schieffer that at NATO’s Lisbon Summit this weekend, many European states including Germany, Poland and the Baltic states had pressed the Administration on the ratification of New START.During one of the summit’s many news conferences, President Obama also stated,",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [299],
+        "text": ["This is an issue that traditionally has received strong bipartisan support. We've gone through 18 hearings; we've answered 1,000 questions. We have met the concerns about modernizing our nuclear stockpile with concrete budget numbers. it's"]
+    },
+    "context": "We've got the national security advisers and the secretaries of Defense and generals from the Reagan administration, the Bush administration—Bush one and Bush two — as well as from the Clinton administration and my administration saying this is important to our national security, he said Saturday. This is an issue that traditionally has received strong bipartisan support. We've gone through 18 hearings; we've answered 1,000 questions. We have met the concerns about modernizing our nuclear stockpile with concrete budget numbers. It's",
+    "id": "797",
+    "question": "We've got the national security advisers and the secretaries of Defense and generals from the Reagan administration, the Bush administration—Bush one and Bush two — as well as from the Clinton administration and my administration saying this is important to our national security, he said Saturday. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [122],
+        "text": ["the objective assessment is that we have made progress"]
+    },
+    "context": "President Obama said Saturday he was confident that a U.S. troop withdrawal from Afghanistan would begin in July and that the objective assessment is that we have made progress",
+    "id": "798",
+    "question": "President Obama said Saturday he was confident that a U.S. troop withdrawal from Afghanistan would begin in July and that ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [453],
+        "text": ["We are in a better place now than we were a year ago."]
+    },
+    "context": "But he warned that the UK will still be involved in Afghanistan. He said: We may be helping to train their army, we may still be delivering a lot of aid, in effect, because we don't want this country to go back to being a lawless space where the terrorists can have bases, so it's a proper long-term relationship.Us President Barack Obama, who sat beside Cameron at the summit, wants to start pulling American forces out of Afghanistan in July.He said: "We are in a better place now than we were a year ago.",
+    "id": "799",
+    "question": "Us President Barack Obama, who sat beside Cameron at the summit, wants to start pulling American forces out of Afghanistan in July.He said:",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [207],
+        "text": ["got to understand that I've got a bunch of young men and women from small towns and big cities all across America who are in a foreign country being shot at and having to traverse terrain filled with IEDs, and they need to protect themselves"]
+    },
+    "context": "President Obama said Saturday that the U.S. must be sensitive to Karzai's concerns but the relationship is a two-way street. Obama met with Karzai during the weekend NATO summit in Lisbon, Portugal.Karzai's got to understand that I've got a bunch of young men and women from small towns and big cities all across America who are in a foreign country being shot at and having to traverse terrain filled with IEDs, and they need to protect themselves,",
+    "id": "800",
+    "question": "Obama met with Karzai during the weekend NATO summit in Lisbon, Portugal.Karzai's",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [477],
+        "text": ["number one priority is to do what's right for the American people,"]
+    },
+    "context": "President Barack Obama vigorously defended his agreement with Republicans to extend all of the Bush-era tax cuts on Tuesday, arguing that it was a price that had to be paid to spare the middle class from crippling tax hikes. The president promised disheartened Democrats that the fight over the cuts for the highest-income Americans would continue over the next two years. He also urged them to take a long-term view of the bitter policy fights now taking place in Washington. My number one priority is to do what's right for the American people,",
+    "id": "801",
+    "question": "He also urged them to take a long-term view of the bitter policy fights now taking place in Washington. My",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [340],
+        "text": ["Because of this agreement, middle-class Americans won’t see their taxes go up on January 1, which is what I promised—a promise I made during the campaign, a promise I made as President,"]
+    },
+    "context": "Obama attempted to present this abject capitulation to the avarice of the financial elite as a compromise driven by a deep and unwavering concern for the welfare of ordinary people. He claimed that taxes would have gone up for millions otherwise and that the deal was the only way to carry on federal assistance to the long-term unemployed.Because of this agreement, middle-class Americans won’t see their taxes go up on January 1, which is what I promised—a promise I made during the campaign, a promise I made as President,",
+    "id": "802",
+    "question": "He claimed that taxes would have gone up for millions otherwise and that the deal was the only way to carry on federal assistance to the long-term unemployed.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [294],
+        "text": ["Because of this agreement, two million Americans who lost their jobs and are looking for work will be able to pay their rent and put food on their table."]
+    },
+    "context": "Because of this agreement, middle-class Americans won,t see their taxes go up on January 1, which is what I promised—a promise I made during the campaign, a promise I made as President, Obama said, ignoring his more frequently-stated promise that he would let the tax cuts for the rich expire. Because of this agreement, two million Americans who lost their jobs and are looking for work will be able to pay their rent and put food on their table.",
+    "id": "803",
+    "question": "Because of this agreement, middle-class Americans won’t see their taxes go up on January 1, which is what I promised—a promise I made during the campaign, a promise I made as President, Obama said, ignoring his more frequently-stated promise that he would let the tax cuts for the rich expire.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["This is real money for real people that will make a real difference in the lives of the folks who sent us here,"]
+    },
+    "context": "WASHINGTON, Dec 7 (Reuters) -U.S. President Barack Obama said on Tuesday the tentative tax deal he struck with Republicans is a good deal for the American people and a long political fight over tax cuts would have been bad for the U.S. economy.This is real money for real people that will make a real difference in the lives of the folks who sent us here,",
+    "id": "804",
+    "question": "WASHINGTON, Dec 7 (Reuters) -U.S. President Barack Obama said on Tuesday the tentative tax deal he struck with Republicans is a good deal for the American people and a long political fight over tax cuts would have been bad for the U.S. economy.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [339],
+        "text": ["I'm as opposed to the high-end tax cuts today as I've been for years,"]
+    },
+    "context": "That an administration would promote polling data backing its policy preferences is normally not an astounding revelation. But the private push of the Gallup study struck the Senate aide as depressing if not counter-productive. Even as the president was insisting that he thought an extension of rates for the wealthy is poor economics -- I'm as opposed to the high-end tax cuts today as I've been for years,",
+    "id": "805",
+    "question": "But the private push of the Gallup study struck the Senate aide as depressing if not counter-productive. Even as the president was insisting that he thought an extension of rates for the wealthy is poor economics -- ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [],
+        "text": ["[But] I’m as opposed to the high-end tax cuts today as I’ve been for years. In the long run, we simply can’t afford them. And when they expire in two years, I will fight to end them."]
+    },
+    "context": "Though Obama did accept the deal with the GOP, he proved to be a rather disagreeable compromiser, calling Republicans hostage takers and the American people the hostages. Obama thus not only reneged on an oft-repeated campaign promise to repeal the Bush-era tax cuts for the rich, he also proved utterly ungracious to those lawmakers with whom he had just struck a deal. [B]ecause of this agreement, middle-class Americans won’t see their taxes go up on January 1st, which is what I promised, he said. [But] I’m as opposed to the high-end tax cuts today as I’ve been for years. In the long run, we simply can’t afford them. And when they expire in two years, I will fight to end them.",
+    "id": "806",
+    "question": "[B]ecause of this agreement, middle-class Americans won’t see their taxes go up on January 1st, which is what I promised, he said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [417],
+        "text": ["We're going to keep on having this debate. We're going to keep on having this battle, but in the meantime I'm not here to play games with the American people or the health of our economy."]
+    },
+    "context": "I know there are some who would've preferred a protracted political fight even if it had meant higher taxes for all Americans, even if it had meant no unemployment benefits for those who are desperately looking for work, the president said. And I understand the desire for a fight. I am sympathetic to that.When they expire in two years, I will fight to end them, he added. We're going to keep on having this debate. We're going to keep on having this battle, but in the meantime I'm not here to play games with the American people or the health of our economy.",
+    "id": "807",
+    "question": "When they expire in two years, I will fight to end them, he added. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [327],
+        "text": ["A long political fight that carried over into next year might have been good politics, but it would be a bad deal for the economy and it would be a bad deal for the American people,"]
+    },
+    "context": "Or will opposition soften? At last week,s meeting of the White House deficit commission, Honeywell CEO David Cote made a striking remark on the process of compromise: We can't let the perfect be the enemy of the good.Here in December, Congress might want to abide by his advice – especially after President Obama,s remark that a long political fight that carried over into next year might have been good politics, but it would be a bad deal for the economy and it would be a bad deal for the American people.",
+    "id": "808",
+    "question": "Or will opposition soften? At last week’s meeting of the White House deficit commission, Honeywell CEO David Cote made a striking remark on the process of compromise: We can't let the perfect be the enemy of the good.Here in December, Congress might want to abide by his advice – especially after President Obama’s remark that ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [127],
+        "text": ["This isn’t the politics of the moment. This has to do with what can we get done right now,"]
+    },
+    "context": "Of course the liberal Democrats did not really plan on his getting mad at the liberal Democrats. But you can't have everything.This isn’t the politics of the moment. This has to do with what can we get done right now,",
+    "id": "809",
+    "question": "But you can’t have everything.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [151],
+        "text": ["We can’t get my preferred option through the Senate right now."]
+    },
+    "context": "This isn’t the politics of the moment. This has to do with, ‘What can we get done right now?’ he said, not explaining the distinction between the two. We can’t get my preferred option through the Senate right now.",
+    "id": "810",
+    "question": "This has to do with, ‘What can we get done right now?’ he said, not explaining the distinction between the two. ",
+    "title": "<OPTION>"
+},
+
+{
+    "answers": {
+        "answer_start": [347],
+        "text": ["If we don't get my option through the Senate right now and we do nothing, then on January 1st of this 2011, the average family is going to see their taxes go up about 3,000 US dollars,"]
+    },
+    "context": "It's something that's not done yet. Let's make that clear. We're working through all this, he told reporters after Vice President Joe Biden made the case for the deal in the closed-door Senate Democrats' weekly lunch.But Obama argued that doing nothing was not an option, and taking a purist position meant the American people would be the losers.If we don't get my option through the Senate right now and we do nothing, then on January 1st of this 2011, the average family is going to see their taxes go up about 3,000 US dollars,",
+    "id": "811",
+    "question": "But Obama argued that doing nothing was not an option, and taking a purist position meant the American people would be the losers.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [495],
+        "text": ["Now, I have an option, which is to say, you know what, I’m going to keep fighting a political fight, which I can’t win in the Senate—and by the way, there are going to be more Republican senators in the Senate next year sworn in than there are currently,"]
+    },
+    "context": "A reporter asked, [A]ren't you telegraphing, though, a negotiating strategy of how the Republicans can beat you in negotiations all the way through the next year because they can just… be unwilling to budge—to use your words—and force you to capitulate? Another asked, what's going to be different in 2012, when all these tax cuts again are up for expiration?Obama evaded these and similar questions, and in responding to others all but admitted the new temporary tax cuts are in fact permanent.Now, I have an option, which is to say, you know what, I’m going to keep fighting a political fight, which I can’t win in the Senate—and by the way, there are going to be more Republican senators in the Senate next year sworn in than there are currently,",
+    "id": "812",
+    "question": "Obama evaded these and similar questions, and in responding to others all but admitted the new temporary tax cuts are in fact permanent.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [267],
+        "text": ["So the likelihood that the dynamic is going to improve for us getting my preferred option through the Senate will be diminished."]
+    },
+    "context": "Now, I have an option, which is to say, you know what, I'm going to keep fighting a political fight, which I can't win in the Senate—and by the way, there are going to be more Republican senators in the Senate next year sworn in than there are currently, Obama said. So the likelihood that the dynamic is going to improve for us getting my preferred option through the Senate will be diminished.",
+    "id": "813",
+    "question": "Now, I have an option, which is to say, you know what, I’m going to keep fighting a political fight, which I can’t win in the Senate—and by the way, there are going to be more Republican senators in the Senate next year sworn in than there are currently, Obama said. ",
+    "title": "<OPTION>"
+},
+
+
+{
+    "answers": {
+        "answer_start": [202],
+        "text": ["I have not been able to budge"]
+    },
+    "context": "Update: First question is from AP and is about whether Obama's reversal on tax cuts means that people shouldn't trust that he will stick to his position in future fights. Obama says the problem is that I have not been able to budge",
+    "id": "814",
+    "question": "Update: First question is from AP and is about whether Obama's reversal on tax cuts means that people shouldn't trust that he will stick to his position in future fights. Obama says the problem is that",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [940],
+        "text": ["on the Republican side this is their Holy Grail, these tax cuts for the wealthy."]
+    },
+    "context": "On the tax deal's specifics, Obama affirmed what has become increasingly obvious as Washington chews over the details of the compromise: What Obama managed to get out of the arrangement was, in effect, a second stimulus. This is not as significant a boost to the economy as the Recovery Act was, Obama explained, referring to the huge January 2009 spending bill. But, he added, This will help economic growth and this will help job growth over the next several months. It will do that by extending unemployment insurance, various targeted tax breaks, cutting the payroll tax, and, to some degree (depending on which economists you listen to), by extending the Bush tax cuts for top-bracket income earners.Obama said he is well aware that many liberal Democrats hate the deal and would prefer that he fight harder to block the tax cuts for high-earners. Obama said that wasn't possible given Republican numbers in the Senate, and given that on the Republican side this is their Holy Grail, these tax cuts for the wealthy.",
+    "id": "815",
+    "question": "",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [223],
+        "text": ["Let me say that on the Republican side, this is their holy grail, these tax cuts for the wealthy,"]
+    },
+    "context": "Obama, fresh from days of negotiations with Republicans who would not budget on the tax-cut issue, had equally harsh words for his political opponents for wanting tax cuts for the wealthy that he believes are too expensive.Let me say that on the Republican side, this is their holy grail, these tax cuts for the wealthy,",
+    "id": "816",
+    "question": "Obama, fresh from days of negotiations with Republicans who would not budget on the tax-cut issue, had equally harsh words for his political opponents for wanting tax cuts for the wealthy that he believes are too expensive.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [189],
+        "text": ["On the Republican side, this is their holy grail. These tax cuts for the wealthy. This... seems to be their central economic doctrine,"]
+    },
+    "context": "Obama defiantly warned Republicans he would turn the 2012 presidential elections, when he is expected to seek a second four-year term, into a referendum on their differing economic visions.On the Republican side, this is their holy grail. These tax cuts for the wealthy. This... seems to be their central economic doctrine,",
+    "id": "817",
+    "question": "Obama defiantly warned Republicans he would turn the 2012 presidential elections, when he is expected to seek a second four-year term, into a referendum on their differing economic visions.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [288],
+        "text": ["I haven’t persuaded Mitch McConnell. I haven’t persuaded John Boehner."]
+    },
+    "context": "First question is basically why should the American people believe what you say when you've abandoned a campaign promise. Obama gave a long answer about how the American people are on his side — but that he can,t budget GOP Senators. Hence, he caved. I haven't persuaded Mitch McConnell. I haven’t persuaded John Boehner.",
+    "id": "818",
+    "question": " Obama gave a long answer about how the American people are on his side — but that he can’t budget GOP Senators. Hence, he caved. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [647],
+        "text": ["This is not as significant a boost to the economy as the Recovery Act was,"]
+    },
+    "context": "In his press conference this afternoon, President Obama didn't tell us much about his tax cut deal with Republicans that we didn't already know. But in an impassioned, even testy defense of political compromise, he did reveal his clear frustration with liberal criticism that he's a pushover and a sellout. And he ultimately positioned himself as the grownup and protector of the public in a room full of squabbling partisans.On the tax deal's specifics, Obama affirmed what has become increasingly obvious as Washington chews over the details of the compromise: What Obama managed to get out of the arrangement was, in effect, a second stimulus. This is not as significant a boost to the economy as the Recovery Act was,",
+    "id": "819",
+    "question": "And he ultimately positioned himself as the grownup and protector of the public in a room full of squabbling partisans.On the tax deal’s specifics, Obama affirmed what has become increasingly obvious as Washington chews over the details of the compromise: What Obama managed to get out of the arrangement was, in effect, a second stimulus.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [206],
+        "text": ["Overall, every economist I've talked to suggests that this will help economic growth and this will help job growth over the next several months. And that is the main criteria by which I made this decision,"]
+    },
+    "context": "The US president justified the compromise deal saying it achieved his goal of avoiding a tax hike on the middle class amid the sputtering economic recovery, and adding he had been faced with a stark choice.Overall, every economist I've talked to suggests that this will help economic growth and this will help job growth over the next several months. And that is the main criteria by which I made this decision,",
+    "id": "820",
+    "question": "The US president justified the compromise deal saying it achieved his goal of avoiding a tax hike on the middle class amid the sputtering economic recovery, and adding he had been faced with a stark choice.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [117],
+        "text": ["The single most important jobs program we can put in place is a growing economy,"]
+    },
+    "context": "Addressing himself to his fellow Democrats, Obama reiterated that the market would be responsible for creating jobs. The single most important jobs program we can put in place is a growing economy,",
+    "id": "821",
+    "question": "Addressing himself to his “fellow Democrats, Obama reiterated that the market would be responsible for creating jobs.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [301],
+        "text": ["The unemployment rate is just not going down,"]
+    },
+    "context": "Fed chairmen are usually as silent as the Sphinx, except in official testimony. But Bernanke, facing criticism for his action, went on 60 Minutes to explain why he's prepared to do even more.He took the even more unusual step — for an economist — of using language that non-economists can understand. The unemployment rate is just not going down,",
+    "id": "822",
+    "question": "He took the even more unusual step — for an economist — of using language that non-economists can understand. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [451],
+        "text": ["in this case the hostage was the American people… I want to make sure the American people aren’t hurt because we’re having a political fight."]
+    },
+    "context": "Obama said he is well aware that many liberal Democrats hate the deal and would prefer that he fight harder to block the tax cuts for high-earners. Obama said that wasn,t possible given Republican numbers in the Senate, and given that on the Republican side this is their Holy Grail, these tax cuts for the wealthy. Obama said that he could have mounted a symbolic fight over the tax cuts anyway. But he likened his dilemma to a hostage standoff, and in this case the hostage was the American people… I want to make sure the American people aren’t hurt because we’re having a political fight.",
+    "id": "823",
+    "question": " Obama said that he could have mounted a symbolic fight over the tax cuts anyway. But he likened his dilemma to a hostage standoff, and",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [274],
+        "text": ["I want to make sure that the American people aren't hurt because we're having a political fight."]
+    },
+    "context": "Another possibility is tax reform, Ryan said, one that involves broader based lower rates for economic growth.In deferring these kinds of battles until next year, Obama has said that without a deal the Bush tax cuts would expire and everyone would see their taxes rise, and I want to make sure that the American people aren't hurt because we're having a political fight.",
+    "id": "824",
+    "question": "Another possibility is tax reform, Ryan said, one that involves broader based lower rates for economic growth.In deferring these kinds of battles until next year, Obama has said that without a deal the Bush tax cuts would expire and everyone would see their taxes rise, and",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [335],
+        "text": ["I am happy to be tested over the next several months over our ability to negotiate with Republicans."]
+    },
+    "context": "The president stiffened when asked numerous times whether he is, essentially, tough enough. He said he was itching for a fight with Republicans next year over the many issues they will clash on. He also said that when the tax rates for all earners are set to go up again in two years, he will fight to raise them on those making more than $250,000 a year.I am happy to be tested over the next several months over our ability to negotiate with Republicans,",
+    "id": "825",
+    "question": "He also said that when the tax rates for all earners are set to go up again in two years, he will fight to raise them on those making more than $250,000 a year.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [452],
+        "text": ["I don’t know how they’re [Republicans] going to be able to argue that extending permanently these high-end tax cuts is going to be good for our economy when, to offset them, we’d end up having to cut vital services for our kids, for our veterans, for our seniors."]
+    },
+    "context": "The president seems to understand that Americans want lower taxes, which may be why he explained that these cuts represent, real money for real people that will make a real difference in the lives of the folks who sent us here. It will make a real difference in the pace of job creation and economic growth. In other words, it's a good deal for the American people.However, when it comes to trimming the size and scope of government, Obama seems lost. I don’t know how they’re [Republicans] going to be able to argue that extending permanently these high-end tax cuts is going to be good for our economy when, to offset them, we’d end up having to cut vital services for our kids, for our veterans, for our seniors.",
+    "id": "826",
+    "question": "However, when it comes to trimming the size and scope of government, Obama seems lost. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [281],
+        "text": ["I’ll take John Boehner at his word"]
+    },
+    "context": "About this: The American people are on our side (6:00 in the clip). Actually, no. Polling on tax cuts for Our Owners runs consistently negative. And even the Teabaggers love their Social Security. So where is that coming from? Personal animus seems the obvious choice.And finally, I’ll take John Boehner at his word",
+    "id": "827",
+    "question": " So where is that coming from? Personal animus seems the obvious choice.And finally, ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [453],
+        "text": ["I've got a whole bunch of lines in the sand...not making the tax cuts for the wealthy permanent."]
+    },
+    "context": "Update: In the final question, Jonathan Weismann asks (a) what Obama would say to Democrats about what his core convictions, lines in the sand are (b) what's going to be different in 2012 about the tax cut fight. On the second question, Obama makes the same basic arguments that he's been making for the past several years about tax cuts, though to no avail, and says that in 2012 the arguments will finally prevail. On the first question point he says I've got a whole bunch of lines in the sand...not making the tax cuts for the wealthy permanent.",
+    "id": "828",
+    "question": "On the second question, Obama makes the same basic arguments that he's been making for the past several years about tax cuts, though to no avail, and says that in 2012 the arguments will finally prevail. On the first question point he says",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [78],
+        "text": ["Well, look, I’ve got a whole bunch of lines in the sand"]
+    },
+    "context": "Didn't see the fail? Did you watch or read the same one I did?Anyone who says Well, look, I’ve got a whole bunch of lines in the sand",
+    "id": "829",
+    "question": "Didn’t see the fail? Did you watch or read the same one I did?Anyone who says",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [312],
+        "text": ["Somehow this notion that we are willing to compromise too much reminds me of the debate we had during health care,"]
+    },
+    "context": "Obama reserved some of his harshest criticism for liberals, who he scolded for being sanctimonious purists who wouldn't be able to accomplish anything if they got their way. To drive home his point, he complained about the way liberals behaved during the health care debate, sounding like an unappreciated lover.Somehow this notion that we are willing to compromise too much reminds me of the debate we had during health care,",
+    "id": "830",
+    "question": "To drive home his point, he complained about the way liberals behaved during the health care debate, sounding like an unappreciated lover.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [265],
+        "text": ["This is the public option debate all over again,"]
+    },
+    "context": "But despite that fiery language, the president sounded much, much crankier with liberals. The first sign of passion was at the end of his press conference, when he went on an extended rant against unnamed Democratic friends who dislike his penchant for compromise. This is the public option debate all over again,",
+    "id": "831",
+    "question": " The first sign of passion was at the end of his press conference, when he went on an extended rant against unnamed Democratic friends who dislike his penchant for compromise.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [301],
+        "text": ["So I pass a signature piece of legislation, where we finally get health care for all Americans, something that Democrats have been fighting for for a hundred years, but because there was a provision in there that they didn’t get, that would have affected maybe a couple of million people, even though we got health insurance for 30 million people and the potential for lower premiums for 100 million people, that somehow that was a sign of weakness and compromise."]
+    },
+    "context": "The president said the criticism reminded him of when liberals attacked the health care bill for not including a publicly funded insurance option to compete with private insurers, for which there were not enough votes in the Senate.This is the public option debate all over again, the president said. So I pass a signature piece of legislation, where we finally get health care for all Americans, something that Democrats have been fighting for for a hundred years, but because there was a provision in there that they didn’t get, that would have affected maybe a couple of million people, even though we got health insurance for 30 million people and the potential for lower premiums for 100 million people, that somehow that was a sign of weakness and compromise.",
+    "id": "832",
+    "question": "“This is the public option debate all over again,” the president said. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [299],
+        "text": ["If that’s the standard by which we are measuring success or core principles, then let’s face it,"]
+    },
+    "context": "Having positioned himself as the protector of the public from Washington political games, Obama lashed out at his liberal critics with striking pique. He recalled criticism that his health care reform plan amounted to a huge disappointment because it lacked the public option cherished by liberals. If that’s the standard by which we are measuring success or core principles, then let’s face it,",
+    "id": "833",
+    "question": "He recalled criticism that his health care reform plan amounted to a huge disappointment because it lacked the public option cherished by liberals.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [342],
+        "text": ["If that's the standard by which we are measuring success or core principles, then let's face it, we will never get anything done. People will have the satisfaction of having a purist position and no victories for the American people."]
+    },
+    "context": "This notion that somehow we are willing to compromise too much -- this is the public option debate all over again, the president said. We pass something that Democrats have been fighting for for over 100 years, but because there was a provision in there that they didn't get...somehow that was a sign of weakness and compromise.He continued, If that's the standard by which we are measuring success or core principles, then let's face it, we will never get anything done. People will have the satisfaction of having a purist position and no victories for the American people.",
+    "id": "834",
+    "question": "We pass something that Democrats have been fighting for for over 100 years, but because there was a provision in there that they didn't get...somehow that was a sign of weakness and compromise.He continued, ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [536],
+        "text": ["People will have the satisfaction of having a purist position and no victories for the American people.  And we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are, and in the meantime, the American people are still seeing themselves not able to get health insurance because of preexisting conditions or not being able to pay their bills because their unemployment insurance ran out."]
+    },
+    "context": "His displeasure didn’t end with Republicans. In fact, he reserved his harshest criticisms for his fellow liberals who attacked the compromise. Obama lashed out at those on the left who were ungrateful for the passage of national health care merely because it didn’t contain their cherished public option, a government-run plan to be offered within newly created government-run insurance exchanges.If that’s the standard by which we are measuring success or core principles, then let’s face it, we will never get anything done, he said. People will have the satisfaction of having a purist position and no victories for the American people.  And we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are, and in the meantime, the American people are still seeing themselves not able to get health insurance because of preexisting conditions or not being able to pay their bills because their unemployment insurance ran out.",
+    "id": "835",
+    "question": "If that’s the standard by which we are measuring success or core principles, then let’s face it, we will never get anything done, he said. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [147],
+        "text": ["we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are,"]
+    },
+    "context": "President Obama says the left complaining he is compromising too much reminds him about the public option during the health care debate.Obama says we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are,",
+    "id": "836",
+    "question": "President Obama says the left complaining he is compromising too much reminds him about the public option during the health care debate.Obama says",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [291],
+        "text": ["people will have the satisfaction of having a purist position and no victories for the American people.  And we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are, and in the meantime the American people are still seeing themselves not able to get health insurance because of preexisting condition, or not being able to pay their bills because their unemployment insurance ran out."]
+    },
+    "context": "Clearly saying to Democrats that they cannot keep complaining every time they don't get everything they want, the president said that if that's the standard by which we are measuring success or core principles, then let's face it:  We will never get anything done.In that scenario, he said, And we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are, and in the meantime the American people are still seeing themselves not able to get health insurance because of preexisting condition, or not being able to pay their bills because their unemployment insurance ran out.",
+    "id": "837",
+    "question": "Clearly saying to Democrats that they cannot keep complaining every time they don’t get everything they want, the president said that if that’s the standard by which we are measuring success or core principles, then let’s face it:  We will never get anything done.In that scenario, he said, ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [153],
+        "text": ["That can't be the measure of what it means to be a Democrat,"]
+    },
+    "context": "Obama says we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are, if we don't compromise.That can't be the measure of what it means to be a Democrat,",
+    "id": "838",
+    "question": "Obama says we will be able to feel good about ourselves and sanctimonious about how pure our intentions are and how tough we are, if we don't compromise.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [407],
+        "text": ["this is a big, diverse country. Not everybody agrees with us. I know that shocks people. The New York Times editorial page does not permeate across all of America."]
+    },
+    "context": Measuring success by the no-compromise standard, Obama declared, means we will never get anything done. People will have the satisfaction of having a purist position and no victories for the American people. And we will be able to feel good about ourselves and sanctimonious about how pure our intentions are. But, he suggested, liberals will make little progress.Obama then went on a stem-winder about how this is a big, diverse country. Not everybody agrees with us. I know that shocks people. The New York Times editorial page does not permeate across all of America.",
+    "id": "839",
+    "question": " But, he suggested, liberals will make little progress.Obama then went on a stem-winder about how",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [338],
+        "text": ["To get stuff done, we’re going to compromise"]
+    },
+    "context": "But the numbers at least raise the question of whether Obama had a point earlier this week when he defended his dealmaking tactics. One political victory Obama may reap is this: Things like the payroll and business tax cuts might help lift the economy. If unemployment is lower come 2012, he'll have a better chance of winning reelection.To get stuff done, we’re going to compromise",
+    "id": "840",
+    "question": " One political victory Obama may reap is this: Things like the payroll and business tax cuts might help lift the economy. If unemployment is lower come 2012, he'll have a better chance of winning reelection.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [42],
+        "text": ["I know that shocks people. The New York Times editorial page does not permeate across all of America. Neither does the Wall Street Journal editorial page. Most Americans -- they’re just trying to figure out how to go about their lives and how can we make sure that our elected officials are looking out for us. And that means because it’s a big, diverse country and people have a lot of complicated positions, it means that in order to get stuff done, we’re going to compromise. This is why (President Franklin D. Roosevelt), when he started Social Security, it only affected widows and orphans. You did not qualify. And yet now it is something that really helps a lot of people. When Medicare was started, it was a small program. It grew."]
+    },
+    "context": Not everybody agrees with us, Obama said. I know that shocks people. The New York Times editorial page does not permeate across all of America. Neither does the Wall Street Journal editorial page. Most Americans -- they’re just trying to figure out how to go about their lives and how can we make sure that our elected officials are looking out for us. And that means because it’s a big, diverse country and people have a lot of complicated positions, it means that in order to get stuff done, we’re going to compromise. This is why (President Franklin D. Roosevelt), when he started Social Security, it only affected widows and orphans. You did not qualify. And yet now it is something that really helps a lot of people. When Medicare was started, it was a small program. It grew.",
+    "id": "841",
+    "question": "Not everybody agrees with us, Obama said. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [213],
+        "text": ["This country was founded on compromise,"]
+    },
+    "context": "Obama also spoke directly to concerns that he had ceded too much ground, comparing the tax debate to disappointment among liberals over the failure to include a so-called public option in the health-care overhaul This country was founded on compromise,",
+    "id": "842",
+    "question": "Obama also spoke directly to concerns that he had ceded too much ground, comparing the tax debate to disappointment among liberals over the failure to include a so-called public option in the health-care overhaul",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [405],
+        "text": ["This country was founded on compromise. I couldn't go through the front door at this country's founding. And if we were really thinking about ideal positions, we wouldn't have a union."]
+    },
+    "context": "Obama may not agree with progressives, but how does he not see them as an ally? The harder they push a Leftist agenda, the more progressive the center will become. The question is, What does Barack Obama really want? Is all this compromise unsettling to him, or is he perfectly happy jettisoning the public option and extending Bush's dreadful tax cuts? Let's go back to the heart of the press conference.This country was founded on compromise. I couldn't go through the front door at this country's founding. And if we were really thinking about ideal positions, we wouldn't have a union.",
+    "id": "843",
+    "question": "The question is, What does Barack Obama really want? Is all this compromise unsettling to him, or is he perfectly happy jettisoning the public option and extending Bush's dreadful tax cuts? Let's go back to the heart of the press conference.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [217],
+        "text": ["This country was founded on compromise. I couldn't go through the front door at this country's founding,"]
+    },
+    "context": "Overall, every economist I've talked to suggests that this will help economic growth and this will help job growth over the next several months. And that is the main criteria by which I made this decision, Obama said.This country was founded on compromise. I couldn't go through the front door at this country's founding,",
+    "id": "844",
+    "question": "And that is the main criteria by which I made this decision," Obama said.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [420],
+        "text": ["This country was founded on compromise. I couldn’t go through the front door at this country’s founding. And, you know, if we were really thinking about ideal positions, we wouldn’t have a union."]
+    },
+    "context": "As a political matter, the president is continuing to plant his flag in the middle —not just in this fight, but for his entire presidency. Responding to the last question of the session, the president gave the most detailed articulation to date of his governing philosophy. He made the case for the sort of compromise, diversity, and working for imperfect progress that has been the hallmark of the American experience. This country was founded on compromise. I couldn’t go through the front door at this country’s founding. And, you know, if we were really thinking about ideal positions, we wouldn’t have a union.",
+    "id": "845",
+    "question": "He made the case for the sort of compromise, diversity, and working for imperfect progress that has been the hallmark of the American experience.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [238],
+        "text": ["My job is to make sure we have a North Star out there,"]
+    },
+    "context": "This country was founded on compromise. I couldn't go through the front door at this country's founding. And if we were really thinking about ideal positions, we wouldn't have a union, President Obama said at a Tuesday news conference on.My job is to make sure we have a North Star out there,",
+    "id": "846",
+    "question": "And if we were really thinking about ideal positions, we wouldn't have a union, President Obama said at a Tuesday news conference on.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [125],
+        "text": ["Look at what I promised during the campaign. There's not a single thing that I've said that I would do that I have not either done or tried to do. And if I haven't gotten it done yet, I'm still trying to do it."]
+    },
+    "context": "Take a tally, the president challenged members of his party, seeming more riled by their criticism than by the opposition's. Look at what I promised during the campaign. There's not a single thing that I've said that I would do that I have not either done or tried to do. And if I haven't gotten it done yet, I'm still trying to do it.",
+    "id": "847",
+    "question": "Take a tally, the president challenged members of his party, seeming more riled by their criticism than by the opposition's. ",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [129],
+        "text": ["And I'm looking forward to seeing them on the field of competition over the next two years,"]
+    },
+    "context": "I think this is a good agreement because I know that they're swallowing some things that they don't like as well, Obama insisted.And I'm looking forward to seeing them on the field of competition over the next two years,",
+    "id": "848",
+    "question": "I think this is a good agreement because I know that they're swallowing some things that they don't like as well, Obama insisted.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [271],
+        "text": ["A lot of folks in this town predicted that, after the midterm elections, Washington would be headed for more partisanship and more gridlock,"]
+    },
+    "context": "President Barack Obama took a victory lap in a television appearance late Wednesday afternoon, congratulating Congress on passing key elements of his agenda even as some Republicans complained that a last-minute legislative collapse had played into the president's hands.A lot of folks in this town predicted that, after the midterm elections, Washington would be headed for more partisanship and more gridlock,",
+    "id": "849",
+    "question": "President Barack Obama took a victory lap in a television appearance late Wednesday afternoon, congratulating Congress on passing key elements of his agenda even as some Republicans complained that a last-minute legislative collapse had played into the president’s hands.",
+    "title": "<OPTION>"
+},
+{
+    "answers": {
+        "answer_start": [239],
+        "text": ["the most significant arms-control agreement in nearly two decades"]
+    },
+    "context": "President Obama wrapped up an unexpectedly productive and politically successful lame-duck session of Congress on Wednesday with a sweeping assessment of his achievements.He pronounced the newly ratified New START nuclear pact with Russia the most significant arms-control agreement in nearly two decades",
+    "id": "850",
+    "question": "President Obama wrapped up an unexpectedly productive and politically successful lame-duck session of Congress on Wednesday with a sweeping assessment of his achievements.He pronounced the newly ratified New START nuclear pact with Russia",
+    "title": "<OPTION>"
+}
 ]
 
 
