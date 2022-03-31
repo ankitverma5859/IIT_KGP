@@ -1,7 +1,7 @@
 [
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [265],
         "text": ["when the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt."]
     },
     "context": "What a different speech this could have been. And it’s only luck that allowed President Obama’s first State of the Union (although it’s his third speech to a joint session of Congress) to be as boring as it was. The presentation opened with a series of banalities. “When the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt,” Obama intoned.",
@@ -11,7 +11,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [190],
         "text": ["When the market crashed on Black Tuesday, and civil rights marchers were beaten on Bloody Sunday, the future was anything but certain."]
     },
     "context": "The presentation opened with a series of banalities. “When the Union was turned back at Bull Run, and the Allies first landed at Omaha Beach, victory was very much in doubt,” Obama intoned. “When the market crashed on Black Tuesday, and civil rights marchers were beaten on Bloody Sunday, the future was anything but certain.”",
@@ -21,7 +21,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [111],
         "text": ["Again, we are tested. And again, we must answer history's call."]
     },
     "context": "While more dark days will come, things are getting better. In Gipper-speak, it will be morning in America soon.\"Again, we are tested. And again, we must answer history's call.\"",
@@ -31,7 +31,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [295],
         "text": ["One in ten Americans still cannot find work."]
     },
     "context": "The 2 blue-uniformed personnel in the First lady's box are Sergeant Kimberly Munley and Sergeant Mark Todd, who ended the November 5th Fort Hood shootings when they took down Nidal Hasan. 13 dead and 30 wounded. Is Obama going have them stand later as examples of how the system worked? He said \"one in ten Americans still cannot find work.\"",
@@ -44,24 +44,24 @@
         "answer_start": [],
         "text": ["One in 10 Americans still cannot find work. Many businesses have shuttered. Home values have declined. Small towns and rural communities have been hit especially hard. for those who already known poverty, life has become that much harder."]
     },
-    "context": "n his first State of the Union address, President Obama actually talked about the state of the union. He gave voice to our hopes and values, but he also sees what I see:, economic devastation. \"One in 10 Americans still cannot find work. Many businesses have shuttered. Home values have declined. Small towns and rural communities have been hit especially hard. For those who had already known poverty, life has become that much harder.\"",
+    "context": "In his first State of the Union address, President Obama actually talked about the state of the union. He gave voice to our hopes and values, but he also sees what I see:, economic devastation. \"One in 10 Americans still cannot find work. Many businesses have shuttered. Home values have declined. Small towns and rural communities have been hit especially hard. For those who had already known poverty, life has become that much harder.\"",
     "id": "5",
     "question": "He gave voice to our hopes and values, but he also sees what I see:, economic devastation.",
     "title": "<OPTION>"
 },
 {
     "answers": {
-        "answer_start": [],
-        "text": [""]
+        "answer_start": [160],
+        "text": ["Change has not come fast enough"]
     },
-    "context": "\"I have never been more hopeful about America's future than I am tonight,\" says Obama, to a standing ovation. \"Despite our hardships, our union is strong.\" \"Change has not come fast enough,\" Obama says, discussing middle- and working-class anxieties and quickly comparing the fortunes on Wall Street to the struggles on Main Street.",
+    "context": "\"I have never been more hopeful about America's future than I am tonight,\" says Obama, to a standing ovation. \"Despite our hardships, our union is strong.\" \"Change has not come fast enough,\",
     "id": "6",
     "question": "\"Despite our hardships, our union is strong.\"",
     "title": "<OPTION>"
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [356],
         "text": ["unable or unwilling to solve any of our problems."]
     },
     "context": "Simply as a matter of internal logic, this is somewhat perplexing. After all, when he isn’t blaming George W. Bush, Mr. Obama blames “Washington” - a Washington mired in “partisanship” and “pettiness” and “the same tired battles” and “Washington gimmicks” that do nothing but ensure that our “problems have grown worse.” Washington, Mr. Obama tells us, is “unable or unwilling to solve any of our problems.”",
@@ -71,8 +71,8 @@
 },
 {
     "answers": {
-        "answer_start": [],
-        "text": ["we face big and difficult challenges."]
+        "answer_start": [413],
+        "text": ["So we face big and difficult challenges."]
     },
     "context": "For these Americans and so many others, change has not come fast enough. Some are frustrated; some are angry. They don't understand why it seems like bad behavior on Wall Street is rewarded, but hard work on Main Street isn't, or why Washington has been unable or unwilling to solve any of our problems. They're tired of the partisanship and the shouting and the pettiness. They know we can't afford it, not now. So we face big and difficult challenges.",
     "id": "8",
@@ -81,17 +81,17 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [98],
         "text": ["And what the American people hope- what they deserve- is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics."]
     },
-    "context": "And what the American people hope- what they deserve- is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics.",
+    "context": "“We face big and difficult challenges,” Mr. Obama will say, according to excerpts from his speech.And what the American people hope- what they deserve- is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics.",
     "id": "9",
     "question": "“We face big and difficult challenges,” Mr. Obama will say, according to excerpts from his speech.",
     "title": "<OPTION>"
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [252],
         "text": ["what the American people hope-what they deserve-is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics."]
     },
     "context": "The speech had a feel of a relaunch. In tone and spirit, the president returned repeatedly to the themes he campaigned on—a call to end partisanship and special interest influence, and to create a government equal to the spirit of the American people. “What the American people hope—what they deserve—is for all of us, Democrats and Republicans, to work through our differences; to overcome the numbing weight of our politics.”",
@@ -101,7 +101,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [1160],
         "text": ["resilience in the face of adversity."]
     },
     "context": "People, especially women, don't like whiners or those who blame others instead of accepting responsibility for their own actions. Mr. Obama kept blaming Washington as though he were an outsider -- as though he was not the president and his party in the majority. He continued to whine about the nation's condition when he took office; he said that he took office \"during awful times\" and that he \"acted immediately and aggressively.\" He lamented the deficit that the nation was in \"before he walked in the door.\" He claimed that \"anxieties aren't new\" -- that we've \"struggled for years.\" The problem, he said, is what we did \"for eight years\" before he came into office -- \"that is what helped us to this crisis.\" He lamented the \"partisanship and pettiness,\" and he talked about \"deep corrosive doubts\" and \"credibility gaps\" as though they had nothing to do with his leadership or his party's failures. He had many bogeymen -- the banks, the lobbyists, Wall Street, the health insurance companies. The president talked about a \"deficit of trust\" as though it had nothing to do with him or his leadership. In short, he praised people's \"resilience in the face of adversity,\" and blamed everything else. Then he reiterated that he came into office to \"change\" all those \"bad things.\"",
@@ -111,7 +111,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [324],
         "text": ["We are strained but hopeful, struggling but encouraged."]
     },
     "context": "You know what else they share? They share a stubborn resilience in the face of adversity. After one of the most difficult years in our history, they remain busy building cars and teaching kids; starting businesses and going back to school. They're coaching little league and helping their neighbours. As one woman wrote me, \"We are strained but hopeful, struggling but encouraged.\"",
@@ -121,7 +121,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [281],
         "text": ["We are strained but hopeful, struggling but encouraged."]
     },
     "context": "He aligned himself not only with those who were frustrated with Washington but with historic American struggles—from the Civil War to World War II. He called upon the common sense of determination and grit that has rescued Americans before. Quoting a woman who wrote him, he said: “We are strained but hopeful, struggling but encouraged.”",
@@ -131,7 +131,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [152],
         "text": ["It's because of this spirit-this great decency and great strength-that I have never been more hopeful about America's future than I am tonight. Despite our hardships, our union is strong."]
     },
     "context": "Hope: There’s that word again. Once he identified with voters, Obama went beyond the simple “I get it” message. He took their hope and made it his own. “It’s because of this spirit—this great decency and great strength—that I have never been more hopeful about America’s future than I am tonight. Despite our hardships, our union is strong.”",
@@ -141,7 +141,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [432],
         "text": ["never been more hopeful about America's future than I am tonight."]
     },
     "context": "The White House has just released excerpts of President Obama's first State of the Union, which he's scheduled to deliver at 9 p.m. EST tonight. As is fairly typical for these sorts of early glimpses, there aren't a whole lot of details so far; mostly message, and a somewhat contradictory one at that, as the president tries to strike a delicate balance. Obama says both that \"we face big and difficult challenges\" and that he's \"never been more hopeful about America's future than I am tonight.\"",
@@ -151,7 +151,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [152],
         "text": ["It's because of this spirit-this great decency and great strength-that I have never been more hopeful about America's future than I am tonight. Despite our hardships, our union is strong."]
     },
     "context": "Hope: There’s that word again. Once he identified with voters, Obama went beyond the simple “I get it” message. He took their hope and made it his own. “It’s because of this spirit—this great decency and great strength—that I have never been more hopeful about America’s future than I am tonight. Despite our hardships, our union is strong.”",
@@ -161,7 +161,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [164],
         "text": ["it's time the American people get a government that matches their decency;"]
     },
     "context": "Despite -- despite our hardships, our union is strong. We do not give up. We do not quit. We do not allow fear or division to break our spirit. In this new decade, it's time the American people get a government that matches their decency, that embodies their strength.",
@@ -171,7 +171,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [183],
         "text": ["It was not easy to do. And if there's one thing that has unified Democrats and Republicans, and everybody in between, it's that we all hated the bank bailout. I hated it- I hated it. You hated it. It was about as popular as a root canal."]
     },
     "context": "\"Here's what I ask of Congress, though: Do not walk away from reform. Not now. Not when we are so close. Let us find a way to come together and finish the job for the American people.\"It was not easy to do. And if there's one thing that has unified Democrats and Republicans, and everybody in between, it's that we all hated the bank bailout. I hated it- I hated it. You hated it. It was about as popular as a root canal.",
@@ -181,7 +181,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [712],
         "text": ["when I ran for President, I promised that I wouldn't just do what was popular- I would do what was necessary."]
     },
     "context": "So our political system, like our health care system, is dysfunctional -- at least if these institutions are supposed to be in the business of making life healthier and better for most of the people most of the time. One example of the frailty of the system today is that it could be rocked seismically by the election of one senator in Massachusetts. What happens next in Washington is known but to God. What the Republicans will almost certainly do is stay in their trenches with Emperor Qin. Their obvious goal is to destroy Obama's presidency. (They would argue, with a single voice, of course, that he is taking care of that himself.) To me, the most important single line in Obama's long address was this: \"When I ran for president, I promised that I wouldn't just do what was popular -- I would do what was necessary.\"",
@@ -191,7 +191,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [364],
         "text": ["But when I ran for President, I promised I wouldn't just do what was popular- I would do what was necessary."]
     },
     "context": "You'll be able to tell that very early on in the president's speech tonight, when, according to the prepared text released by the White House, he'll say, \"[I]f there’s one thing that has unified Democrats and Republicans, it’s that we all hated the bank bailout. I hated it. You hated it. It was about as popular as a root canal.\" Of course, he'll go on to say, \"But when I ran for President, I promised I wouldn’t just do what was popular -- I would do what was necessary.\" ",
@@ -201,7 +201,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [569],
         "text": ["So I supported the last administration's efforts to create the financial rescue program."]
     },
     "context": "\"It was not easy to do. And if there's one thing that has unified Democrats and Republicans, it's that we all hated the bank bailout. I hated it. You hated it. It was about as popular as a root canal. \"Hey, we were the ones in the dentist's chair. Sure, we liked the cheap financing available from the Federal Reserve, but we didn't all need to partake of that $250 billion rescue fund. You might remember that Secretary Paulson had to twist more than a few arms in that October meeting at the Treasury Department with the heads of the country's nine biggest banks.. So I supported the last administration's efforts to create the financial rescue program.",
@@ -211,17 +211,17 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [161],
         "text": ["I know Wall Street isn't keen on this idea."]
     },
-    "context": " The President will fight to recover the money American taxpayers spent to bailout the banks. \"To recover the rest, I have proposed a fee on the biggest banks.  I know Wall Street isn't keen on this idea, but if these firms can afford to hand out big bonuses again, they can afford a modest fee to pay back the taxpayers who rescued them in their time of need.\"",
+    "context": "The President will fight to recover the money American taxpayers spent to bailout the banks. \"To recover the rest, I have proposed a fee on the biggest banks.  I know Wall Street isn't keen on this idea, but if these firms can afford to hand out big bonuses again, they can afford a modest fee to pay back the taxpayers who rescued them in their time of need.\"",
     "id": "22",
     "question": "To recover the rest, I have proposed a fee on the biggest banks.",
     "title": "<OPTION>"
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [675],
         "text": ["We cut taxes for 95 percent of working families"]
     },
     "context": "While Democrats jumped to their feet after nearly every sentence, Republicans greeted many of the proposals with skepticism. The bank tax drew Democratic cheers. Republicans were unmoved. When Obama suggested that health care reform “would bring down the deficit by as much as $1 trillion over the next two decades,” Republicans stayed quiet. During many of the bipartisan standing ovations—like those for Obama’s declaration that combat troops would be out of Iraq by August or his exhortation for the Senate to pass a bill supporting community colleges—Republicans were slow to rise. Even those policies you’d think would be palatable to Republicans were met with silence. “We cut taxes for 95 percent of working families,” Obama bragged.",
@@ -231,7 +231,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [213],
         "text": ["We cut taxes for 95 percent of working families"]
     },
     "context": "Striking an early bipartisan tone, Obama says: \"If there's one thing that's unified Republicans and Democrats, it's the bank bailout. I hated it, you hated it, it was about as popular as a root-canal.\" He adds: \"We cut taxes. Let me repeat: we cut taxes. We cut taxes for 95 percent of working families."
@@ -241,7 +241,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [306],
         "text": ["I thought I'd get some applause on that side"]
     },
     "context": "The Republican lawmakers in attendance sat on their hands while the president discussed policy provisions that, ostensibly, are very much in their philosophical wheelhouse. When Republicans didn't even applaud on behalf of his tax cuts, Obama pointed to the GOP side of the chamber and expressed surprise: \"I thought I'd get some applause on that one,\"",
@@ -251,7 +251,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [268],
         "text": ["I thought I'd get some applause on that one."]
     },
     "context": "As he boasted in his first State of the Union address that his economic program had cut taxes for 95 percent of working families, Democrats jumped to their feet to cheer. Republicans sat quietly. Mr. Obama paused as he glanced over to their side of the House chamber. “I thought I’d get some applause on that one,”",
@@ -261,7 +261,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [126],
         "text": ["I thought I'd get some applause on that one."]
     },
     "context": "By the time he announced that \"we cut taxes for 8 million Americans paying for college,\" Obama was forced to go off script. \"I thought I'd get some applause on that one,\"",
@@ -271,7 +271,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [155],
         "text": ["I thought I'd get some applause on that one."]
     },
     "context": "Joe Biden just mouthed the words \"good line\". It's like they didn't let him read it beforehand. Republicans sitting stone-faced at \"we cut taxes\". Ha! \"I thought I'd get some applause on that one.\"",
@@ -281,7 +281,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [183],
         "text": ["I thought I'd get some applause on that one."]
     },
     "context": "Democrats applauded, while Republicans were silent for the most part. In one of the unscripted moments of the night, Obama looked at the Republican side of the room, smiled and said, \"I thought I'd get some applause on that one.\"",
@@ -291,7 +291,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [309],
         "text": ["we haven't raised income taxes by a single dime on a single person. Not a single dime."]
     },
     "context": "The fact is, House Republicans have offered dozens of ideas and proposals. More precisely, they have introduced 60 bills related to healthcare reform. By the way, most doctors serving in Congress today are Republicans, and all of them oppose Obama’s socialized medicine scheme. The president said last night, “We haven’t raised income taxes by a single dime on a single person. Not a single dime.”",
@@ -301,8 +301,8 @@
 },
 {
     "answers": {
-        "answer_start": [],
-        "text": ["we And we haven't raised income taxes by a single dime on a single person."]
+        "answer_start": [778],
+        "text": ["And we haven't raised income taxes by a single dime on a single person."]
     },
     "context": "While Democrats jumped to their feet after nearly every sentence, Republicans greeted many of the proposals with skepticism. The bank tax drew Democratic cheers. Republicans were unmoved. When Obama suggested that health care reform “would bring down the deficit by as much as $1 trillion over the next two decades,” Republicans stayed quiet. During many of the bipartisan standing ovations—like those for Obama’s declaration that combat troops would be out of Iraq by August or his exhortation for the Senate to pass a bill supporting community colleges—Republicans were slow to rise. Even those policies you’d think would be palatable to Republicans were met with silence. “We cut taxes for 95 percent of working families,” Obama bragged. “We cut taxes for small businesses … and we haven’t raised income taxes by a single dime on a single person.”",
     "id": "31",
@@ -311,8 +311,8 @@
 },
 {
     "answers": {
-        "answer_start": [],
-        "text": ["we And we haven't raised income taxes by a single dime on a single person."]
+        "answer_start": [146],
+        "text": ["And we haven't raised income taxes by a single dime on a single person."]
     },
     "context": "\"As a result, millions of Americans had more to spend on gas, and food, and other necessities, all of which helped businesses keep more workers. And we haven't raised income taxes by a single dime on a single person.\"",
     "id": "32",
@@ -321,7 +321,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [336],
         "text": ["And we are on track to add another one and a half million jobs to this total by the end of the year."]
     },
     "context": "\"Because of the steps we took, there are about 2 million Americans working right now who would otherwise be unemployed; 200,000 work in construction and clean energy, 300,000 are teachers and other education workers,\" the president said tonight. \"Tens of thousands are cops, firefighters, correctional officers and first responders. And we are on track to add another one and a half million jobs to this total by the end of the year.\"",
@@ -331,7 +331,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [444],
         "text": ["“after two years of recession, the economy is growing again.”"]
     },
     "context": "Then there is this: Rasmussen also finds a “deficit of trust,” as voters disbelieve most of what the Democrats are telling them about the economy. For example, Americans reject Obama’s claim that his stimulus measures have “put two million people back to work who would otherwise be unemployed.” Only 27% of voters buy that claim, while 51% say it is false. Here, the majority is right. But skepticism only goes so far. The President says that “after two years of recession, the economy is growing again.”",
@@ -341,7 +341,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [456],
         "text": ["after two years of recession, the economy is growing again."]
     },
     "context": "The president in the speech declared that his administration has cut taxes for 95% of Americans. He even chided Republicans for not applauding on that point. However, just 21% of voters nationwide believe that taxes have been cut for 95% of Americans. Most (53%) say it has not happened, and 26% are not sure. Other polling shows that nearly half the nation’s voters expect their own taxes to go up during the Obama years. The president also asserted that “after two years of recession, the economy is growing again.” ",
@@ -351,7 +351,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [200],
         "text": ["I realize that for every success story, there are other stories, of men and women who wake up with the anguish of not knowing where their next paycheck will come from; who send out resumes week after week and hear nothing in response. That is why jobs must be our number one focus in 2010, and that is why I am calling for a new jobs bill tonight."]
     },
     "context": "It was not easy to do. And if there's one thing that has unified Democrats and Republicans, it's that we all hated the bank bailout. I hated it. You hated it. It was about as popular as a root canal. I realize that for every success story, there are other stories, of men and women who wake up with the anguish of not knowing where their next paycheck will come from; who send out resumes week after week and hear nothing in response. That is why jobs must be our number one focus in 2010, and that is why I am calling for a new jobs bill tonight.",
@@ -361,7 +361,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [86],
         "text": ["\"Now, the true engine of job creation in this country will always be America's businesses.\""]
     },
     "context": "\"we extended or increased unemployment benefits for more than 18 million Americans\" \"Now, the true engine of job creation in this country will always be America's businesses.\"",
@@ -371,7 +371,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [207],
         "text": ["the true engine of job creation in this country will always be America's businesses."]
     },
     "context": "Wisely, Obama chose instead to make his case with reason as well as passion. He made clear that jobs must be Washington’s top priority, but he leveled with people that government can do only so much because “the true engine of job creation in this country will always be America’s businesses.” He promised to make America more competitive for the jobs of the future by promoting energy innovation—because if we’re not first, we’re last. But he spoke another truth too seldom heard in Democratic circles: If we want to create jobs in this country, we need an aggressive strategy to expand exports and promote trade, not put up barriers or shy away from trade agreements. During that part of the speech, congressional Democrats sat on their hands, but America cannot afford to.",
@@ -381,7 +381,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [164],
         "text": ["Now, the true engine of job creation in this country will always be America's businesses."]
     },
     "context": "The bill will provide for taking USD 30 billion of the money Wall Street banks repay and use it to help community banks give small businesses the credit they need. Now, the true engine of job creation in this country will always be America's businesses."
@@ -391,7 +391,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [419],
         "text": ["\"The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\""]
     },
     "context": "The details of the initiative, which Mr. Obama is expected to highlight when he visits Baltimore today, include a $5,000 tax credit for every net new employee in 2010. This credit would be retroactive to the beginning of the calendar year and could be received on a quarterly basis, if the business so chooses. In addition, employers would receive a tax credit to cover Social Security payroll taxes on wage increases. \"The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\"",
@@ -401,7 +401,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [264],
         "text": ["\"[w]e should start where most new jobs do -- in small businesses, companies that begin when . . . an entrepreneur takes a chance on a dream, or a worker decides it's time she became her own boss.\""]
     },
     "context": "The one million businesses Obama proposed assisting obtain bank loans to stay afloat are likely the same approximately one million firms that represent for-profit enterprises with ten or more employees on their payroll. In his address, President Obama stated that \"[w]e should start where most new jobs do -- in small businesses, companies that begin when . . . an entrepreneur takes a chance on a dream, or a worker decides it's time she became her own boss.\"",
@@ -411,7 +411,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [281],
         "text": ["\"We should start where most new jobs do - in small businesses.\""]
     },
     "context": "\"The true engine of job creation in this country will always be America's businesses but government can create the conditions necessary for businesses to expand and hire more workers,\" said Mr. Obama on Wednesday. \"We should start where most new jobs do - in small businesses.\"",
@@ -421,7 +421,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [116],
         "text": ["As the first order of business this year, I urge the Senate to do the same."]
     },
     "context": "The President also called on the Senate to pass a jobs bill that he can sign. \"The House has passed a jobs bill..  As the first order of business this year, I urge the Senate to do the same. People are out of work.  They are hurting.  They need our help.  And I want a jobs bill on my desk without delay.\"",
@@ -431,7 +431,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [190],
         "text": ["\"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\""]
     },
     "context": "In the address, Obama asked the Senate to emulate the House of Representatives in swiftly passing a bill to create jobs in a bid to ease one of the biggest crises facing his administration. \"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\"",
@@ -441,7 +441,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [232],
         "text": ["But he put the greatest emphasis on the need to fix the still-struggling US economy and bring down the punishing unemployment rate."]
     },
     "context": "Still smarting from the loss by his Democratic Party of a pivotal US Senate seat in Massachusetts, Obama said he would not back down from efforts to revamp the US health-care system and forge bipartisan consensus on climate change. But he put the greatest emphasis on the need to fix the still-struggling US economy and bring down the punishing unemployment rate. \"People are out of work. They are hurting. They need our help. And I want a jobs bill on my desk without delay,\" he said.",
@@ -451,7 +451,7 @@
 },
 {
     "answers": {
-        "answer_start": [],
+        "answer_start": [147],
         "text": ["Well, I do not accept 2nd place for the United States of America"]
     },
     "context": "Liberals want to debate whether it’s rude of not for conservatives to point out that Obama’s lying instead of his lies. I plan on throwing Obama’s “Well, I do not accept 2nd place for the United States of America” back in his face many times.",
@@ -3194,11 +3194,3 @@ increased tension between the U.S. and China.The President on China's currency: 
     "title": "<OPTION>"
 }
 ]
-
-
-
-
-
-
-
-
