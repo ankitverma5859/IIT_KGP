@@ -461,27 +461,27 @@
 },
 {
         "answers":{
-            "answer_start":[289],
+            "answer_start":[288],
             "text":["over time people respond to civility and rational argument"]
         },
-        "context":"he said, I am the eternal optimist.",
+        "context":"Old habits are hard to break, he said. We're coming off an election, and people sort of want to test the limits of what they can get. There's a lot of jockeying in this town and who's up and who's down, testing for the next election.Still, he said, I am the eternal optimist. I think that over time people respond to civility and rational argument",
         "id":"251",
-        "question":"Old habits are hard to break, he said. We're coming off an election, and people sort of want to test the limits of what they can get. There's a lot of jockeying in this town and who's up and who's down, testing for the next election.Still, he said, I am the eternal optimist. I think that over time people respond to civility and rational argument",
+        "question":"he said, I am the eternal optimist.",
         "title":"<OPTION>"
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[93],
             "text":[ "there's some ideological blockage there that needs to be cleared up"]
         },
-        "context":"At the conclusion of his press conference Monday, Obama mused aloud that he gets a sense that “there's some ideological blockage there that needs to be cleared up.” But, he continued, “I am the eternal optimist. I think that over time people respond to civility and rational argument.",
+        "context":"At the conclusion of his press conference Monday, Obama mused aloud that he gets a sense that there's some ideological blockage there that needs to be cleared up.” But, he continued, “I am the eternal optimist. I think that over time people respond to civility and rational argument.",
         "id":"252",
         "question":"At the conclusion of his press conference Monday, Obama mused aloud that he gets a sense",
         "title":"<OPTION>"
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[223],
             "text":["I'm not sure they have a lot of credibility when it comes to fiscal responsibility."]
         },
         "context":"But the president also had sharp words for the Republicans in Congress. He emphasized several times that both the crisis and deficit were inherited from their party and questioned their reticence toward government spending. I'm not sure that they have a lot of credibility when it comes to fiscal responsibility, Obama said",
@@ -491,7 +491,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[165],
             "text":["my initial measure of success is creating or saving 4 million jobs."]
         },
         "context":"Jake Tapper: beyond avoiding the catastrophe, once all the legs of the stools are in place...how can the American people gauge whether Obama's plan is working? Obama: My initial measure of success is creating or saving four million jobs.  Jobs --> Confidence ---> Spending --> Business investments --> More jobs. Then -- seeing if our credit markets operate.  Step 3 -- Housing. Have we stabilized the housing market.  Says that if we get things right, country will start to see improvement next year.",
@@ -501,17 +501,17 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[167],
             "text":["My immediate task is making sure that the second half of that money, $350 billion, is spent properly."]
         },
-        "context":"Won't the government need more than the $350 billion in TARP funds? [The answer is yes. But the White House doesn't want to acknowledge this publicly this yet.]  Obama: My immediate task is making sure that ... $350 billion ... is spent properly....before I even think about anything else.  Says Giethner and Summers are working together on transparency .... We are going to have to work with the banks in an effective way to clean up their balance sheets." Obama: "We don't know yet.... whether we'll need any additional money.  He makes a good point: we gotta see how institutions handle the money they're getting before we can figure out whether we need more.",
+        "context":"Won't the government need more than the $350 billion in TARP funds? [The answer is yes. But the White House doesn't want to acknowledge this publicly this yet.]  Obama: My immediate task is making sure that ... $350 billion ... is spent properly....before I even think about anything else.  Says Giethner and Summers are working together on transparency .... We are going to have to work with the banks in an effective way to clean up their balance sheets. Obama:We don't know yet.... whether we'll need any additional money.  He makes a good point: we gotta see how institutions handle the money they're getting before we can figure out whether we need more.",
         "id":"255",
         "question":"Won't the government need more than the $350 billion in TARP funds? [The answer is yes. But the White House doesn't want to acknowledge this publicly this yet.] ",
         "title":"<OPTION>"
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[558],
             "text":["tax cuts alone can't solve all of our economic problems- especially tax cuts that are targeted to the wealthiest few Americans."]
         },
         "context":"Much has been made about President Obama's initial displays of bipartisanship, and his subsequent return to the rhetoric of the campaign trail. In his first press conference last night, it seemed clearer that in his view, the two approaches are not contradictory - that two different philosophies of government should not preclude the nation's leaders from quick action. Obama's own philosophy was made clear in his opening statement, as he declared that it is only government that can break the vicious cycle the nation finds itself in, and furthermore that tax cuts alone can't solve all of our economic problems. His recovery plan is not perfect, he said, but it's of sufficient size and scope to have the kind of impact he desires.",
@@ -521,17 +521,17 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[345],
             "text":["no matter how much money you spend, nothing makes a difference, so let's just blow up the public school systems."]
         },
-        "context":"Both Democrats and Republicans are going to have to think differently in order to come together and solve that problem. I think there are areas like education where some in my party have been too resistant to reform and have argued only money makes a difference.And there have been others on the Republican side or the conservative side who said, "No matter how much money you spend, nothing makes a difference, so let's just blow up the public school systems."",
+        "context":"Both Democrats and Republicans are going to have to think differently in order to come together and solve that problem. I think there are areas like education where some in my party have been too resistant to reform and have argued only money makes a difference.And there have been others on the Republican side or the conservative side who said, No matter how much money you spend, nothing makes a difference, so let's just blow up the public school systems.",
         "id":"257",
         "question":"I think there are areas like education where some in my party have been too resistant to reform and have argued only money makes a difference.",
         "title":"<OPTION>"
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[451],
             "text":["There are no quick fixes, and there are no silver bullets."]
         },
         "context":"Obama said his budget, which will be taken up by congressional committees this week, would pave the way for broad economic growth by moving from an era of borrow and spend to one where we save and invest.The Congressional Budget Office projects under Obama’s budget plan the deficit for fiscal 2009 will be just over $1.8 trillion and for fiscal 2010 will be almost $1.4 trillion.Mindful of the challenges he faces, Obama tempered his economic outlook. “There are no quick fixes and there are no silver bullets,” he said.",
@@ -541,7 +541,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[381],
             "text":["the rest of us can't afford to demonize every investor or entrepreneur who seeks to make a profit."]
         },
         "context":"In his second prime-time news conference, Obama said he sees “signs of progress” on the economy, promised a recovery from the recession and attempted to blunt the finger-pointing that has dominated Washington since the discovery that $165 million in bonuses were paid to executives at American International Group even as the insurance giant was being bailed out by the government.The rest of us can’t afford to demonize every investor or entrepreneur who seeks to make a profit,” Obama said in opening remarks in the East Room of the White House. When each of us looks beyond our own short-term interests to the wider set of obligations we have to each other — that’s when we succeed.",
@@ -551,7 +551,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[299],
             "text":["it will take time, it will take patience,"]
         },
         "context":"So he expressed solidarity with those who are outraged that AIG executives were awarded $165 million in bonuses at a time the company was being propped up by billions in federal rescue funds, but he also urged Americans to keep their focus on the big picture.We will recover from this recession, but it will take time, it will take patience, he said in a seven-minute opening statement, read from a teleprompter screen. Later, his only flash of annoyance came when pressed by CNN's Ed Henry about his slowness in decrying the AIG bonuses",
@@ -561,7 +561,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[243],
             "text":["we're in a better- better place because of the decisions that we make."]
         },
         "context":"President Obama said his philosophy was persistence.You look back four years from now, I think, hopefully, people will judge that body of work and say, 'This is [a] big ocean liner; it's not a speedboat. It doesn't turn around immediately, but we're in a better -- better place because of the decisions that we made, he said.",
@@ -571,7 +571,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[502],
             "text":["there's very little evidence that this has a significant impact on charitable giving."]
         },
         "context":"President Obama has proposed decreasing the charitable tax deduction for wealthy taxpayers. The USA Today reports that Obama's proposed 2010 federal budget contains a 7% cut in charitable tax deductions for the nation's wealthiest taxpayers... Americans whose household income exceeds $250,000 a year...can currently save $350 in taxes for every $1,000 donated to charity; under Obama's plan, that amount would drop to $280 per $1,000 donation. Speaking at a news conference Tuesday evening, Obama said there's very little evidence that this has a significant impact on charitable giving. He went on to say that if it's really a charitable contribution, I'm assuming that that shouldn't be the determining factor as to whether you're giving that $100 to the homeless shelter down the street.",
@@ -581,7 +581,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[1196],
             "text":["it is not acceptable for children and families to be without a roof over their heads in a country as wealthy as ours."]
         },
         "context":"FOLKS ARE SACRIFICING LEFT AND RIGHT: One of the odder questions posed to Obama was NBC News's Chuck Todd's query about why he hadn't asked for something specific that the public should be sacrificing to participate in this economic recovery. As Center for American Progress Action Fund fellow Matt Yglesias notes, Obama responded with a progressive answer, saying that folks are sacrificing left and right.You've got a lot of parents who are cutting back on everything to make sure that their kids can still go to college, said Obama. You've got workers who are deciding to cut an entire day and entire day's worth of pay so that their fellow co-workers aren't laid off. I think that across the board people are making adjustments, large and small, to accommodate the fact that we're in very difficult times right now.Indeed, Obama's assessment of Americans' sacrifice was emphasized later in the press conference when Ebony magazine's Kevin Chappell asked about a recent report, which found that as a result of the economic downturn, one in 50 children are now homeless in America.Part of the change in attitudes that I want to see here in Washington and all across the country is a belief that it is not acceptable for children and families to be without a roof over their heads in a country as wealthy as ours, replied Obama, pledging to initiate a range of programs as well to deal with homelessness",
@@ -591,17 +591,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
-            "text":["I think that the last 64 days has been dominated by me trying to figure out how we're going to fix the economy."]
-        },
-        "context":"",
-        "id":"264",
-        "question":"",
-        "title":"<OPTION>"
-    },
-    {
-        "answers":{
-            "answer_start":[],
+            "answer_start":[375],
             "text":["right now the American people are judging me exactly the way I should be judged,"]
         },
         "context":"Asked about race, a subject he rarely addresses publicly, Obama, the nation’s first African-American president, said the economic situation means that his main task has nothing to do with color. The country experienced justifiable pride” at his inauguration, the culmination of a long journey in a society long divided by race, he said.But that lasted about a day, Obama said. Right now the American people are judging me exactly the way I should be judged and that is, are we taking the steps to improve liquidity in the financial markets, create jobs, keep business open and keep America safe?",
@@ -611,10 +601,10 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[202],
             "text":["we're eliminating nuclear weapons and stop funding terrorism."]
         },
-        "context":"When it comes to Iran, you know, we did a video, sending a message to the Iranian people and the leadership of the Islamic Republic of Iran. And some people said, "Well, they did not immediately say that we’re eliminating nuclear weapons and stop funding terrorism. Well, we didn’t expect that. We expect that we’re going to make steady progress on this front.,
+        "context":"When it comes to Iran, you know, we did a video, sending a message to the Iranian people and the leadership of the Islamic Republic of Iran. And some people said, Well, they did not immediately say that we’re eliminating nuclear weapons and stop funding terrorism. Well, we didn’t expect that. We expect that we’re going to make steady progress on this front.",
         "id":"266",
         "question":"",
         "title":"<OPTION>"
@@ -622,7 +612,7 @@
     {
         "answers":{
             "answer_start":[" I'm a big believer in persistence. I"],
-            "text":[]
+            "text":[187]
         },
         "context":"If you stick to it, if you are persistent, than these problems can be dealt with, he says of the Middle East. That's an approach, Obama says, he is going to be emphasizing again and again. ... I'm a big believer in persistence when it comes to tackling issues from the economy to the budget to the environment.",
         "id":"267",
@@ -631,7 +621,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[116],
             "text":["if you are persistent, then- then these problems can be dealt with."]
         },
         "context":"The president links the difficult problem of bringing peace to the Middle East to domestic issues:If you stick to it, if you are persistent, than these problems can be dealt with, he says of the Middle East. That's an approach, Obama says, he is going to be emphasizing again and again. ... I'm a big believer in persistence when it comes to tackling issues from the economy to the budget to the environment.",
@@ -641,7 +631,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[300],
             "text":["I don't believe that there's a need for a global currency."]
         },
         "context":"We don't want a situation in which some countries are making extraordinary efforts and other countries aren't, with the hope that countries that are making those important steps lift everybody up, he said. But rejecting a proposal floated by China's central bank governor, Zhou Xiaochuan, Obama said: I don't believe there is a need for a global currency to supplant the dollar as the world's reserve currency.",
@@ -651,7 +641,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[500],
             "text":["It's a strategy to create jobs, to help responsible homeowners, to restart lending, and to grow our economy over the long term"]
         },
         "context":"Last night, President Obama held his second prime-time press conference from the White House, where he sought to reassure the nation that he could solve the crisis that has gripped the economy for more than a year. Before taking questions, Obama delivered a prepared update on the steps that his administration is taking to move this economy from recession to recovery, and ultimately to prosperity. We've put in place a comprehensive strategy designed to attack this crisis on all fronts, said Obama. It's a strategy to create jobs, to help responsible homeowners, to restart lending, and to grow our economy over the long term. And we're beginning to see signs of progress.",
@@ -661,7 +651,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[257],
             "text":[" I do not buy into the notion that America can't lead in the world"]
         },
         "context":"But neither Obama’s popularity nor his image as the “anti-Bush” quelled questions about whether America’s clout in the world was on the decline in the wake of a financial crisis that many abroad blame on lax regulation of U.S. markets.Even as Obama insisted he did not “buy into the notion that America can’t lead in the world,” he acknowledged that a great deal had changed since the last major reshaping of the world’s financial architecture took place at Bretton Woods, New Hampshire, as World War Two came to a close",
@@ -671,7 +661,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[778],
             "text":["that it is very important for us to be able to forge partnerships as opposed to simply dictating solutions."]
         },
         "context":"The Russian President Dmitry Medvedev looked into Obama's eyes and says, MY COMRADE.  My comrade Obama can listen.  Those two words, My Comrade are all you have to hear to know that Obama's Policy in Foreign Affairs is a 180 degree turn from our Super Power past.  This is the shape of a New World Order, a new COLLECTIVISM.  Robert Hormats, vice chairmen of Goldman Sachs International, who helped prepare summits for presidents Gerald R. Ford, Jimmy Carter and Ronald Reagan, claimed, it's the passing of an era, the U.S. is becoming less dominant while other nations are gaining influence.   A new world collectivism where the voice of the collective is the leadership in the world.  At the conclusion of the G20 summit Obama explained, in a world that is as complex as it is, it is very important for us to be able to forge partnerships as opposed to simply dictating solutions. The president brokered the New World Collectivism even signing on to a communique that Nobel Laureate Joseph Stiglitz said repudiated the previous U.S. led push to free capitalism from the constraints of government.  This is a major step forward and a reversal of the ideology of the 1990s, and at a very official level, a rejection of the ideas pushed by the U.S. and others, it's a historic moment when the world came together and said we were wrong to push deregulation, said Stiglitz.",
@@ -681,7 +671,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[302],
             "text":[" the world we live in and it shouldn't be the world we live in"]
         },
         "context":"During his press conference, however, Obama did not play down the difficulties of reaching consensus: There has been a lot of discussion about Bretton Wood around this summit, he said.If it was just Roosevelt and Churchill sitting in a room with a brandy ... that's an easier negotiation.But that's not the world we live in and it shouldn't be the world we live in.",
@@ -691,7 +681,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[264],
             "text":["The challenge is clear. The global economy is contracting"]
         },
         "context":"The Group of 20, which represents most of the world's largest economies, is taking unprecedented steps to attack the global economic downturn, stimulate growth and expand loans to troubled nations, President Obama said at the close of the group's meeting in London.The challenge is clear, Obama said. The global economy is contracting. Trade is shrinking. Unemployment is rising. The international financial system is nearly frozen.",
@@ -701,7 +691,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[233],
             "text":["world's leaders have responded with an unprecedented set of comprehensive and coordinated actions."]
         },
         "context":"The one-day conference ended with smiles and back thumps among the leaders, projecting an image of unity where a messy breakdown of purpose had been feared.The whole world has been touched by this devastating downturn, and today, the world’s leaders have responded with an unprecedented set of comprehensive and coordinated actions,” declared Obama, who described the raft of measures unveiled Thursday as “a turning point in our pursuit of global economic recovery.",
@@ -711,7 +701,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[229],
             "text":["we have agreed on a series of unprecedented steps to restore growth and prevent a crisis like this from happening again."]
         },
         "context":"The summit also allocated more than $US1 trillion ($A1.4 trillion) to the International Monetary Fund and other institutions and ordered a crackdown on tax havens and excessive corporate pay, and new measures to help poor nations.We have agreed on a series of unprecedented steps to restore growth and prevent a crisis like this from happening again, said Obama, who appeared tired and was battling a heavy cold.",
@@ -721,7 +711,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[593],
             "text":["we exercise our leadership best when we are listening"]
         },
         "context":"Still, the leaders, many wary of piling up debt, did not sign off on large new stimulus packages for their own countries. Obama's administration had initially pushed for such a commitment.... The steps that have been taken are critical to preventing us sliding into a depression, he said. They are bolder and more rapid than any international response that we've seen to a financial crisis in memory....I do not buy into the notion that America can't lead in the world, Obama said. America is a critical actor and leader on the world stage and that we shouldn't be embarrassed about that. But ... we exercise our leadership best when we are listening",
@@ -731,7 +721,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[197],
             "text":["we exercise our leadership best when we are listening; when we recognise that the world is a complicated place and that we are going to have to act in partnership with other countries; when we lead by example; when we show some element of humility"]
         },
         "context":"The president did offer a measured pitch for continued U.S. leadership. America is a critical actor and leader on the world stage, and we shouldn't be embarrassed about that, he said in London. But we exercise our leadership best when we are listening, when we recognize the world is a complicated place and that we are going to have to act in partnership with other countries, when we lead by example, when we show some element of humility and recognize we may not always have the best answer.",
@@ -741,7 +731,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[447],
             "text":["people don't resent the rich; they want to be rich"]
         },
         "context":"In a press conference after the summit, US President Obama made it clear that there is no intention to actually enforce international standards limiting the hundreds of millions of dollars earned by Wall Street executives. It doesn't mean the state micromanaging, he said. It doesn't mean that we want the state dictating salaries; we don't. We—I strongly believe in a free-market system, and as I—as I think people understand in America, at least, people don't resent the rich; they want to be rich. And that's good.",
@@ -749,19 +739,10 @@
         "question":"We—I strongly believe in a free-market system, and as I—as I think people understand in America",
         "title":"<OPTION>"
     },
+
     {
         "answers":{
-            "answer_start":[],
-            "text":[]
-        },
-        "context":"",
-        "id":"280",
-        "question":"",
-        "title":"<OPTION>"
-    },
-    {
-        "answers":{
-            "answer_start":[],
+            "answer_start":[267],
             "text":["The old Washington consensus is over"]
         },
         "context":"What comes next is far from sure, but it will be different from the headlong dash for individual enrichment, short-term profit and financial acrobatics that began with the dominance of U.S. President Ronald Reagan and British Prime Minister Margaret Thatcher in 1980s.The old Washington consensus is over,” British Prime Minister Gordon Brown declared after chairing the London summit. It was a clear acknowledgement that the deregulation that allowed casino capitalism to flourish on Wall Street and in the City of London, the world’s two biggest financial centres, had failed and will be fundamentally overhauled.",
@@ -771,7 +752,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[270],
             "text":["In life there are no guarantees and economics there are no guarantees"]
         },
         "context":"That’s what’s embodied in these documents and I think you’re going to see a lot of countries trying to encourage that kind of transparency and accountability. It doesn’t mean that we want the state dictating salaries, we don’t, I strongly believe in a free-market system.In life there are no guarantees and economics there are no guarantees... There are always risks involved. I have no doubt though that the steps that have been taken are critical to preventing us sliding into a depression, they are bolder and more rapid than any international response that we’ve seen to a financial crisis in memory and I think that they will have a concrete effect in our ability, individually, in each nation to create jobs, save jobs that exist, grow the economy, loosen up credit (and) restore trust and confidence in the financial markets.",
@@ -781,7 +762,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[132],
             "text":["the steps that have been taken are critical to preventing us sliding into a depression."]
         },
         "context":"In life there are no guarantees and economics there are no guarantees... There are always risks involved.I have no doubt though that the steps that have been taken are critical to preventing us sliding into a depression, they are bolder and more rapid than any international response that we’ve seen to a financial crisis in memory and I think that they will have a concrete effect in our ability, individually, in each nation to create jobs, save jobs that exist, grow the economy, loosen up credit (and) restore trust and confidence in the financial markets",
@@ -791,7 +772,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[275],
             "text":["that some of this contagion did start on Wall Street"]
         },
         "context":"This explains why Obama has been so reluctant to admit while overseas that the global financial crisis may just have had something to do with America's lax or non-existent regulation of critical parts of the financial market.In his news conference he said it was hard to deny that some of the contagion started in Wall Street. The other leaders had been polite, but dropped the occasional reference to the US role into discussion, Obama said.",
@@ -801,7 +782,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[66],
             "text":["the greatest enemy of both India and Pakistan should be poverty"]
         },
         "context":"We also spoke about the fact that in a nuclear age, at a time when perhaps the greatest enemy of both India and Pakistan should be poverty, it may make sense to create a more effective dialogue between India and Pakistan. But obviously we didn't go in depth into those issues.",
@@ -811,7 +792,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[186],
             "text":["we'll need more resources and a sustained effort to achieve our ultimate goals"]
         },
         "context":"Obama, who has sought to use his popularity in Europe to wring concessions from allies, said he was pleased by the pledges and that a substantial step forward had been taken.But he added: We will need more resources and a sustained effort to achieve our ultimate goals.He said Washington expected additional resources would be committed to support its strategy, which he said would establish a baseline of honesty and integrity of purpose.",
@@ -821,7 +802,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[159],
             "text":["I am heartbroken for the families who survived this tragedy"]
         },
         "context":"President Obama, speaking in Strasbourg, France, after a NATO summit, said his administration is in communication with law enforcement officials in Binghamton.I am heartbroken for the families who survived this tragedy and it just underscores the degree to which in each of our countries we have to guard against the kind of senseless violence that the tragedy represents, Obama said.",
@@ -831,7 +812,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[760],
             "text":["America can't meet our global challenges alone; nor can Europe meet them without America"]
         },
         "context":"It's significant and revealing that the NATO 'allies' have lost faith and will to continue battling Taliban resistance fighters indefinitely in the fight against al-Qaeda that Mr. Obama identified as his primary reason for continuing and escalating the military mission in Afghanistan, and are focused instead on using their resources and influence to provide economic and humanitarian aid and assistance. The president will find a great reservoir of goodwill in the international community for his diplomatic initiatives and offers, but I predict declining support for his entire Afghanistan mission - both at home and abroad - if the consequences and effects of the military operations continue to dominate the landscape.Declaring after the NATO meeting that, America can’t meet our global challenges alone; nor can Europe meet them without America, President Obama worked to bring NATO allies in line with his plan to 'secure' the government in Kabul while pressing the military offensive against the Taliban resistance. I’m confident that the leaders who join me here today share that view and that we’re moving forward with a sense of common purpose, he told reporters in Strasbourg, France.",
@@ -841,7 +822,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[240],
             "text":["we'll need more resources and a sustained effort to achieve our ultimate goals"]
         },
         "context":"What was pledged here today was significant,” Mr. Obama said after emerging from a day of meetings to talk with reporters, though he added that he considered the the pledges to be “a down payment on the future of our mission in Afghanistan.We’ll need more resources and a sustained effort to achieve our ultimate goals, he said.",
@@ -851,7 +832,7 @@
     },
     {
         "answers":{
-            "answer_start":[],
+            "answer_start":[131],
             "text":["the President and I agreed that the relationship between Russia and the United States has suffered from a sense of drift."]
         },
         "context":"Obama said the U.S.-Russia relationship had cooled in recent years and reiterated that the trip was aimed at repairing the damages.The president and I agreed that the relationship between Russia and the United States has suffered from a sense of drift, Obama said. President Medvedev and I are committed to leaving behind the suspicion and rivalry of the past.",
