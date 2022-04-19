@@ -1,0 +1,2 @@
+Department	Number of Outgoing Emails
+36			2110

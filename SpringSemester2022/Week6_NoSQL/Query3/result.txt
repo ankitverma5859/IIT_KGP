@@ -1,0 +1,11 @@
+Employee Id(Top 10)		Number of Employees sent email
+160							212
+82							121
+121							157
+107							169
+86							154
+62							179
+13							61
+249							112
+183							143
+434							151
