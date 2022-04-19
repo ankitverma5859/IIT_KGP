@@ -1,0 +1,2 @@
+world/continent/country	field	result
+world	total_cases	438,612,741

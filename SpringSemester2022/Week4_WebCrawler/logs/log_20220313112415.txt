@@ -1,0 +1,5 @@
+world/continent/country	field	result
+world	total_cases	456,780,875
+world	new_recovered	+1,342,139
+Europe	total_cases	164,559,374
+Fiji	total_cases	64067

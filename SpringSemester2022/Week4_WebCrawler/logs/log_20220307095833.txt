@@ -1,0 +1,3 @@
+world/continent/country	field	result
+Mexico	total_cases	5508629
+Mexico	total_recovered	4781564

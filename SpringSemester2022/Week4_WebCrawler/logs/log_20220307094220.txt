@@ -1,0 +1,2 @@
+world/continent/country	field	result
+Europe	total_cases	156,878,177
